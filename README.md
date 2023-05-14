@@ -15,6 +15,7 @@
   - index2.htmlは動画のサムネ付
 - movie
   - 各動画のページ([id].html)
+  <img width="891" alt="ques_ui3" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/3f610999-2a42-4c6f-aaea-93e8df3b9a7f">
 ## csv_file
 公開可能なデータファイルを一部
 - emotion_df.csv
