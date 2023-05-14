@@ -5,10 +5,14 @@
   - 各動画の特徴語20語を文書としてWMDで距離計算
   - byt5(文字ベースの自然言語処理モデル)で感情分類、カウントベースで動画の感性ベクトル作成、ユークリッド距離計算
   - HTML、CSS、JavaScriptのみで動画サイトの作成(アンケート機能付き)
+
+<img width="816" alt="teian" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/373dcf39-ba76-4903-8673-6e8df09ec514">
+
 <!--   - 特徴語
     - mecab-ipadic-neologdで名詞のみを抽出、BoW+TF-IDFで特徴語抽出
   - 感性
     - byt5(文字ベースの自然言語処理モデル)で楽しい、かわいい、格好いい、悲しいの4感情に分類 -->
+ 
 ## HTML
 - index.html
   - 元動画リンク集
