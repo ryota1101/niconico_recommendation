@@ -1,0 +1,8108 @@
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 640px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.flex .title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.flex .text {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #c5d1d8;
+  height: 40px;
+  width: 640px;
+  display: flex;
+  flex-direction: row; /* 要素を横に並べる */
+  justify-content: space-evenly; /* 要素を均等間隔に分散させる */
+}
+
+.item {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  padding: 4px;
+}
+
+.item_label {
+  white-space: nowrap;
+}
+
+.item1 {
+  background-color: #FFFC7F;
+  width: 30%;
+}
+
+.item2 {
+  background-color: #FFB2C5;
+  width: 20%;
+}
+
+.item3 {
+  background-color: #B9DD64;
+  width: 10%;
+}
+.item4 {
+  background-color: #AAC2FF;
+  width: 40%;
+}
+
+.item0_0 {
+  background-color: #FFFC7F;
+  width: 30%;
+}
+
+.item1_0 {
+  background-color: #FFB2C5;
+  width: 20%;
+}
+
+.item2_0 {
+  background-color: #B9DD64;
+  width: 9%;
+}
+.item3_0 {
+  background-color: #AAC2FF;
+  width: 41%;
+}
+.item0_sm32392150 {
+  background-color: #FFFC7F;
+  width: 52.06%;
+}
+.item1_sm32392150 {
+  background-color: #FFB2C5;
+  width: 9.39%;
+}
+.item2_sm32392150 {
+  background-color: #B9DD64;
+  width: 30.36%;
+}
+.item3_sm32392150 {
+  background-color: #AAC2FF;
+  width: 8.19%;
+}
+
+.item0_sm22610180 {
+  background-color: #FFFC7F;
+  width: 64.78%;
+}
+.item1_sm22610180 {
+  background-color: #FFB2C5;
+  width: 7.66%;
+}
+.item2_sm22610180 {
+  background-color: #B9DD64;
+  width: 17.07%;
+}
+.item3_sm22610180 {
+  background-color: #AAC2FF;
+  width: 10.48%;
+}
+.item0_sm9297140 {
+  background-color: #FFFC7F;
+  width: 71.98%;
+}
+.item1_sm9297140 {
+  background-color: #FFB2C5;
+  width: 5.76%;
+}
+.item2_sm9297140 {
+  background-color: #B9DD64;
+  width: 13.56%;
+}
+.item3_sm9297140 {
+  background-color: #AAC2FF;
+  width: 8.70%;
+}
+
+.item0_sm12419220 {
+  background-color: #FFFC7F;
+  width: 70.03%;
+}
+.item1_sm12419220 {
+  background-color: #FFB2C5;
+  width: 7.96%;
+}
+.item2_sm12419220 {
+  background-color: #B9DD64;
+  width: 12.42%;
+}
+.item3_sm12419220 {
+  background-color: #AAC2FF;
+  width: 9.58%;
+}
+.item0_sm16601690 {
+  background-color: #FFFC7F;
+  width: 49.27%;
+}
+.item1_sm16601690 {
+  background-color: #FFB2C5;
+  width: 11.10%;
+}
+.item2_sm16601690 {
+  background-color: #B9DD64;
+  width: 30.89%;
+}
+.item3_sm16601690 {
+  background-color: #AAC2FF;
+  width: 8.74%;
+}
+.item0_sm23261650 {
+  background-color: #FFFC7F;
+  width: 49.32%;
+}
+.item1_sm23261650 {
+  background-color: #FFB2C5;
+  width: 10.80%;
+}
+.item2_sm23261650 {
+  background-color: #B9DD64;
+  width: 30.25%;
+}
+.item3_sm23261650 {
+  background-color: #AAC2FF;
+  width: 9.63%;
+}
+.item0_sm8613232 {
+  background-color: #FFFC7F;
+  width: 54.21%;
+}
+.item1_sm8613232 {
+  background-color: #FFB2C5;
+  width: 8.49%;
+}
+.item2_sm8613232 {
+  background-color: #B9DD64;
+  width: 28.27%;
+}
+.item3_sm8613232 {
+  background-color: #AAC2FF;
+  width: 9.03%;
+}
+.item0_sm7289181 {
+  background-color: #FFFC7F;
+  width: 52.18%;
+}
+.item1_sm7289181 {
+  background-color: #FFB2C5;
+  width: 10.53%;
+}
+.item2_sm7289181 {
+  background-color: #B9DD64;
+  width: 27.46%;
+}
+.item3_sm7289181 {
+  background-color: #AAC2FF;
+  width: 9.82%;
+}
+.item0_sm32352047 {
+  background-color: #FFFC7F;
+  width: 31.72%;
+}
+
+.item1_sm32352047 {
+  background-color: #FFB2C5;
+  width: 40.36%;
+}
+
+.item2_sm32352047 {
+  background-color: #B9DD64;
+  width: 21.76%;
+}
+.item3_sm32352047 {
+  background-color: #AAC2FF;
+  width: 6.15%;
+}
+.item0_sm13628080 {
+  background-color: #FFFC7F;
+  width: 30.13%;
+}
+
+.item1_sm13628080 {
+  background-color: #FFB2C5;
+  width: 33.11%;
+}
+
+.item2_sm13628080 {
+  background-color: #B9DD64;
+  width: 26.73%;
+}
+.item3_sm13628080 {
+  background-color: #AAC2FF;
+  width: 10.02%;
+}
+
+.item0_sm14926860 {
+  background-color: #FFFC7F;
+  width: 29.98%;
+}
+
+.item1_sm14926860 {
+  background-color: #FFB2C5;
+  width: 29.27%;
+}
+
+.item2_sm14926860 {
+  background-color: #B9DD64;
+  width: 31.09%;
+}
+.item3_sm14926860 {
+  background-color: #AAC2FF;
+  width: 9.65%;
+}
+
+.item0_sm29681980 {
+  background-color: #FFFC7F;
+  width: 24.90%;
+}
+
+.item1_sm29681980 {
+  background-color: #FFB2C5;
+  width: 32.09%;
+}
+
+.item2_sm29681980 {
+  background-color: #B9DD64;
+  width: 31.25%;
+}
+.item3_sm29681980 {
+  background-color: #AAC2FF;
+  width: 11.76%;
+}
+
+.item0_sm35613470 {
+  background-color: #FFFC7F;
+  width: 26.5%;
+}
+
+.item1_sm35613470 {
+  background-color: #FFB2C5;
+  width: 32%;
+}
+
+.item2_sm35613470 {
+  background-color: #B9DD64;
+  width: 31%;
+}
+.item3_sm35613470 {
+  background-color: #AAC2FF;
+  width: 11%;
+}
+
+.item0_sm36015690 {
+  background-color: #FFFC7F;
+  width: 50.4%;
+}
+
+.item1_sm36015690 {
+  background-color: #FFB2C5;
+  width: 16.83%;
+}
+
+.item2_sm36015690 {
+  background-color: #B9DD64;
+  width: 20.55%;
+}
+.item3_sm36015690 {
+  background-color: #AAC2FF;
+  width: 12.22%;
+}
+
+.item0_sm36588220 {
+  background-color: #FFFC7F;
+  width: 57.84%;
+}
+
+.item1_sm36588220 {
+  background-color: #FFB2C5;
+  width: 7.72%;
+}
+
+.item2_sm36588220 {
+  background-color: #B9DD64;
+  width: 23.64%;
+}
+.item3_sm36588220 {
+  background-color: #AAC2FF;
+  width: 10.81%;
+}
+
+.item0_sm35840490 {
+  background-color: #FFFC7F;
+  width: 32.16%;
+}
+
+.item1_sm35840490 {
+  background-color: #FFB2C5;
+  width: 18.74%;
+}
+
+.item2_sm35840490 {
+  background-color: #B9DD64;
+  width: 31.98%;
+}
+.item3_sm35840490 {
+  background-color: #AAC2FF;
+  width: 17.12%;
+}
+
+/*ここから自動*/
+.item0_sm17961470 {
+  background-color: #FFFC7F;
+  width: 29.57%;
+}
+.item1_sm17961470 {
+  background-color: #FFB2C5;
+  width: 31.75%;
+}
+.item2_sm17961470 {
+  background-color: #B9DD64;
+  width: 22.11%;
+}
+.item3_sm17961470 {
+  background-color: #AAC2FF;
+  width: 16.57%;
+}
+.item0_sm5430176 {
+  background-color: #FFFC7F;
+  width: 38.18%;
+}
+.item1_sm5430176 {
+  background-color: #FFB2C5;
+  width: 25.64%;
+}
+.item2_sm5430176 {
+  background-color: #B9DD64;
+  width: 22.11%;
+}
+.item3_sm5430176 {
+  background-color: #AAC2FF;
+  width: 14.06%;
+}
+.item0_so15281450 {
+  background-color: #FFFC7F;
+  width: 47.69%;
+}
+.item1_so15281450 {
+  background-color: #FFB2C5;
+  width: 33.28%;
+}
+.item2_so15281450 {
+  background-color: #B9DD64;
+  width: 14.64%;
+}
+.item3_so15281450 {
+  background-color: #AAC2FF;
+  width: 4.39%;
+}
+.item0_sm2069100 {
+  background-color: #FFFC7F;
+  width: 33.35%;
+}
+.item1_sm2069100 {
+  background-color: #FFB2C5;
+  width: 13.17%;
+}
+.item2_sm2069100 {
+  background-color: #B9DD64;
+  width: 39.43%;
+}
+.item3_sm2069100 {
+  background-color: #AAC2FF;
+  width: 14.05%;
+}
+.item0_so23867610 {
+  background-color: #FFFC7F;
+  width: 40.25%;
+}
+.item1_so23867610 {
+  background-color: #FFB2C5;
+  width: 35.29%;
+}
+.item2_so23867610 {
+  background-color: #B9DD64;
+  width: 19.36%;
+}
+.item3_so23867610 {
+  background-color: #AAC2FF;
+  width: 5.10%;
+}
+.item0_sm19817730 {
+  background-color: #FFFC7F;
+  width: 64.27%;
+}
+.item1_sm19817730 {
+  background-color: #FFB2C5;
+  width: 4.67%;
+}
+.item2_sm19817730 {
+  background-color: #B9DD64;
+  width: 21.14%;
+}
+.item3_sm19817730 {
+  background-color: #AAC2FF;
+  width: 9.92%;
+}
+.item0_sm17241370 {
+  background-color: #FFFC7F;
+  width: 75.00%;
+}
+.item1_sm17241370 {
+  background-color: #FFB2C5;
+  width: 5.45%;
+}
+.item2_sm17241370 {
+  background-color: #B9DD64;
+  width: 10.01%;
+}
+.item3_sm17241370 {
+  background-color: #AAC2FF;
+  width: 9.54%;
+}
+.item0_so27026038 {
+  background-color: #FFFC7F;
+  width: 36.89%;
+}
+.item1_so27026038 {
+  background-color: #FFB2C5;
+  width: 34.71%;
+}
+.item2_so27026038 {
+  background-color: #B9DD64;
+  width: 23.04%;
+}
+.item3_so27026038 {
+  background-color: #AAC2FF;
+  width: 5.36%;
+}
+.item0_sm5600850 {
+  background-color: #FFFC7F;
+  width: 42.12%;
+}
+.item1_sm5600850 {
+  background-color: #FFB2C5;
+  width: 23.07%;
+}
+.item2_sm5600850 {
+  background-color: #B9DD64;
+  width: 19.67%;
+}
+.item3_sm5600850 {
+  background-color: #AAC2FF;
+  width: 15.14%;
+}
+.item0_sm24957940 {
+  background-color: #FFFC7F;
+  width: 42.20%;
+}
+.item1_sm24957940 {
+  background-color: #FFB2C5;
+  width: 19.74%;
+}
+.item2_sm24957940 {
+  background-color: #B9DD64;
+  width: 23.16%;
+}
+.item3_sm24957940 {
+  background-color: #AAC2FF;
+  width: 14.91%;
+}
+.item0_sm13722470 {
+  background-color: #FFFC7F;
+  width: 83.00%;
+}
+.item1_sm13722470 {
+  background-color: #FFB2C5;
+  width: 4.84%;
+}
+.item2_sm13722470 {
+  background-color: #B9DD64;
+  width: 7.75%;
+}
+.item3_sm13722470 {
+  background-color: #AAC2FF;
+  width: 4.41%;
+}
+.item0_sm10306280 {
+  background-color: #FFFC7F;
+  width: 37.71%;
+}
+.item1_sm10306280 {
+  background-color: #FFB2C5;
+  width: 10.88%;
+}
+.item2_sm10306280 {
+  background-color: #B9DD64;
+  width: 47.06%;
+}
+.item3_sm10306280 {
+  background-color: #AAC2FF;
+  width: 4.34%;
+}
+.item0_sm27137010 {
+  background-color: #FFFC7F;
+  width: 61.35%;
+}
+.item1_sm27137010 {
+  background-color: #FFB2C5;
+  width: 9.86%;
+}
+.item2_sm27137010 {
+  background-color: #B9DD64;
+  width: 21.99%;
+}
+.item3_sm27137010 {
+  background-color: #AAC2FF;
+  width: 6.80%;
+}
+.item0_sm24106810 {
+  background-color: #FFFC7F;
+  width: 58.65%;
+}
+.item1_sm24106810 {
+  background-color: #FFB2C5;
+  width: 18.13%;
+}
+.item2_sm24106810 {
+  background-color: #B9DD64;
+  width: 19.37%;
+}
+.item3_sm24106810 {
+  background-color: #AAC2FF;
+  width: 3.84%;
+}
+.item0_sm22887980 {
+  background-color: #FFFC7F;
+  width: 31.62%;
+}
+.item1_sm22887980 {
+  background-color: #FFB2C5;
+  width: 32.35%;
+}
+.item2_sm22887980 {
+  background-color: #B9DD64;
+  width: 26.94%;
+}
+.item3_sm22887980 {
+  background-color: #AAC2FF;
+  width: 9.09%;
+}
+.item0_sm841041 {
+  background-color: #FFFC7F;
+  width: 52.13%;
+}
+.item1_sm841041 {
+  background-color: #FFB2C5;
+  width: 12.62%;
+}
+.item2_sm841041 {
+  background-color: #B9DD64;
+  width: 28.70%;
+}
+.item3_sm841041 {
+  background-color: #AAC2FF;
+  width: 6.55%;
+}
+.item0_sm18682960 {
+  background-color: #FFFC7F;
+  width: 38.30%;
+}
+.item1_sm18682960 {
+  background-color: #FFB2C5;
+  width: 48.19%;
+}
+.item2_sm18682960 {
+  background-color: #B9DD64;
+  width: 11.20%;
+}
+.item3_sm18682960 {
+  background-color: #AAC2FF;
+  width: 2.31%;
+}
+.item0_sm5664150 {
+  background-color: #FFFC7F;
+  width: 79.63%;
+}
+.item1_sm5664150 {
+  background-color: #FFB2C5;
+  width: 3.41%;
+}
+.item2_sm5664150 {
+  background-color: #B9DD64;
+  width: 7.51%;
+}
+.item3_sm5664150 {
+  background-color: #AAC2FF;
+  width: 9.45%;
+}
+.item0_so21334230 {
+  background-color: #FFFC7F;
+  width: 52.08%;
+}
+.item1_so21334230 {
+  background-color: #FFB2C5;
+  width: 10.75%;
+}
+.item2_so21334230 {
+  background-color: #B9DD64;
+  width: 27.81%;
+}
+.item3_so21334230 {
+  background-color: #AAC2FF;
+  width: 9.36%;
+}
+.item0_sm1842140 {
+  background-color: #FFFC7F;
+  width: 52.90%;
+}
+.item1_sm1842140 {
+  background-color: #FFB2C5;
+  width: 13.12%;
+}
+.item2_sm1842140 {
+  background-color: #B9DD64;
+  width: 26.49%;
+}
+.item3_sm1842140 {
+  background-color: #AAC2FF;
+  width: 7.49%;
+}
+.item0_sm31978460 {
+  background-color: #FFFC7F;
+  width: 48.65%;
+}
+.item1_sm31978460 {
+  background-color: #FFB2C5;
+  width: 21.87%;
+}
+.item2_sm31978460 {
+  background-color: #B9DD64;
+  width: 21.06%;
+}
+.item3_sm31978460 {
+  background-color: #AAC2FF;
+  width: 8.42%;
+}
+.item0_sm20900240 {
+  background-color: #FFFC7F;
+  width: 44.69%;
+}
+.item1_sm20900240 {
+  background-color: #FFB2C5;
+  width: 25.77%;
+}
+.item2_sm20900240 {
+  background-color: #B9DD64;
+  width: 23.14%;
+}
+.item3_sm20900240 {
+  background-color: #AAC2FF;
+  width: 6.39%;
+}
+.item0_sm22078450 {
+  background-color: #FFFC7F;
+  width: 72.75%;
+}
+.item1_sm22078450 {
+  background-color: #FFB2C5;
+  width: 9.37%;
+}
+.item2_sm22078450 {
+  background-color: #B9DD64;
+  width: 14.84%;
+}
+.item3_sm22078450 {
+  background-color: #AAC2FF;
+  width: 3.04%;
+}
+.item0_sm13850060 {
+  background-color: #FFFC7F;
+  width: 52.88%;
+}
+.item1_sm13850060 {
+  background-color: #FFB2C5;
+  width: 14.16%;
+}
+.item2_sm13850060 {
+  background-color: #B9DD64;
+  width: 22.98%;
+}
+.item3_sm13850060 {
+  background-color: #AAC2FF;
+  width: 9.98%;
+}
+.item0_sm2120510 {
+  background-color: #FFFC7F;
+  width: 56.61%;
+}
+.item1_sm2120510 {
+  background-color: #FFB2C5;
+  width: 14.71%;
+}
+.item2_sm2120510 {
+  background-color: #B9DD64;
+  width: 19.35%;
+}
+.item3_sm2120510 {
+  background-color: #AAC2FF;
+  width: 9.33%;
+}
+.item0_sm7831420 {
+  background-color: #FFFC7F;
+  width: 51.58%;
+}
+.item1_sm7831420 {
+  background-color: #FFB2C5;
+  width: 12.86%;
+}
+.item2_sm7831420 {
+  background-color: #B9DD64;
+  width: 32.57%;
+}
+.item3_sm7831420 {
+  background-color: #AAC2FF;
+  width: 3.00%;
+}
+.item0_sm334140 {
+  background-color: #FFFC7F;
+  width: 42.85%;
+}
+.item1_sm334140 {
+  background-color: #FFB2C5;
+  width: 23.15%;
+}
+.item2_sm334140 {
+  background-color: #B9DD64;
+  width: 23.15%;
+}
+.item3_sm334140 {
+  background-color: #AAC2FF;
+  width: 10.85%;
+}
+.item0_sm16620130 {
+  background-color: #FFFC7F;
+  width: 75.04%;
+}
+.item1_sm16620130 {
+  background-color: #FFB2C5;
+  width: 3.88%;
+}
+.item2_sm16620130 {
+  background-color: #B9DD64;
+  width: 10.12%;
+}
+.item3_sm16620130 {
+  background-color: #AAC2FF;
+  width: 10.95%;
+}
+.item0_sm6194690 {
+  background-color: #FFFC7F;
+  width: 50.52%;
+}
+.item1_sm6194690 {
+  background-color: #FFB2C5;
+  width: 23.24%;
+}
+.item2_sm6194690 {
+  background-color: #B9DD64;
+  width: 19.56%;
+}
+.item3_sm6194690 {
+  background-color: #AAC2FF;
+  width: 6.68%;
+}
+.item0_sm23313490 {
+  background-color: #FFFC7F;
+  width: 31.15%;
+}
+.item1_sm23313490 {
+  background-color: #FFB2C5;
+  width: 44.99%;
+}
+.item2_sm23313490 {
+  background-color: #B9DD64;
+  width: 17.46%;
+}
+.item3_sm23313490 {
+  background-color: #AAC2FF;
+  width: 6.41%;
+}
+.item0_sm5206740 {
+  background-color: #FFFC7F;
+  width: 58.02%;
+}
+.item1_sm5206740 {
+  background-color: #FFB2C5;
+  width: 19.07%;
+}
+.item2_sm5206740 {
+  background-color: #B9DD64;
+  width: 14.44%;
+}
+.item3_sm5206740 {
+  background-color: #AAC2FF;
+  width: 8.47%;
+}
+.item0_sm7564290 {
+  background-color: #FFFC7F;
+  width: 45.69%;
+}
+.item1_sm7564290 {
+  background-color: #FFB2C5;
+  width: 24.62%;
+}
+.item2_sm7564290 {
+  background-color: #B9DD64;
+  width: 23.32%;
+}
+.item3_sm7564290 {
+  background-color: #AAC2FF;
+  width: 6.36%;
+}
+.item0_sm36676440 {
+  background-color: #FFFC7F;
+  width: 42.04%;
+}
+.item1_sm36676440 {
+  background-color: #FFB2C5;
+  width: 22.19%;
+}
+.item2_sm36676440 {
+  background-color: #B9DD64;
+  width: 28.12%;
+}
+.item3_sm36676440 {
+  background-color: #AAC2FF;
+  width: 7.66%;
+}
+.item0_sm27998129 {
+  background-color: #FFFC7F;
+  width: 53.68%;
+}
+.item1_sm27998129 {
+  background-color: #FFB2C5;
+  width: 22.74%;
+}
+.item2_sm27998129 {
+  background-color: #B9DD64;
+  width: 14.98%;
+}
+.item3_sm27998129 {
+  background-color: #AAC2FF;
+  width: 8.61%;
+}
+.item0_sm18393920 {
+  background-color: #FFFC7F;
+  width: 36.20%;
+}
+.item1_sm18393920 {
+  background-color: #FFB2C5;
+  width: 18.40%;
+}
+.item2_sm18393920 {
+  background-color: #B9DD64;
+  width: 40.78%;
+}
+.item3_sm18393920 {
+  background-color: #AAC2FF;
+  width: 4.62%;
+}
+.item0_sm2074910 {
+  background-color: #FFFC7F;
+  width: 67.23%;
+}
+.item1_sm2074910 {
+  background-color: #FFB2C5;
+  width: 20.60%;
+}
+.item2_sm2074910 {
+  background-color: #B9DD64;
+  width: 9.43%;
+}
+.item3_sm2074910 {
+  background-color: #AAC2FF;
+  width: 2.74%;
+}
+.item0_sm2024200 {
+  background-color: #FFFC7F;
+  width: 64.18%;
+}
+.item1_sm2024200 {
+  background-color: #FFB2C5;
+  width: 10.92%;
+}
+.item2_sm2024200 {
+  background-color: #B9DD64;
+  width: 19.57%;
+}
+.item3_sm2024200 {
+  background-color: #AAC2FF;
+  width: 5.32%;
+}
+.item0_sm19856000 {
+  background-color: #FFFC7F;
+  width: 26.51%;
+}
+.item1_sm19856000 {
+  background-color: #FFB2C5;
+  width: 37.20%;
+}
+.item2_sm19856000 {
+  background-color: #B9DD64;
+  width: 31.56%;
+}
+.item3_sm19856000 {
+  background-color: #AAC2FF;
+  width: 4.72%;
+}
+.item0_sm20540100 {
+  background-color: #FFFC7F;
+  width: 46.86%;
+}
+.item1_sm20540100 {
+  background-color: #FFB2C5;
+  width: 22.40%;
+}
+.item2_sm20540100 {
+  background-color: #B9DD64;
+  width: 23.32%;
+}
+.item3_sm20540100 {
+  background-color: #AAC2FF;
+  width: 7.42%;
+}
+.item0_sm22427120 {
+  background-color: #FFFC7F;
+  width: 47.51%;
+}
+.item1_sm22427120 {
+  background-color: #FFB2C5;
+  width: 25.46%;
+}
+.item2_sm22427120 {
+  background-color: #B9DD64;
+  width: 18.51%;
+}
+.item3_sm22427120 {
+  background-color: #AAC2FF;
+  width: 8.52%;
+}
+.item0_sm19650590 {
+  background-color: #FFFC7F;
+  width: 82.06%;
+}
+.item1_sm19650590 {
+  background-color: #FFB2C5;
+  width: 3.53%;
+}
+.item2_sm19650590 {
+  background-color: #B9DD64;
+  width: 8.44%;
+}
+.item3_sm19650590 {
+  background-color: #AAC2FF;
+  width: 5.98%;
+}
+.item0_sm1105481 {
+  background-color: #FFFC7F;
+  width: 58.71%;
+}
+.item1_sm1105481 {
+  background-color: #FFB2C5;
+  width: 9.29%;
+}
+.item2_sm1105481 {
+  background-color: #B9DD64;
+  width: 29.13%;
+}
+.item3_sm1105481 {
+  background-color: #AAC2FF;
+  width: 2.86%;
+}
+.item0_sm4902040 {
+  background-color: #FFFC7F;
+  width: 49.01%;
+}
+.item1_sm4902040 {
+  background-color: #FFB2C5;
+  width: 14.75%;
+}
+.item2_sm4902040 {
+  background-color: #B9DD64;
+  width: 29.09%;
+}
+.item3_sm4902040 {
+  background-color: #AAC2FF;
+  width: 7.15%;
+}
+.item0_sm15177710 {
+  background-color: #FFFC7F;
+  width: 81.55%;
+}
+.item1_sm15177710 {
+  background-color: #FFB2C5;
+  width: 4.47%;
+}
+.item2_sm15177710 {
+  background-color: #B9DD64;
+  width: 9.00%;
+}
+.item3_sm15177710 {
+  background-color: #AAC2FF;
+  width: 4.98%;
+}
+.item0_sm24142327 {
+  background-color: #FFFC7F;
+  width: 67.14%;
+}
+.item1_sm24142327 {
+  background-color: #FFB2C5;
+  width: 9.13%;
+}
+.item2_sm24142327 {
+  background-color: #B9DD64;
+  width: 17.58%;
+}
+.item3_sm24142327 {
+  background-color: #AAC2FF;
+  width: 6.15%;
+}
+.item0_sm16777840 {
+  background-color: #FFFC7F;
+  width: 80.62%;
+}
+.item1_sm16777840 {
+  background-color: #FFB2C5;
+  width: 6.02%;
+}
+.item2_sm16777840 {
+  background-color: #B9DD64;
+  width: 9.34%;
+}
+.item3_sm16777840 {
+  background-color: #AAC2FF;
+  width: 4.03%;
+}
+.item0_sm13125230 {
+  background-color: #FFFC7F;
+  width: 81.02%;
+}
+.item1_sm13125230 {
+  background-color: #FFB2C5;
+  width: 6.40%;
+}
+.item2_sm13125230 {
+  background-color: #B9DD64;
+  width: 8.83%;
+}
+.item3_sm13125230 {
+  background-color: #AAC2FF;
+  width: 3.76%;
+}
+.item0_sm18274165 {
+  background-color: #FFFC7F;
+  width: 36.69%;
+}
+.item1_sm18274165 {
+  background-color: #FFB2C5;
+  width: 22.71%;
+}
+.item2_sm18274165 {
+  background-color: #B9DD64;
+  width: 32.83%;
+}
+.item3_sm18274165 {
+  background-color: #AAC2FF;
+  width: 7.76%;
+}
+.item0_sm33086310 {
+  background-color: #FFFC7F;
+  width: 29.20%;
+}
+.item1_sm33086310 {
+  background-color: #FFB2C5;
+  width: 36.44%;
+}
+.item2_sm33086310 {
+  background-color: #B9DD64;
+  width: 27.90%;
+}
+.item3_sm33086310 {
+  background-color: #AAC2FF;
+  width: 6.47%;
+}
+.item0_sm22573210 {
+  background-color: #FFFC7F;
+  width: 60.73%;
+}
+.item1_sm22573210 {
+  background-color: #FFB2C5;
+  width: 19.55%;
+}
+.item2_sm22573210 {
+  background-color: #B9DD64;
+  width: 15.15%;
+}
+.item3_sm22573210 {
+  background-color: #AAC2FF;
+  width: 4.57%;
+}
+.item0_sm10521100 {
+  background-color: #FFFC7F;
+  width: 47.05%;
+}
+.item1_sm10521100 {
+  background-color: #FFB2C5;
+  width: 24.42%;
+}
+.item2_sm10521100 {
+  background-color: #B9DD64;
+  width: 20.97%;
+}
+.item3_sm10521100 {
+  background-color: #AAC2FF;
+  width: 7.56%;
+}
+.item0_sm27509317 {
+  background-color: #FFFC7F;
+  width: 65.98%;
+}
+.item1_sm27509317 {
+  background-color: #FFB2C5;
+  width: 14.83%;
+}
+.item2_sm27509317 {
+  background-color: #B9DD64;
+  width: 15.14%;
+}
+.item3_sm27509317 {
+  background-color: #AAC2FF;
+  width: 4.05%;
+}
+.item0_so20811229 {
+  background-color: #FFFC7F;
+  width: 42.60%;
+}
+.item1_so20811229 {
+  background-color: #FFB2C5;
+  width: 34.86%;
+}
+.item2_so20811229 {
+  background-color: #B9DD64;
+  width: 17.94%;
+}
+.item3_so20811229 {
+  background-color: #AAC2FF;
+  width: 4.60%;
+}
+.item0_sm24089090 {
+  background-color: #FFFC7F;
+  width: 52.67%;
+}
+.item1_sm24089090 {
+  background-color: #FFB2C5;
+  width: 21.63%;
+}
+.item2_sm24089090 {
+  background-color: #B9DD64;
+  width: 17.06%;
+}
+.item3_sm24089090 {
+  background-color: #AAC2FF;
+  width: 8.64%;
+}
+.item0_sm27264240 {
+  background-color: #FFFC7F;
+  width: 68.89%;
+}
+.item1_sm27264240 {
+  background-color: #FFB2C5;
+  width: 13.26%;
+}
+.item2_sm27264240 {
+  background-color: #B9DD64;
+  width: 13.80%;
+}
+.item3_sm27264240 {
+  background-color: #AAC2FF;
+  width: 4.05%;
+}
+.item0_sm1261860 {
+  background-color: #FFFC7F;
+  width: 33.35%;
+}
+.item1_sm1261860 {
+  background-color: #FFB2C5;
+  width: 42.97%;
+}
+.item2_sm1261860 {
+  background-color: #B9DD64;
+  width: 17.23%;
+}
+.item3_sm1261860 {
+  background-color: #AAC2FF;
+  width: 6.44%;
+}
+.item0_sm20615010 {
+  background-color: #FFFC7F;
+  width: 44.86%;
+}
+.item1_sm20615010 {
+  background-color: #FFB2C5;
+  width: 45.32%;
+}
+.item2_sm20615010 {
+  background-color: #B9DD64;
+  width: 7.53%;
+}
+.item3_sm20615010 {
+  background-color: #AAC2FF;
+  width: 2.29%;
+}
+.item0_sm14922560 {
+  background-color: #FFFC7F;
+  width: 81.23%;
+}
+.item1_sm14922560 {
+  background-color: #FFB2C5;
+  width: 6.12%;
+}
+.item2_sm14922560 {
+  background-color: #B9DD64;
+  width: 9.48%;
+}
+.item3_sm14922560 {
+  background-color: #AAC2FF;
+  width: 3.17%;
+}
+.item0_sm21142930 {
+  background-color: #FFFC7F;
+  width: 59.72%;
+}
+.item1_sm21142930 {
+  background-color: #FFB2C5;
+  width: 13.23%;
+}
+.item2_sm21142930 {
+  background-color: #B9DD64;
+  width: 18.72%;
+}
+.item3_sm21142930 {
+  background-color: #AAC2FF;
+  width: 8.33%;
+}
+.item0_sm24168180 {
+  background-color: #FFFC7F;
+  width: 74.47%;
+}
+.item1_sm24168180 {
+  background-color: #FFB2C5;
+  width: 8.21%;
+}
+.item2_sm24168180 {
+  background-color: #B9DD64;
+  width: 12.11%;
+}
+.item3_sm24168180 {
+  background-color: #AAC2FF;
+  width: 5.20%;
+}
+.item0_sm18220165 {
+  background-color: #FFFC7F;
+  width: 51.04%;
+}
+.item1_sm18220165 {
+  background-color: #FFB2C5;
+  width: 22.06%;
+}
+.item2_sm18220165 {
+  background-color: #B9DD64;
+  width: 23.29%;
+}
+.item3_sm18220165 {
+  background-color: #AAC2FF;
+  width: 3.61%;
+}
+.item0_sm27155810 {
+  background-color: #FFFC7F;
+  width: 66.28%;
+}
+.item1_sm27155810 {
+  background-color: #FFB2C5;
+  width: 9.50%;
+}
+.item2_sm27155810 {
+  background-color: #B9DD64;
+  width: 17.27%;
+}
+.item3_sm27155810 {
+  background-color: #AAC2FF;
+  width: 6.95%;
+}
+.item0_sm23134050 {
+  background-color: #FFFC7F;
+  width: 41.51%;
+}
+.item1_sm23134050 {
+  background-color: #FFB2C5;
+  width: 25.97%;
+}
+.item2_sm23134050 {
+  background-color: #B9DD64;
+  width: 16.84%;
+}
+.item3_sm23134050 {
+  background-color: #AAC2FF;
+  width: 15.69%;
+}
+.item0_sm24752440 {
+  background-color: #FFFC7F;
+  width: 66.50%;
+}
+.item1_sm24752440 {
+  background-color: #FFB2C5;
+  width: 12.59%;
+}
+.item2_sm24752440 {
+  background-color: #B9DD64;
+  width: 15.53%;
+}
+.item3_sm24752440 {
+  background-color: #AAC2FF;
+  width: 5.38%;
+}
+.item0_sm28345520 {
+  background-color: #FFFC7F;
+  width: 43.24%;
+}
+.item1_sm28345520 {
+  background-color: #FFB2C5;
+  width: 8.07%;
+}
+.item2_sm28345520 {
+  background-color: #B9DD64;
+  width: 45.50%;
+}
+.item3_sm28345520 {
+  background-color: #AAC2FF;
+  width: 3.19%;
+}
+.item0_sm13715450 {
+  background-color: #FFFC7F;
+  width: 45.70%;
+}
+.item1_sm13715450 {
+  background-color: #FFB2C5;
+  width: 20.42%;
+}
+.item2_sm13715450 {
+  background-color: #B9DD64;
+  width: 19.51%;
+}
+.item3_sm13715450 {
+  background-color: #AAC2FF;
+  width: 14.36%;
+}
+.item0_sm27283474 {
+  background-color: #FFFC7F;
+  width: 53.78%;
+}
+.item1_sm27283474 {
+  background-color: #FFB2C5;
+  width: 11.06%;
+}
+.item2_sm27283474 {
+  background-color: #B9DD64;
+  width: 24.86%;
+}
+.item3_sm27283474 {
+  background-color: #AAC2FF;
+  width: 10.30%;
+}
+.item0_sm10086900 {
+  background-color: #FFFC7F;
+  width: 73.67%;
+}
+.item1_sm10086900 {
+  background-color: #FFB2C5;
+  width: 4.44%;
+}
+.item2_sm10086900 {
+  background-color: #B9DD64;
+  width: 14.13%;
+}
+.item3_sm10086900 {
+  background-color: #AAC2FF;
+  width: 7.75%;
+}
+.item0_sm29284620 {
+  background-color: #FFFC7F;
+  width: 41.19%;
+}
+.item1_sm29284620 {
+  background-color: #FFB2C5;
+  width: 14.28%;
+}
+.item2_sm29284620 {
+  background-color: #B9DD64;
+  width: 26.14%;
+}
+.item3_sm29284620 {
+  background-color: #AAC2FF;
+  width: 18.39%;
+}
+.item0_sm21440120 {
+  background-color: #FFFC7F;
+  width: 66.22%;
+}
+.item1_sm21440120 {
+  background-color: #FFB2C5;
+  width: 8.44%;
+}
+.item2_sm21440120 {
+  background-color: #B9DD64;
+  width: 15.22%;
+}
+.item3_sm21440120 {
+  background-color: #AAC2FF;
+  width: 10.12%;
+}
+.item0_sm13406580 {
+  background-color: #FFFC7F;
+  width: 36.12%;
+}
+.item1_sm13406580 {
+  background-color: #FFB2C5;
+  width: 44.59%;
+}
+.item2_sm13406580 {
+  background-color: #B9DD64;
+  width: 14.03%;
+}
+.item3_sm13406580 {
+  background-color: #AAC2FF;
+  width: 5.25%;
+}
+.item0_so19124990 {
+  background-color: #FFFC7F;
+  width: 59.59%;
+}
+.item1_so19124990 {
+  background-color: #FFB2C5;
+  width: 10.83%;
+}
+.item2_so19124990 {
+  background-color: #B9DD64;
+  width: 20.67%;
+}
+.item3_so19124990 {
+  background-color: #AAC2FF;
+  width: 8.91%;
+}
+.item0_sm7539110 {
+  background-color: #FFFC7F;
+  width: 62.17%;
+}
+.item1_sm7539110 {
+  background-color: #FFB2C5;
+  width: 11.37%;
+}
+.item2_sm7539110 {
+  background-color: #B9DD64;
+  width: 21.79%;
+}
+.item3_sm7539110 {
+  background-color: #AAC2FF;
+  width: 4.66%;
+}
+.item0_sm21075820 {
+  background-color: #FFFC7F;
+  width: 39.04%;
+}
+.item1_sm21075820 {
+  background-color: #FFB2C5;
+  width: 20.22%;
+}
+.item2_sm21075820 {
+  background-color: #B9DD64;
+  width: 32.24%;
+}
+.item3_sm21075820 {
+  background-color: #AAC2FF;
+  width: 8.51%;
+}
+.item0_sm8229390 {
+  background-color: #FFFC7F;
+  width: 49.95%;
+}
+.item1_sm8229390 {
+  background-color: #FFB2C5;
+  width: 19.83%;
+}
+.item2_sm8229390 {
+  background-color: #B9DD64;
+  width: 24.14%;
+}
+.item3_sm8229390 {
+  background-color: #AAC2FF;
+  width: 6.07%;
+}
+.item0_sm278840 {
+  background-color: #FFFC7F;
+  width: 53.20%;
+}
+.item1_sm278840 {
+  background-color: #FFB2C5;
+  width: 18.71%;
+}
+.item2_sm278840 {
+  background-color: #B9DD64;
+  width: 22.68%;
+}
+.item3_sm278840 {
+  background-color: #AAC2FF;
+  width: 5.41%;
+}
+.item0_sm9014310 {
+  background-color: #FFFC7F;
+  width: 79.32%;
+}
+.item1_sm9014310 {
+  background-color: #FFB2C5;
+  width: 4.17%;
+}
+.item2_sm9014310 {
+  background-color: #B9DD64;
+  width: 12.52%;
+}
+.item3_sm9014310 {
+  background-color: #AAC2FF;
+  width: 3.98%;
+}
+.item0_sm17536640 {
+  background-color: #FFFC7F;
+  width: 41.24%;
+}
+.item1_sm17536640 {
+  background-color: #FFB2C5;
+  width: 47.39%;
+}
+.item2_sm17536640 {
+  background-color: #B9DD64;
+  width: 8.90%;
+}
+.item3_sm17536640 {
+  background-color: #AAC2FF;
+  width: 2.48%;
+}
+.item0_sm22427900 {
+  background-color: #FFFC7F;
+  width: 47.09%;
+}
+.item1_sm22427900 {
+  background-color: #FFB2C5;
+  width: 29.74%;
+}
+.item2_sm22427900 {
+  background-color: #B9DD64;
+  width: 13.74%;
+}
+.item3_sm22427900 {
+  background-color: #AAC2FF;
+  width: 9.42%;
+}
+.item0_sm25291060 {
+  background-color: #FFFC7F;
+  width: 41.61%;
+}
+.item1_sm25291060 {
+  background-color: #FFB2C5;
+  width: 12.34%;
+}
+.item2_sm25291060 {
+  background-color: #B9DD64;
+  width: 28.23%;
+}
+.item3_sm25291060 {
+  background-color: #AAC2FF;
+  width: 17.83%;
+}
+.item0_sm19216490 {
+  background-color: #FFFC7F;
+  width: 30.18%;
+}
+.item1_sm19216490 {
+  background-color: #FFB2C5;
+  width: 36.55%;
+}
+.item2_sm19216490 {
+  background-color: #B9DD64;
+  width: 21.98%;
+}
+.item3_sm19216490 {
+  background-color: #AAC2FF;
+  width: 11.30%;
+}
+.item0_sm1594970 {
+  background-color: #FFFC7F;
+  width: 65.95%;
+}
+.item1_sm1594970 {
+  background-color: #FFB2C5;
+  width: 8.15%;
+}
+.item2_sm1594970 {
+  background-color: #B9DD64;
+  width: 16.72%;
+}
+.item3_sm1594970 {
+  background-color: #AAC2FF;
+  width: 9.18%;
+}
+.item0_sm29142390 {
+  background-color: #FFFC7F;
+  width: 40.71%;
+}
+.item1_sm29142390 {
+  background-color: #FFB2C5;
+  width: 12.94%;
+}
+.item2_sm29142390 {
+  background-color: #B9DD64;
+  width: 26.21%;
+}
+.item3_sm29142390 {
+  background-color: #AAC2FF;
+  width: 20.14%;
+}
+.item0_sm8157950 {
+  background-color: #FFFC7F;
+  width: 60.86%;
+}
+.item1_sm8157950 {
+  background-color: #FFB2C5;
+  width: 5.77%;
+}
+.item2_sm8157950 {
+  background-color: #B9DD64;
+  width: 26.19%;
+}
+.item3_sm8157950 {
+  background-color: #AAC2FF;
+  width: 7.18%;
+}
+.item0_sm311320 {
+  background-color: #FFFC7F;
+  width: 47.40%;
+}
+.item1_sm311320 {
+  background-color: #FFB2C5;
+  width: 20.41%;
+}
+.item2_sm311320 {
+  background-color: #B9DD64;
+  width: 23.75%;
+}
+.item3_sm311320 {
+  background-color: #AAC2FF;
+  width: 8.45%;
+}
+.item0_sm27636229 {
+  background-color: #FFFC7F;
+  width: 55.02%;
+}
+.item1_sm27636229 {
+  background-color: #FFB2C5;
+  width: 19.15%;
+}
+.item2_sm27636229 {
+  background-color: #B9DD64;
+  width: 20.57%;
+}
+.item3_sm27636229 {
+  background-color: #AAC2FF;
+  width: 5.27%;
+}
+.item0_sm22001720 {
+  background-color: #FFFC7F;
+  width: 32.22%;
+}
+.item1_sm22001720 {
+  background-color: #FFB2C5;
+  width: 40.68%;
+}
+.item2_sm22001720 {
+  background-color: #B9DD64;
+  width: 14.50%;
+}
+.item3_sm22001720 {
+  background-color: #AAC2FF;
+  width: 12.60%;
+}
+.item0_sm20466740 {
+  background-color: #FFFC7F;
+  width: 75.43%;
+}
+.item1_sm20466740 {
+  background-color: #FFB2C5;
+  width: 8.78%;
+}
+.item2_sm20466740 {
+  background-color: #B9DD64;
+  width: 12.45%;
+}
+.item3_sm20466740 {
+  background-color: #AAC2FF;
+  width: 3.34%;
+}
+.item0_sm2588210 {
+  background-color: #FFFC7F;
+  width: 70.43%;
+}
+.item1_sm2588210 {
+  background-color: #FFB2C5;
+  width: 12.20%;
+}
+.item2_sm2588210 {
+  background-color: #B9DD64;
+  width: 13.07%;
+}
+.item3_sm2588210 {
+  background-color: #AAC2FF;
+  width: 4.30%;
+}
+.item0_sm27544320 {
+  background-color: #FFFC7F;
+  width: 56.55%;
+}
+.item1_sm27544320 {
+  background-color: #FFB2C5;
+  width: 10.71%;
+}
+.item2_sm27544320 {
+  background-color: #B9DD64;
+  width: 18.71%;
+}
+.item3_sm27544320 {
+  background-color: #AAC2FF;
+  width: 14.03%;
+}
+.item0_sm15751190 {
+  background-color: #FFFC7F;
+  width: 45.07%;
+}
+.item1_sm15751190 {
+  background-color: #FFB2C5;
+  width: 22.87%;
+}
+.item2_sm15751190 {
+  background-color: #B9DD64;
+  width: 19.42%;
+}
+.item3_sm15751190 {
+  background-color: #AAC2FF;
+  width: 12.64%;
+}
+.item0_sm24438970 {
+  background-color: #FFFC7F;
+  width: 34.66%;
+}
+.item1_sm24438970 {
+  background-color: #FFB2C5;
+  width: 24.35%;
+}
+.item2_sm24438970 {
+  background-color: #B9DD64;
+  width: 31.58%;
+}
+.item3_sm24438970 {
+  background-color: #AAC2FF;
+  width: 9.40%;
+}
+.item0_sm25801570 {
+  background-color: #FFFC7F;
+  width: 66.79%;
+}
+.item1_sm25801570 {
+  background-color: #FFB2C5;
+  width: 11.84%;
+}
+.item2_sm25801570 {
+  background-color: #B9DD64;
+  width: 13.87%;
+}
+.item3_sm25801570 {
+  background-color: #AAC2FF;
+  width: 7.50%;
+}
+.item0_sm12772660 {
+  background-color: #FFFC7F;
+  width: 73.51%;
+}
+.item1_sm12772660 {
+  background-color: #FFB2C5;
+  width: 7.77%;
+}
+.item2_sm12772660 {
+  background-color: #B9DD64;
+  width: 14.78%;
+}
+.item3_sm12772660 {
+  background-color: #AAC2FF;
+  width: 3.94%;
+}
+.item0_sm17844660 {
+  background-color: #FFFC7F;
+  width: 72.24%;
+}
+.item1_sm17844660 {
+  background-color: #FFB2C5;
+  width: 3.89%;
+}
+.item2_sm17844660 {
+  background-color: #B9DD64;
+  width: 18.44%;
+}
+.item3_sm17844660 {
+  background-color: #AAC2FF;
+  width: 5.44%;
+}
+.item0_sm7162700 {
+  background-color: #FFFC7F;
+  width: 80.23%;
+}
+.item1_sm7162700 {
+  background-color: #FFB2C5;
+  width: 3.90%;
+}
+.item2_sm7162700 {
+  background-color: #B9DD64;
+  width: 10.52%;
+}
+.item3_sm7162700 {
+  background-color: #AAC2FF;
+  width: 5.35%;
+}
+.item0_sm30964600 {
+  background-color: #FFFC7F;
+  width: 37.62%;
+}
+.item1_sm30964600 {
+  background-color: #FFB2C5;
+  width: 25.02%;
+}
+.item2_sm30964600 {
+  background-color: #B9DD64;
+  width: 24.55%;
+}
+.item3_sm30964600 {
+  background-color: #AAC2FF;
+  width: 12.80%;
+}
+.item0_sm18502460 {
+  background-color: #FFFC7F;
+  width: 46.48%;
+}
+.item1_sm18502460 {
+  background-color: #FFB2C5;
+  width: 37.33%;
+}
+.item2_sm18502460 {
+  background-color: #B9DD64;
+  width: 11.88%;
+}
+.item3_sm18502460 {
+  background-color: #AAC2FF;
+  width: 4.31%;
+}
+.item0_sm14315840 {
+  background-color: #FFFC7F;
+  width: 80.75%;
+}
+.item1_sm14315840 {
+  background-color: #FFB2C5;
+  width: 4.34%;
+}
+.item2_sm14315840 {
+  background-color: #B9DD64;
+  width: 10.82%;
+}
+.item3_sm14315840 {
+  background-color: #AAC2FF;
+  width: 4.09%;
+}
+.item0_sm24990461 {
+  background-color: #FFFC7F;
+  width: 28.26%;
+}
+.item1_sm24990461 {
+  background-color: #FFB2C5;
+  width: 42.08%;
+}
+.item2_sm24990461 {
+  background-color: #B9DD64;
+  width: 20.28%;
+}
+.item3_sm24990461 {
+  background-color: #AAC2FF;
+  width: 9.39%;
+}
+.item0_sm18277220 {
+  background-color: #FFFC7F;
+  width: 73.86%;
+}
+.item1_sm18277220 {
+  background-color: #FFB2C5;
+  width: 8.75%;
+}
+.item2_sm18277220 {
+  background-color: #B9DD64;
+  width: 12.66%;
+}
+.item3_sm18277220 {
+  background-color: #AAC2FF;
+  width: 4.72%;
+}
+.item0_sm24216260 {
+  background-color: #FFFC7F;
+  width: 64.24%;
+}
+.item1_sm24216260 {
+  background-color: #FFB2C5;
+  width: 9.66%;
+}
+.item2_sm24216260 {
+  background-color: #B9DD64;
+  width: 20.65%;
+}
+.item3_sm24216260 {
+  background-color: #AAC2FF;
+  width: 5.45%;
+}
+.item0_sm21291060 {
+  background-color: #FFFC7F;
+  width: 59.95%;
+}
+.item1_sm21291060 {
+  background-color: #FFB2C5;
+  width: 16.08%;
+}
+.item2_sm21291060 {
+  background-color: #B9DD64;
+  width: 16.83%;
+}
+.item3_sm21291060 {
+  background-color: #AAC2FF;
+  width: 7.14%;
+}
+.item0_sm472410 {
+  background-color: #FFFC7F;
+  width: 30.98%;
+}
+.item1_sm472410 {
+  background-color: #FFB2C5;
+  width: 34.03%;
+}
+.item2_sm472410 {
+  background-color: #B9DD64;
+  width: 24.11%;
+}
+.item3_sm472410 {
+  background-color: #AAC2FF;
+  width: 10.87%;
+}
+.item0_sm619760 {
+  background-color: #FFFC7F;
+  width: 77.64%;
+}
+.item1_sm619760 {
+  background-color: #FFB2C5;
+  width: 7.77%;
+}
+.item2_sm619760 {
+  background-color: #B9DD64;
+  width: 12.51%;
+}
+.item3_sm619760 {
+  background-color: #AAC2FF;
+  width: 2.08%;
+}
+.item0_sm6580450 {
+  background-color: #FFFC7F;
+  width: 39.49%;
+}
+.item1_sm6580450 {
+  background-color: #FFB2C5;
+  width: 33.30%;
+}
+.item2_sm6580450 {
+  background-color: #B9DD64;
+  width: 19.78%;
+}
+.item3_sm6580450 {
+  background-color: #AAC2FF;
+  width: 7.43%;
+}
+.item0_sm25424040 {
+  background-color: #FFFC7F;
+  width: 61.75%;
+}
+.item1_sm25424040 {
+  background-color: #FFB2C5;
+  width: 18.34%;
+}
+.item2_sm25424040 {
+  background-color: #B9DD64;
+  width: 14.94%;
+}
+.item3_sm25424040 {
+  background-color: #AAC2FF;
+  width: 4.97%;
+}
+.item0_sm16456520 {
+  background-color: #FFFC7F;
+  width: 76.25%;
+}
+.item1_sm16456520 {
+  background-color: #FFB2C5;
+  width: 5.80%;
+}
+.item2_sm16456520 {
+  background-color: #B9DD64;
+  width: 12.79%;
+}
+.item3_sm16456520 {
+  background-color: #AAC2FF;
+  width: 5.16%;
+}
+.item0_sm8904189 {
+  background-color: #FFFC7F;
+  width: 78.33%;
+}
+.item1_sm8904189 {
+  background-color: #FFB2C5;
+  width: 7.86%;
+}
+.item2_sm8904189 {
+  background-color: #B9DD64;
+  width: 9.08%;
+}
+.item3_sm8904189 {
+  background-color: #AAC2FF;
+  width: 4.72%;
+}
+.item0_sm24968970 {
+  background-color: #FFFC7F;
+  width: 33.34%;
+}
+.item1_sm24968970 {
+  background-color: #FFB2C5;
+  width: 26.34%;
+}
+.item2_sm24968970 {
+  background-color: #B9DD64;
+  width: 31.49%;
+}
+.item3_sm24968970 {
+  background-color: #AAC2FF;
+  width: 8.83%;
+}
+.item0_sm29520630 {
+  background-color: #FFFC7F;
+  width: 23.84%;
+}
+.item1_sm29520630 {
+  background-color: #FFB2C5;
+  width: 44.24%;
+}
+.item2_sm29520630 {
+  background-color: #B9DD64;
+  width: 20.88%;
+}
+.item3_sm29520630 {
+  background-color: #AAC2FF;
+  width: 11.03%;
+}
+.item0_sm14534480 {
+  background-color: #FFFC7F;
+  width: 79.15%;
+}
+.item1_sm14534480 {
+  background-color: #FFB2C5;
+  width: 7.67%;
+}
+.item2_sm14534480 {
+  background-color: #B9DD64;
+  width: 9.29%;
+}
+.item3_sm14534480 {
+  background-color: #AAC2FF;
+  width: 3.89%;
+}
+.item0_sm21372190 {
+  background-color: #FFFC7F;
+  width: 70.64%;
+}
+.item1_sm21372190 {
+  background-color: #FFB2C5;
+  width: 6.38%;
+}
+.item2_sm21372190 {
+  background-color: #B9DD64;
+  width: 10.06%;
+}
+.item3_sm21372190 {
+  background-color: #AAC2FF;
+  width: 12.92%;
+}
+.item0_sm25461280 {
+  background-color: #FFFC7F;
+  width: 57.19%;
+}
+.item1_sm25461280 {
+  background-color: #FFB2C5;
+  width: 7.77%;
+}
+.item2_sm25461280 {
+  background-color: #B9DD64;
+  width: 21.16%;
+}
+.item3_sm25461280 {
+  background-color: #AAC2FF;
+  width: 13.88%;
+}
+.item0_sm9063970 {
+  background-color: #FFFC7F;
+  width: 60.30%;
+}
+.item1_sm9063970 {
+  background-color: #FFB2C5;
+  width: 14.77%;
+}
+.item2_sm9063970 {
+  background-color: #B9DD64;
+  width: 18.37%;
+}
+.item3_sm9063970 {
+  background-color: #AAC2FF;
+  width: 6.56%;
+}
+.item0_sm20036450 {
+  background-color: #FFFC7F;
+  width: 40.17%;
+}
+.item1_sm20036450 {
+  background-color: #FFB2C5;
+  width: 18.74%;
+}
+.item2_sm20036450 {
+  background-color: #B9DD64;
+  width: 29.64%;
+}
+.item3_sm20036450 {
+  background-color: #AAC2FF;
+  width: 11.45%;
+}
+.item0_sm24934550 {
+  background-color: #FFFC7F;
+  width: 58.48%;
+}
+.item1_sm24934550 {
+  background-color: #FFB2C5;
+  width: 9.07%;
+}
+.item2_sm24934550 {
+  background-color: #B9DD64;
+  width: 24.32%;
+}
+.item3_sm24934550 {
+  background-color: #AAC2FF;
+  width: 8.13%;
+}
+.item0_sm26854230 {
+  background-color: #FFFC7F;
+  width: 60.50%;
+}
+.item1_sm26854230 {
+  background-color: #FFB2C5;
+  width: 8.46%;
+}
+.item2_sm26854230 {
+  background-color: #B9DD64;
+  width: 17.68%;
+}
+.item3_sm26854230 {
+  background-color: #AAC2FF;
+  width: 13.35%;
+}
+.item0_sm30590420 {
+  background-color: #FFFC7F;
+  width: 51.53%;
+}
+.item1_sm30590420 {
+  background-color: #FFB2C5;
+  width: 21.52%;
+}
+.item2_sm30590420 {
+  background-color: #B9DD64;
+  width: 20.55%;
+}
+.item3_sm30590420 {
+  background-color: #AAC2FF;
+  width: 6.40%;
+}
+.item0_sm7882150 {
+  background-color: #FFFC7F;
+  width: 35.52%;
+}
+.item1_sm7882150 {
+  background-color: #FFB2C5;
+  width: 25.51%;
+}
+.item2_sm7882150 {
+  background-color: #B9DD64;
+  width: 30.55%;
+}
+.item3_sm7882150 {
+  background-color: #AAC2FF;
+  width: 8.42%;
+}
+.item0_sm4090650 {
+  background-color: #FFFC7F;
+  width: 64.25%;
+}
+.item1_sm4090650 {
+  background-color: #FFB2C5;
+  width: 8.17%;
+}
+.item2_sm4090650 {
+  background-color: #B9DD64;
+  width: 20.36%;
+}
+.item3_sm4090650 {
+  background-color: #AAC2FF;
+  width: 7.23%;
+}
+.item0_sm4622890 {
+  background-color: #FFFC7F;
+  width: 50.47%;
+}
+.item1_sm4622890 {
+  background-color: #FFB2C5;
+  width: 18.53%;
+}
+.item2_sm4622890 {
+  background-color: #B9DD64;
+  width: 24.38%;
+}
+.item3_sm4622890 {
+  background-color: #AAC2FF;
+  width: 6.62%;
+}
+.item0_sm8447870 {
+  background-color: #FFFC7F;
+  width: 35.46%;
+}
+.item1_sm8447870 {
+  background-color: #FFB2C5;
+  width: 30.43%;
+}
+.item2_sm8447870 {
+  background-color: #B9DD64;
+  width: 22.83%;
+}
+.item3_sm8447870 {
+  background-color: #AAC2FF;
+  width: 11.28%;
+}
+.item0_sm9510630 {
+  background-color: #FFFC7F;
+  width: 47.92%;
+}
+.item1_sm9510630 {
+  background-color: #FFB2C5;
+  width: 21.45%;
+}
+.item2_sm9510630 {
+  background-color: #B9DD64;
+  width: 22.98%;
+}
+.item3_sm9510630 {
+  background-color: #AAC2FF;
+  width: 7.66%;
+}
+.item0_sm13260750 {
+  background-color: #FFFC7F;
+  width: 70.07%;
+}
+.item1_sm13260750 {
+  background-color: #FFB2C5;
+  width: 17.86%;
+}
+.item2_sm13260750 {
+  background-color: #B9DD64;
+  width: 8.41%;
+}
+.item3_sm13260750 {
+  background-color: #AAC2FF;
+  width: 3.66%;
+}
+.item0_sm7427060 {
+  background-color: #FFFC7F;
+  width: 71.71%;
+}
+.item1_sm7427060 {
+  background-color: #FFB2C5;
+  width: 5.22%;
+}
+.item2_sm7427060 {
+  background-color: #B9DD64;
+  width: 13.73%;
+}
+.item3_sm7427060 {
+  background-color: #AAC2FF;
+  width: 9.34%;
+}
+.item0_sm20569190 {
+  background-color: #FFFC7F;
+  width: 46.78%;
+}
+.item1_sm20569190 {
+  background-color: #FFB2C5;
+  width: 13.95%;
+}
+.item2_sm20569190 {
+  background-color: #B9DD64;
+  width: 31.13%;
+}
+.item3_sm20569190 {
+  background-color: #AAC2FF;
+  width: 8.14%;
+}
+.item0_sm2732357 {
+  background-color: #FFFC7F;
+  width: 52.53%;
+}
+.item1_sm2732357 {
+  background-color: #FFB2C5;
+  width: 8.39%;
+}
+.item2_sm2732357 {
+  background-color: #B9DD64;
+  width: 32.83%;
+}
+.item3_sm2732357 {
+  background-color: #AAC2FF;
+  width: 6.25%;
+}
+.item0_sm1031270 {
+  background-color: #FFFC7F;
+  width: 39.28%;
+}
+.item1_sm1031270 {
+  background-color: #FFB2C5;
+  width: 28.59%;
+}
+.item2_sm1031270 {
+  background-color: #B9DD64;
+  width: 24.43%;
+}
+.item3_sm1031270 {
+  background-color: #AAC2FF;
+  width: 7.70%;
+}
+.item0_sm17067980 {
+  background-color: #FFFC7F;
+  width: 27.95%;
+}
+.item1_sm17067980 {
+  background-color: #FFB2C5;
+  width: 36.87%;
+}
+.item2_sm17067980 {
+  background-color: #B9DD64;
+  width: 27.58%;
+}
+.item3_sm17067980 {
+  background-color: #AAC2FF;
+  width: 7.60%;
+}
+.item0_sm19625630 {
+  background-color: #FFFC7F;
+  width: 24.80%;
+}
+.item1_sm19625630 {
+  background-color: #FFB2C5;
+  width: 44.50%;
+}
+.item2_sm19625630 {
+  background-color: #B9DD64;
+  width: 18.73%;
+}
+.item3_sm19625630 {
+  background-color: #AAC2FF;
+  width: 11.97%;
+}
+.item0_sm9265460 {
+  background-color: #FFFC7F;
+  width: 67.02%;
+}
+.item1_sm9265460 {
+  background-color: #FFB2C5;
+  width: 10.28%;
+}
+.item2_sm9265460 {
+  background-color: #B9DD64;
+  width: 19.24%;
+}
+.item3_sm9265460 {
+  background-color: #AAC2FF;
+  width: 3.46%;
+}
+.item0_sm2219100 {
+  background-color: #FFFC7F;
+  width: 58.42%;
+}
+.item1_sm2219100 {
+  background-color: #FFB2C5;
+  width: 17.93%;
+}
+.item2_sm2219100 {
+  background-color: #B9DD64;
+  width: 17.60%;
+}
+.item3_sm2219100 {
+  background-color: #AAC2FF;
+  width: 6.05%;
+}
+.item0_sm23969030 {
+  background-color: #FFFC7F;
+  width: 71.19%;
+}
+.item1_sm23969030 {
+  background-color: #FFB2C5;
+  width: 8.62%;
+}
+.item2_sm23969030 {
+  background-color: #B9DD64;
+  width: 14.62%;
+}
+.item3_sm23969030 {
+  background-color: #AAC2FF;
+  width: 5.58%;
+}
+.item0_sm10150980 {
+  background-color: #FFFC7F;
+  width: 30.67%;
+}
+.item1_sm10150980 {
+  background-color: #FFB2C5;
+  width: 39.70%;
+}
+.item2_sm10150980 {
+  background-color: #B9DD64;
+  width: 21.00%;
+}
+.item3_sm10150980 {
+  background-color: #AAC2FF;
+  width: 8.63%;
+}
+.item0_sm24377110 {
+  background-color: #FFFC7F;
+  width: 57.62%;
+}
+.item1_sm24377110 {
+  background-color: #FFB2C5;
+  width: 16.25%;
+}
+.item2_sm24377110 {
+  background-color: #B9DD64;
+  width: 20.25%;
+}
+.item3_sm24377110 {
+  background-color: #AAC2FF;
+  width: 5.88%;
+}
+.item0_sm24683018 {
+  background-color: #FFFC7F;
+  width: 67.54%;
+}
+.item1_sm24683018 {
+  background-color: #FFB2C5;
+  width: 14.30%;
+}
+.item2_sm24683018 {
+  background-color: #B9DD64;
+  width: 10.75%;
+}
+.item3_sm24683018 {
+  background-color: #AAC2FF;
+  width: 7.40%;
+}
+.item0_sm30741025 {
+  background-color: #FFFC7F;
+  width: 37.90%;
+}
+.item1_sm30741025 {
+  background-color: #FFB2C5;
+  width: 26.36%;
+}
+.item2_sm30741025 {
+  background-color: #B9DD64;
+  width: 23.90%;
+}
+.item3_sm30741025 {
+  background-color: #AAC2FF;
+  width: 11.84%;
+}
+.item0_sm17673790 {
+  background-color: #FFFC7F;
+  width: 70.97%;
+}
+.item1_sm17673790 {
+  background-color: #FFB2C5;
+  width: 6.02%;
+}
+.item2_sm17673790 {
+  background-color: #B9DD64;
+  width: 12.20%;
+}
+.item3_sm17673790 {
+  background-color: #AAC2FF;
+  width: 10.81%;
+}
+.item0_sm37601190 {
+  background-color: #FFFC7F;
+  width: 23.15%;
+}
+.item1_sm37601190 {
+  background-color: #FFB2C5;
+  width: 55.46%;
+}
+.item2_sm37601190 {
+  background-color: #B9DD64;
+  width: 16.34%;
+}
+.item3_sm37601190 {
+  background-color: #AAC2FF;
+  width: 5.06%;
+}
+.item0_sm16207490 {
+  background-color: #FFFC7F;
+  width: 81.29%;
+}
+.item1_sm16207490 {
+  background-color: #FFB2C5;
+  width: 8.32%;
+}
+.item2_sm16207490 {
+  background-color: #B9DD64;
+  width: 6.58%;
+}
+.item3_sm16207490 {
+  background-color: #AAC2FF;
+  width: 3.82%;
+}
+.item0_sm5546860 {
+  background-color: #FFFC7F;
+  width: 85.14%;
+}
+.item1_sm5546860 {
+  background-color: #FFB2C5;
+  width: 1.91%;
+}
+.item2_sm5546860 {
+  background-color: #B9DD64;
+  width: 10.56%;
+}
+.item3_sm5546860 {
+  background-color: #AAC2FF;
+  width: 2.40%;
+}
+.item0_sm17064620 {
+  background-color: #FFFC7F;
+  width: 27.33%;
+}
+.item1_sm17064620 {
+  background-color: #FFB2C5;
+  width: 36.88%;
+}
+.item2_sm17064620 {
+  background-color: #B9DD64;
+  width: 30.32%;
+}
+.item3_sm17064620 {
+  background-color: #AAC2FF;
+  width: 5.47%;
+}
+.item0_sm25051049 {
+  background-color: #FFFC7F;
+  width: 72.90%;
+}
+.item1_sm25051049 {
+  background-color: #FFB2C5;
+  width: 8.64%;
+}
+.item2_sm25051049 {
+  background-color: #B9DD64;
+  width: 13.68%;
+}
+.item3_sm25051049 {
+  background-color: #AAC2FF;
+  width: 4.78%;
+}
+.item0_sm21553880 {
+  background-color: #FFFC7F;
+  width: 69.11%;
+}
+.item1_sm21553880 {
+  background-color: #FFB2C5;
+  width: 8.89%;
+}
+.item2_sm21553880 {
+  background-color: #B9DD64;
+  width: 15.40%;
+}
+.item3_sm21553880 {
+  background-color: #AAC2FF;
+  width: 6.60%;
+}
+.item0_sm27666317 {
+  background-color: #FFFC7F;
+  width: 59.75%;
+}
+.item1_sm27666317 {
+  background-color: #FFB2C5;
+  width: 12.39%;
+}
+.item2_sm27666317 {
+  background-color: #B9DD64;
+  width: 16.28%;
+}
+.item3_sm27666317 {
+  background-color: #AAC2FF;
+  width: 11.58%;
+}
+.item0_sm5818100 {
+  background-color: #FFFC7F;
+  width: 51.06%;
+}
+.item1_sm5818100 {
+  background-color: #FFB2C5;
+  width: 24.64%;
+}
+.item2_sm5818100 {
+  background-color: #B9DD64;
+  width: 18.69%;
+}
+.item3_sm5818100 {
+  background-color: #AAC2FF;
+  width: 5.62%;
+}
+.item0_sm2406770 {
+  background-color: #FFFC7F;
+  width: 30.94%;
+}
+.item1_sm2406770 {
+  background-color: #FFB2C5;
+  width: 39.65%;
+}
+.item2_sm2406770 {
+  background-color: #B9DD64;
+  width: 15.95%;
+}
+.item3_sm2406770 {
+  background-color: #AAC2FF;
+  width: 13.45%;
+}
+.item0_sm8891090 {
+  background-color: #FFFC7F;
+  width: 72.07%;
+}
+.item1_sm8891090 {
+  background-color: #FFB2C5;
+  width: 7.16%;
+}
+.item2_sm8891090 {
+  background-color: #B9DD64;
+  width: 14.89%;
+}
+.item3_sm8891090 {
+  background-color: #AAC2FF;
+  width: 5.87%;
+}
+.item0_sm16719480 {
+  background-color: #FFFC7F;
+  width: 33.68%;
+}
+.item1_sm16719480 {
+  background-color: #FFB2C5;
+  width: 22.14%;
+}
+.item2_sm16719480 {
+  background-color: #B9DD64;
+  width: 35.34%;
+}
+.item3_sm16719480 {
+  background-color: #AAC2FF;
+  width: 8.84%;
+}
+.item0_sm17779150 {
+  background-color: #FFFC7F;
+  width: 35.32%;
+}
+.item1_sm17779150 {
+  background-color: #FFB2C5;
+  width: 31.67%;
+}
+.item2_sm17779150 {
+  background-color: #B9DD64;
+  width: 21.66%;
+}
+.item3_sm17779150 {
+  background-color: #AAC2FF;
+  width: 11.36%;
+}
+.item0_sm23807389 {
+  background-color: #FFFC7F;
+  width: 63.37%;
+}
+.item1_sm23807389 {
+  background-color: #FFB2C5;
+  width: 11.42%;
+}
+.item2_sm23807389 {
+  background-color: #B9DD64;
+  width: 18.56%;
+}
+.item3_sm23807389 {
+  background-color: #AAC2FF;
+  width: 6.65%;
+}
+.item0_sm29916130 {
+  background-color: #FFFC7F;
+  width: 63.17%;
+}
+.item1_sm29916130 {
+  background-color: #FFB2C5;
+  width: 6.92%;
+}
+.item2_sm29916130 {
+  background-color: #B9DD64;
+  width: 15.24%;
+}
+.item3_sm29916130 {
+  background-color: #AAC2FF;
+  width: 14.67%;
+}
+.item0_sm15633620 {
+  background-color: #FFFC7F;
+  width: 49.49%;
+}
+.item1_sm15633620 {
+  background-color: #FFB2C5;
+  width: 16.94%;
+}
+.item2_sm15633620 {
+  background-color: #B9DD64;
+  width: 25.14%;
+}
+.item3_sm15633620 {
+  background-color: #AAC2FF;
+  width: 8.43%;
+}
+.item0_sm21331970 {
+  background-color: #FFFC7F;
+  width: 69.38%;
+}
+.item1_sm21331970 {
+  background-color: #FFB2C5;
+  width: 10.20%;
+}
+.item2_sm21331970 {
+  background-color: #B9DD64;
+  width: 15.73%;
+}
+.item3_sm21331970 {
+  background-color: #AAC2FF;
+  width: 4.69%;
+}
+.item0_sm4724910 {
+  background-color: #FFFC7F;
+  width: 75.27%;
+}
+.item1_sm4724910 {
+  background-color: #FFB2C5;
+  width: 8.34%;
+}
+.item2_sm4724910 {
+  background-color: #B9DD64;
+  width: 12.14%;
+}
+.item3_sm4724910 {
+  background-color: #AAC2FF;
+  width: 4.26%;
+}
+.item0_sm25425760 {
+  background-color: #FFFC7F;
+  width: 59.01%;
+}
+.item1_sm25425760 {
+  background-color: #FFB2C5;
+  width: 11.21%;
+}
+.item2_sm25425760 {
+  background-color: #B9DD64;
+  width: 24.25%;
+}
+.item3_sm25425760 {
+  background-color: #AAC2FF;
+  width: 5.53%;
+}
+.item0_sm24326780 {
+  background-color: #FFFC7F;
+  width: 42.90%;
+}
+.item1_sm24326780 {
+  background-color: #FFB2C5;
+  width: 31.16%;
+}
+.item2_sm24326780 {
+  background-color: #B9DD64;
+  width: 15.46%;
+}
+.item3_sm24326780 {
+  background-color: #AAC2FF;
+  width: 10.48%;
+}
+.item0_sm27488670 {
+  background-color: #FFFC7F;
+  width: 49.24%;
+}
+.item1_sm27488670 {
+  background-color: #FFB2C5;
+  width: 13.05%;
+}
+.item2_sm27488670 {
+  background-color: #B9DD64;
+  width: 25.44%;
+}
+.item3_sm27488670 {
+  background-color: #AAC2FF;
+  width: 12.27%;
+}
+.item0_sm1278460 {
+  background-color: #FFFC7F;
+  width: 76.33%;
+}
+.item1_sm1278460 {
+  background-color: #FFB2C5;
+  width: 10.51%;
+}
+.item2_sm1278460 {
+  background-color: #B9DD64;
+  width: 10.21%;
+}
+.item3_sm1278460 {
+  background-color: #AAC2FF;
+  width: 2.95%;
+}
+.item0_sm28522610 {
+  background-color: #FFFC7F;
+  width: 45.23%;
+}
+.item1_sm28522610 {
+  background-color: #FFB2C5;
+  width: 28.61%;
+}
+.item2_sm28522610 {
+  background-color: #B9DD64;
+  width: 13.00%;
+}
+.item3_sm28522610 {
+  background-color: #AAC2FF;
+  width: 13.16%;
+}
+.item0_sm12742112 {
+  background-color: #FFFC7F;
+  width: 43.44%;
+}
+.item1_sm12742112 {
+  background-color: #FFB2C5;
+  width: 25.93%;
+}
+.item2_sm12742112 {
+  background-color: #B9DD64;
+  width: 23.95%;
+}
+.item3_sm12742112 {
+  background-color: #AAC2FF;
+  width: 6.68%;
+}
+.item0_sm37195030 {
+  background-color: #FFFC7F;
+  width: 34.36%;
+}
+.item1_sm37195030 {
+  background-color: #FFB2C5;
+  width: 27.26%;
+}
+.item2_sm37195030 {
+  background-color: #B9DD64;
+  width: 25.64%;
+}
+.item3_sm37195030 {
+  background-color: #AAC2FF;
+  width: 12.74%;
+}
+.item0_sm25221440 {
+  background-color: #FFFC7F;
+  width: 33.94%;
+}
+.item1_sm25221440 {
+  background-color: #FFB2C5;
+  width: 36.55%;
+}
+.item2_sm25221440 {
+  background-color: #B9DD64;
+  width: 21.87%;
+}
+.item3_sm25221440 {
+  background-color: #AAC2FF;
+  width: 7.64%;
+}
+.item0_sm27266160 {
+  background-color: #FFFC7F;
+  width: 72.06%;
+}
+.item1_sm27266160 {
+  background-color: #FFB2C5;
+  width: 8.39%;
+}
+.item2_sm27266160 {
+  background-color: #B9DD64;
+  width: 14.81%;
+}
+.item3_sm27266160 {
+  background-color: #AAC2FF;
+  width: 4.74%;
+}
+.item0_sm30597080 {
+  background-color: #FFFC7F;
+  width: 57.96%;
+}
+.item1_sm30597080 {
+  background-color: #FFB2C5;
+  width: 13.27%;
+}
+.item2_sm30597080 {
+  background-color: #B9DD64;
+  width: 19.69%;
+}
+.item3_sm30597080 {
+  background-color: #AAC2FF;
+  width: 9.07%;
+}
+.item0_nm8232118 {
+  background-color: #FFFC7F;
+  width: 52.76%;
+}
+.item1_nm8232118 {
+  background-color: #FFB2C5;
+  width: 15.86%;
+}
+.item2_nm8232118 {
+  background-color: #B9DD64;
+  width: 26.40%;
+}
+.item3_nm8232118 {
+  background-color: #AAC2FF;
+  width: 4.98%;
+}
+.item0_sm7868250 {
+  background-color: #FFFC7F;
+  width: 54.36%;
+}
+.item1_sm7868250 {
+  background-color: #FFB2C5;
+  width: 18.87%;
+}
+.item2_sm7868250 {
+  background-color: #B9DD64;
+  width: 21.20%;
+}
+.item3_sm7868250 {
+  background-color: #AAC2FF;
+  width: 5.56%;
+}
+.item0_sm246990 {
+  background-color: #FFFC7F;
+  width: 42.14%;
+}
+.item1_sm246990 {
+  background-color: #FFB2C5;
+  width: 19.52%;
+}
+.item2_sm246990 {
+  background-color: #B9DD64;
+  width: 19.83%;
+}
+.item3_sm246990 {
+  background-color: #AAC2FF;
+  width: 18.51%;
+}
+.item0_sm29445580 {
+  background-color: #FFFC7F;
+  width: 63.75%;
+}
+.item1_sm29445580 {
+  background-color: #FFB2C5;
+  width: 6.90%;
+}
+.item2_sm29445580 {
+  background-color: #B9DD64;
+  width: 21.10%;
+}
+.item3_sm29445580 {
+  background-color: #AAC2FF;
+  width: 8.24%;
+}
+.item0_sm29776010 {
+  background-color: #FFFC7F;
+  width: 60.70%;
+}
+.item1_sm29776010 {
+  background-color: #FFB2C5;
+  width: 8.56%;
+}
+.item2_sm29776010 {
+  background-color: #B9DD64;
+  width: 22.91%;
+}
+.item3_sm29776010 {
+  background-color: #AAC2FF;
+  width: 7.83%;
+}
+.item0_sm4106190 {
+  background-color: #FFFC7F;
+  width: 80.41%;
+}
+.item1_sm4106190 {
+  background-color: #FFB2C5;
+  width: 3.70%;
+}
+.item2_sm4106190 {
+  background-color: #B9DD64;
+  width: 8.67%;
+}
+.item3_sm4106190 {
+  background-color: #AAC2FF;
+  width: 7.22%;
+}
+.item0_sm29921300 {
+  background-color: #FFFC7F;
+  width: 62.86%;
+}
+.item1_sm29921300 {
+  background-color: #FFB2C5;
+  width: 6.62%;
+}
+.item2_sm29921300 {
+  background-color: #B9DD64;
+  width: 16.84%;
+}
+.item3_sm29921300 {
+  background-color: #AAC2FF;
+  width: 13.69%;
+}
+.item0_sm13170350 {
+  background-color: #FFFC7F;
+  width: 81.82%;
+}
+.item1_sm13170350 {
+  background-color: #FFB2C5;
+  width: 7.49%;
+}
+.item2_sm13170350 {
+  background-color: #B9DD64;
+  width: 7.49%;
+}
+.item3_sm13170350 {
+  background-color: #AAC2FF;
+  width: 3.21%;
+}
+.item0_sm21333410 {
+  background-color: #FFFC7F;
+  width: 65.59%;
+}
+.item1_sm21333410 {
+  background-color: #FFB2C5;
+  width: 9.39%;
+}
+.item2_sm21333410 {
+  background-color: #B9DD64;
+  width: 17.41%;
+}
+.item3_sm21333410 {
+  background-color: #AAC2FF;
+  width: 7.60%;
+}
+.item0_sm19132400 {
+  background-color: #FFFC7F;
+  width: 78.52%;
+}
+.item1_sm19132400 {
+  background-color: #FFB2C5;
+  width: 6.58%;
+}
+.item2_sm19132400 {
+  background-color: #B9DD64;
+  width: 11.44%;
+}
+.item3_sm19132400 {
+  background-color: #AAC2FF;
+  width: 3.46%;
+}
+.item0_sm16024389 {
+  background-color: #FFFC7F;
+  width: 44.33%;
+}
+.item1_sm16024389 {
+  background-color: #FFB2C5;
+  width: 24.15%;
+}
+.item2_sm16024389 {
+  background-color: #B9DD64;
+  width: 20.43%;
+}
+.item3_sm16024389 {
+  background-color: #AAC2FF;
+  width: 11.10%;
+}
+.item0_sm11325229 {
+  background-color: #FFFC7F;
+  width: 72.87%;
+}
+.item1_sm11325229 {
+  background-color: #FFB2C5;
+  width: 11.20%;
+}
+.item2_sm11325229 {
+  background-color: #B9DD64;
+  width: 13.92%;
+}
+.item3_sm11325229 {
+  background-color: #AAC2FF;
+  width: 2.01%;
+}
+.item0_sm13762950 {
+  background-color: #FFFC7F;
+  width: 77.88%;
+}
+.item1_sm13762950 {
+  background-color: #FFB2C5;
+  width: 7.51%;
+}
+.item2_sm13762950 {
+  background-color: #B9DD64;
+  width: 9.55%;
+}
+.item3_sm13762950 {
+  background-color: #AAC2FF;
+  width: 5.06%;
+}
+.item0_sm16156229 {
+  background-color: #FFFC7F;
+  width: 74.81%;
+}
+.item1_sm16156229 {
+  background-color: #FFB2C5;
+  width: 9.12%;
+}
+.item2_sm16156229 {
+  background-color: #B9DD64;
+  width: 12.48%;
+}
+.item3_sm16156229 {
+  background-color: #AAC2FF;
+  width: 3.59%;
+}
+.item0_sm3207770 {
+  background-color: #FFFC7F;
+  width: 36.35%;
+}
+.item1_sm3207770 {
+  background-color: #FFB2C5;
+  width: 26.33%;
+}
+.item2_sm3207770 {
+  background-color: #B9DD64;
+  width: 24.47%;
+}
+.item3_sm3207770 {
+  background-color: #AAC2FF;
+  width: 12.85%;
+}
+.item0_sm23039440 {
+  background-color: #FFFC7F;
+  width: 25.63%;
+}
+.item1_sm23039440 {
+  background-color: #FFB2C5;
+  width: 51.48%;
+}
+.item2_sm23039440 {
+  background-color: #B9DD64;
+  width: 17.80%;
+}
+.item3_sm23039440 {
+  background-color: #AAC2FF;
+  width: 5.09%;
+}
+.item0_sm21145040 {
+  background-color: #FFFC7F;
+  width: 76.23%;
+}
+.item1_sm21145040 {
+  background-color: #FFB2C5;
+  width: 7.12%;
+}
+.item2_sm21145040 {
+  background-color: #B9DD64;
+  width: 12.62%;
+}
+.item3_sm21145040 {
+  background-color: #AAC2FF;
+  width: 4.04%;
+}
+.item0_sm3439870 {
+  background-color: #FFFC7F;
+  width: 62.04%;
+}
+.item1_sm3439870 {
+  background-color: #FFB2C5;
+  width: 20.45%;
+}
+.item2_sm3439870 {
+  background-color: #B9DD64;
+  width: 13.18%;
+}
+.item3_sm3439870 {
+  background-color: #AAC2FF;
+  width: 4.32%;
+}
+.item0_sm27404620 {
+  background-color: #FFFC7F;
+  width: 55.73%;
+}
+.item1_sm27404620 {
+  background-color: #FFB2C5;
+  width: 13.62%;
+}
+.item2_sm27404620 {
+  background-color: #B9DD64;
+  width: 18.83%;
+}
+.item3_sm27404620 {
+  background-color: #AAC2FF;
+  width: 11.82%;
+}
+.item0_sm29185330 {
+  background-color: #FFFC7F;
+  width: 52.30%;
+}
+.item1_sm29185330 {
+  background-color: #FFB2C5;
+  width: 8.13%;
+}
+.item2_sm29185330 {
+  background-color: #B9DD64;
+  width: 22.64%;
+}
+.item3_sm29185330 {
+  background-color: #AAC2FF;
+  width: 16.93%;
+}
+.item0_sm22242790 {
+  background-color: #FFFC7F;
+  width: 49.52%;
+}
+.item1_sm22242790 {
+  background-color: #FFB2C5;
+  width: 19.00%;
+}
+.item2_sm22242790 {
+  background-color: #B9DD64;
+  width: 21.10%;
+}
+.item3_sm22242790 {
+  background-color: #AAC2FF;
+  width: 10.38%;
+}
+.item0_sm11384474 {
+  background-color: #FFFC7F;
+  width: 47.19%;
+}
+.item1_sm11384474 {
+  background-color: #FFB2C5;
+  width: 18.27%;
+}
+.item2_sm11384474 {
+  background-color: #B9DD64;
+  width: 30.41%;
+}
+.item3_sm11384474 {
+  background-color: #AAC2FF;
+  width: 4.12%;
+}
+.item0_sm30960260 {
+  background-color: #FFFC7F;
+  width: 52.29%;
+}
+.item1_sm30960260 {
+  background-color: #FFB2C5;
+  width: 22.62%;
+}
+.item2_sm30960260 {
+  background-color: #B9DD64;
+  width: 18.51%;
+}
+.item3_sm30960260 {
+  background-color: #AAC2FF;
+  width: 6.58%;
+}
+.item0_sm2107510 {
+  background-color: #FFFC7F;
+  width: 54.79%;
+}
+.item1_sm2107510 {
+  background-color: #FFB2C5;
+  width: 20.75%;
+}
+.item2_sm2107510 {
+  background-color: #B9DD64;
+  width: 14.97%;
+}
+.item3_sm2107510 {
+  background-color: #AAC2FF;
+  width: 9.49%;
+}
+.item0_sm8889330 {
+  background-color: #FFFC7F;
+  width: 29.98%;
+}
+.item1_sm8889330 {
+  background-color: #FFB2C5;
+  width: 43.97%;
+}
+.item2_sm8889330 {
+  background-color: #B9DD64;
+  width: 19.58%;
+}
+.item3_sm8889330 {
+  background-color: #AAC2FF;
+  width: 6.47%;
+}
+.item0_sm29482160 {
+  background-color: #FFFC7F;
+  width: 62.26%;
+}
+.item1_sm29482160 {
+  background-color: #FFB2C5;
+  width: 10.64%;
+}
+.item2_sm29482160 {
+  background-color: #B9DD64;
+  width: 21.00%;
+}
+.item3_sm29482160 {
+  background-color: #AAC2FF;
+  width: 6.10%;
+}
+.item0_sm15611820 {
+  background-color: #FFFC7F;
+  width: 63.91%;
+}
+.item1_sm15611820 {
+  background-color: #FFB2C5;
+  width: 11.00%;
+}
+.item2_sm15611820 {
+  background-color: #B9DD64;
+  width: 16.99%;
+}
+.item3_sm15611820 {
+  background-color: #AAC2FF;
+  width: 8.10%;
+}
+.item0_sm13609389 {
+  background-color: #FFFC7F;
+  width: 41.36%;
+}
+.item1_sm13609389 {
+  background-color: #FFB2C5;
+  width: 27.28%;
+}
+.item2_sm13609389 {
+  background-color: #B9DD64;
+  width: 24.05%;
+}
+.item3_sm13609389 {
+  background-color: #AAC2FF;
+  width: 7.32%;
+}
+.item0_sm22688012 {
+  background-color: #FFFC7F;
+  width: 56.57%;
+}
+.item1_sm22688012 {
+  background-color: #FFB2C5;
+  width: 10.82%;
+}
+.item2_sm22688012 {
+  background-color: #B9DD64;
+  width: 22.91%;
+}
+.item3_sm22688012 {
+  background-color: #AAC2FF;
+  width: 9.69%;
+}
+.item0_sm30591470 {
+  background-color: #FFFC7F;
+  width: 64.88%;
+}
+.item1_sm30591470 {
+  background-color: #FFB2C5;
+  width: 12.98%;
+}
+.item2_sm30591470 {
+  background-color: #B9DD64;
+  width: 16.68%;
+}
+.item3_sm30591470 {
+  background-color: #AAC2FF;
+  width: 5.46%;
+}
+.item0_sm23160860 {
+  background-color: #FFFC7F;
+  width: 42.46%;
+}
+.item1_sm23160860 {
+  background-color: #FFB2C5;
+  width: 17.69%;
+}
+.item2_sm23160860 {
+  background-color: #B9DD64;
+  width: 25.96%;
+}
+.item3_sm23160860 {
+  background-color: #AAC2FF;
+  width: 13.89%;
+}
+.item0_sm14889810 {
+  background-color: #FFFC7F;
+  width: 50.63%;
+}
+.item1_sm14889810 {
+  background-color: #FFB2C5;
+  width: 20.43%;
+}
+.item2_sm14889810 {
+  background-color: #B9DD64;
+  width: 15.94%;
+}
+.item3_sm14889810 {
+  background-color: #AAC2FF;
+  width: 12.99%;
+}
+.item0_sm2212070 {
+  background-color: #FFFC7F;
+  width: 63.42%;
+}
+.item1_sm2212070 {
+  background-color: #FFB2C5;
+  width: 9.59%;
+}
+.item2_sm2212070 {
+  background-color: #B9DD64;
+  width: 8.94%;
+}
+.item3_sm2212070 {
+  background-color: #AAC2FF;
+  width: 18.05%;
+}
+.item0_sm23049810 {
+  background-color: #FFFC7F;
+  width: 59.06%;
+}
+.item1_sm23049810 {
+  background-color: #FFB2C5;
+  width: 10.21%;
+}
+.item2_sm23049810 {
+  background-color: #B9DD64;
+  width: 23.06%;
+}
+.item3_sm23049810 {
+  background-color: #AAC2FF;
+  width: 7.67%;
+}
+.item0_sm30273012 {
+  background-color: #FFFC7F;
+  width: 46.43%;
+}
+.item1_sm30273012 {
+  background-color: #FFB2C5;
+  width: 18.45%;
+}
+.item2_sm30273012 {
+  background-color: #B9DD64;
+  width: 26.22%;
+}
+.item3_sm30273012 {
+  background-color: #AAC2FF;
+  width: 8.91%;
+}
+.item0_sm13612500 {
+  background-color: #FFFC7F;
+  width: 42.69%;
+}
+.item1_sm13612500 {
+  background-color: #FFB2C5;
+  width: 25.95%;
+}
+.item2_sm13612500 {
+  background-color: #B9DD64;
+  width: 26.01%;
+}
+.item3_sm13612500 {
+  background-color: #AAC2FF;
+  width: 5.34%;
+}
+.item0_sm24432950 {
+  background-color: #FFFC7F;
+  width: 47.75%;
+}
+.item1_sm24432950 {
+  background-color: #FFB2C5;
+  width: 34.28%;
+}
+.item2_sm24432950 {
+  background-color: #B9DD64;
+  width: 14.01%;
+}
+.item3_sm24432950 {
+  background-color: #AAC2FF;
+  width: 3.96%;
+}
+.item0_sm27033420 {
+  background-color: #FFFC7F;
+  width: 64.18%;
+}
+.item1_sm27033420 {
+  background-color: #FFB2C5;
+  width: 14.51%;
+}
+.item2_sm27033420 {
+  background-color: #B9DD64;
+  width: 16.14%;
+}
+.item3_sm27033420 {
+  background-color: #AAC2FF;
+  width: 5.17%;
+}
+.item0_sm5321420 {
+  background-color: #FFFC7F;
+  width: 50.46%;
+}
+.item1_sm5321420 {
+  background-color: #FFB2C5;
+  width: 16.93%;
+}
+.item2_sm5321420 {
+  background-color: #B9DD64;
+  width: 26.70%;
+}
+.item3_sm5321420 {
+  background-color: #AAC2FF;
+  width: 5.91%;
+}
+.item0_sm23385270 {
+  background-color: #FFFC7F;
+  width: 63.62%;
+}
+.item1_sm23385270 {
+  background-color: #FFB2C5;
+  width: 12.95%;
+}
+.item2_sm23385270 {
+  background-color: #B9DD64;
+  width: 18.03%;
+}
+.item3_sm23385270 {
+  background-color: #AAC2FF;
+  width: 5.40%;
+}
+.item0_sm24610090 {
+  background-color: #FFFC7F;
+  width: 68.97%;
+}
+.item1_sm24610090 {
+  background-color: #FFB2C5;
+  width: 10.52%;
+}
+.item2_sm24610090 {
+  background-color: #B9DD64;
+  width: 15.34%;
+}
+.item3_sm24610090 {
+  background-color: #AAC2FF;
+  width: 5.17%;
+}
+.item0_sm22511720 {
+  background-color: #FFFC7F;
+  width: 59.77%;
+}
+.item1_sm22511720 {
+  background-color: #FFB2C5;
+  width: 18.18%;
+}
+.item2_sm22511720 {
+  background-color: #B9DD64;
+  width: 16.17%;
+}
+.item3_sm22511720 {
+  background-color: #AAC2FF;
+  width: 5.88%;
+}
+.item0_sm27147440 {
+  background-color: #FFFC7F;
+  width: 68.24%;
+}
+.item1_sm27147440 {
+  background-color: #FFB2C5;
+  width: 5.96%;
+}
+.item2_sm27147440 {
+  background-color: #B9DD64;
+  width: 18.26%;
+}
+.item3_sm27147440 {
+  background-color: #AAC2FF;
+  width: 7.55%;
+}
+.item0_sm30077041 {
+  background-color: #FFFC7F;
+  width: 42.76%;
+}
+.item1_sm30077041 {
+  background-color: #FFB2C5;
+  width: 20.52%;
+}
+.item2_sm30077041 {
+  background-color: #B9DD64;
+  width: 29.46%;
+}
+.item3_sm30077041 {
+  background-color: #AAC2FF;
+  width: 7.25%;
+}
+.item0_sm6875060 {
+  background-color: #FFFC7F;
+  width: 33.25%;
+}
+.item1_sm6875060 {
+  background-color: #FFB2C5;
+  width: 32.57%;
+}
+.item2_sm6875060 {
+  background-color: #B9DD64;
+  width: 25.01%;
+}
+.item3_sm6875060 {
+  background-color: #AAC2FF;
+  width: 9.18%;
+}
+.item0_sm15862474 {
+  background-color: #FFFC7F;
+  width: 73.02%;
+}
+.item1_sm15862474 {
+  background-color: #FFB2C5;
+  width: 9.47%;
+}
+.item2_sm15862474 {
+  background-color: #B9DD64;
+  width: 12.20%;
+}
+.item3_sm15862474 {
+  background-color: #AAC2FF;
+  width: 5.31%;
+}
+.item0_sm31791630 {
+  background-color: #FFFC7F;
+  width: 23.96%;
+}
+.item1_sm31791630 {
+  background-color: #FFB2C5;
+  width: 50.62%;
+}
+.item2_sm31791630 {
+  background-color: #B9DD64;
+  width: 16.12%;
+}
+.item3_sm31791630 {
+  background-color: #AAC2FF;
+  width: 9.30%;
+}
+.item0_sm30308300 {
+  background-color: #FFFC7F;
+  width: 24.01%;
+}
+.item1_sm30308300 {
+  background-color: #FFB2C5;
+  width: 51.84%;
+}
+.item2_sm30308300 {
+  background-color: #B9DD64;
+  width: 17.04%;
+}
+.item3_sm30308300 {
+  background-color: #AAC2FF;
+  width: 7.11%;
+}
+.item0_sm31118650 {
+  background-color: #FFFC7F;
+  width: 48.36%;
+}
+.item1_sm31118650 {
+  background-color: #FFB2C5;
+  width: 25.85%;
+}
+.item2_sm31118650 {
+  background-color: #B9DD64;
+  width: 20.21%;
+}
+.item3_sm31118650 {
+  background-color: #AAC2FF;
+  width: 5.58%;
+}
+.item0_sm15806481 {
+  background-color: #FFFC7F;
+  width: 75.86%;
+}
+.item1_sm15806481 {
+  background-color: #FFB2C5;
+  width: 5.19%;
+}
+.item2_sm15806481 {
+  background-color: #B9DD64;
+  width: 14.94%;
+}
+.item3_sm15806481 {
+  background-color: #AAC2FF;
+  width: 4.00%;
+}
+.item0_so19034120 {
+  background-color: #FFFC7F;
+  width: 54.26%;
+}
+.item1_so19034120 {
+  background-color: #FFB2C5;
+  width: 13.56%;
+}
+.item2_so19034120 {
+  background-color: #B9DD64;
+  width: 22.73%;
+}
+.item3_so19034120 {
+  background-color: #AAC2FF;
+  width: 9.45%;
+}
+.item0_sm26183540 {
+  background-color: #FFFC7F;
+  width: 66.04%;
+}
+.item1_sm26183540 {
+  background-color: #FFB2C5;
+  width: 13.23%;
+}
+.item2_sm26183540 {
+  background-color: #B9DD64;
+  width: 14.33%;
+}
+.item3_sm26183540 {
+  background-color: #AAC2FF;
+  width: 6.40%;
+}
+.item0_sm25782830 {
+  background-color: #FFFC7F;
+  width: 45.83%;
+}
+.item1_sm25782830 {
+  background-color: #FFB2C5;
+  width: 19.87%;
+}
+.item2_sm25782830 {
+  background-color: #B9DD64;
+  width: 23.06%;
+}
+.item3_sm25782830 {
+  background-color: #AAC2FF;
+  width: 11.23%;
+}
+.item0_sm36210300 {
+  background-color: #FFFC7F;
+  width: 33.66%;
+}
+.item1_sm36210300 {
+  background-color: #FFB2C5;
+  width: 44.37%;
+}
+.item2_sm36210300 {
+  background-color: #B9DD64;
+  width: 17.69%;
+}
+.item3_sm36210300 {
+  background-color: #AAC2FF;
+  width: 4.28%;
+}
+.item0_sm24687940 {
+  background-color: #FFFC7F;
+  width: 39.43%;
+}
+.item1_sm24687940 {
+  background-color: #FFB2C5;
+  width: 20.29%;
+}
+.item2_sm24687940 {
+  background-color: #B9DD64;
+  width: 28.72%;
+}
+.item3_sm24687940 {
+  background-color: #AAC2FF;
+  width: 11.56%;
+}
+.item0_sm17251540 {
+  background-color: #FFFC7F;
+  width: 73.29%;
+}
+.item1_sm17251540 {
+  background-color: #FFB2C5;
+  width: 5.82%;
+}
+.item2_sm17251540 {
+  background-color: #B9DD64;
+  width: 15.90%;
+}
+.item3_sm17251540 {
+  background-color: #AAC2FF;
+  width: 4.99%;
+}
+.item0_sm24561080 {
+  background-color: #FFFC7F;
+  width: 71.21%;
+}
+.item1_sm24561080 {
+  background-color: #FFB2C5;
+  width: 8.39%;
+}
+.item2_sm24561080 {
+  background-color: #B9DD64;
+  width: 14.30%;
+}
+.item3_sm24561080 {
+  background-color: #AAC2FF;
+  width: 6.10%;
+}
+.item0_sm16309860 {
+  background-color: #FFFC7F;
+  width: 51.09%;
+}
+.item1_sm16309860 {
+  background-color: #FFB2C5;
+  width: 12.41%;
+}
+.item2_sm16309860 {
+  background-color: #B9DD64;
+  width: 23.74%;
+}
+.item3_sm16309860 {
+  background-color: #AAC2FF;
+  width: 12.76%;
+}
+.item0_sm30832481 {
+  background-color: #FFFC7F;
+  width: 43.42%;
+}
+.item1_sm30832481 {
+  background-color: #FFB2C5;
+  width: 17.90%;
+}
+.item2_sm30832481 {
+  background-color: #B9DD64;
+  width: 29.21%;
+}
+.item3_sm30832481 {
+  background-color: #AAC2FF;
+  width: 9.47%;
+}
+.item0_sm26571360 {
+  background-color: #FFFC7F;
+  width: 64.70%;
+}
+.item1_sm26571360 {
+  background-color: #FFB2C5;
+  width: 13.57%;
+}
+.item2_sm26571360 {
+  background-color: #B9DD64;
+  width: 14.62%;
+}
+.item3_sm26571360 {
+  background-color: #AAC2FF;
+  width: 7.11%;
+}
+.item0_sm10245200 {
+  background-color: #FFFC7F;
+  width: 53.54%;
+}
+.item1_sm10245200 {
+  background-color: #FFB2C5;
+  width: 13.38%;
+}
+.item2_sm10245200 {
+  background-color: #B9DD64;
+  width: 21.04%;
+}
+.item3_sm10245200 {
+  background-color: #AAC2FF;
+  width: 12.04%;
+}
+.item0_sm28019550 {
+  background-color: #FFFC7F;
+  width: 42.50%;
+}
+.item1_sm28019550 {
+  background-color: #FFB2C5;
+  width: 25.36%;
+}
+.item2_sm28019550 {
+  background-color: #B9DD64;
+  width: 22.43%;
+}
+.item3_sm28019550 {
+  background-color: #AAC2FF;
+  width: 9.71%;
+}
+.item0_sm26848010 {
+  background-color: #FFFC7F;
+  width: 61.43%;
+}
+.item1_sm26848010 {
+  background-color: #FFB2C5;
+  width: 6.59%;
+}
+.item2_sm26848010 {
+  background-color: #B9DD64;
+  width: 14.90%;
+}
+.item3_sm26848010 {
+  background-color: #AAC2FF;
+  width: 17.08%;
+}
+.item0_sm19150230 {
+  background-color: #FFFC7F;
+  width: 36.92%;
+}
+.item1_sm19150230 {
+  background-color: #FFB2C5;
+  width: 22.67%;
+}
+.item2_sm19150230 {
+  background-color: #B9DD64;
+  width: 13.98%;
+}
+.item3_sm19150230 {
+  background-color: #AAC2FF;
+  width: 26.43%;
+}
+.item0_sm8436970 {
+  background-color: #FFFC7F;
+  width: 71.90%;
+}
+.item1_sm8436970 {
+  background-color: #FFB2C5;
+  width: 5.14%;
+}
+.item2_sm8436970 {
+  background-color: #B9DD64;
+  width: 15.64%;
+}
+.item3_sm8436970 {
+  background-color: #AAC2FF;
+  width: 7.32%;
+}
+.item0_sm10601340 {
+  background-color: #FFFC7F;
+  width: 36.30%;
+}
+.item1_sm10601340 {
+  background-color: #FFB2C5;
+  width: 32.42%;
+}
+.item2_sm10601340 {
+  background-color: #B9DD64;
+  width: 23.13%;
+}
+.item3_sm10601340 {
+  background-color: #AAC2FF;
+  width: 8.16%;
+}
+.item0_sm1098317 {
+  background-color: #FFFC7F;
+  width: 77.79%;
+}
+.item1_sm1098317 {
+  background-color: #FFB2C5;
+  width: 6.02%;
+}
+.item2_sm1098317 {
+  background-color: #B9DD64;
+  width: 11.58%;
+}
+.item3_sm1098317 {
+  background-color: #AAC2FF;
+  width: 4.61%;
+}
+.item0_sm26937870 {
+  background-color: #FFFC7F;
+  width: 56.16%;
+}
+.item1_sm26937870 {
+  background-color: #FFB2C5;
+  width: 18.72%;
+}
+.item2_sm26937870 {
+  background-color: #B9DD64;
+  width: 19.93%;
+}
+.item3_sm26937870 {
+  background-color: #AAC2FF;
+  width: 5.18%;
+}
+.item0_sm14146540 {
+  background-color: #FFFC7F;
+  width: 76.70%;
+}
+.item1_sm14146540 {
+  background-color: #FFB2C5;
+  width: 5.87%;
+}
+.item2_sm14146540 {
+  background-color: #B9DD64;
+  width: 12.74%;
+}
+.item3_sm14146540 {
+  background-color: #AAC2FF;
+  width: 4.69%;
+}
+.item0_sm6983220 {
+  background-color: #FFFC7F;
+  width: 75.27%;
+}
+.item1_sm6983220 {
+  background-color: #FFB2C5;
+  width: 6.79%;
+}
+.item2_sm6983220 {
+  background-color: #B9DD64;
+  width: 12.39%;
+}
+.item3_sm6983220 {
+  background-color: #AAC2FF;
+  width: 5.55%;
+}
+.item0_sm28754930 {
+  background-color: #FFFC7F;
+  width: 42.22%;
+}
+.item1_sm28754930 {
+  background-color: #FFB2C5;
+  width: 23.58%;
+}
+.item2_sm28754930 {
+  background-color: #B9DD64;
+  width: 17.41%;
+}
+.item3_sm28754930 {
+  background-color: #AAC2FF;
+  width: 16.79%;
+}
+.item0_sm4767230 {
+  background-color: #FFFC7F;
+  width: 84.27%;
+}
+.item1_sm4767230 {
+  background-color: #FFB2C5;
+  width: 3.19%;
+}
+.item2_sm4767230 {
+  background-color: #B9DD64;
+  width: 7.15%;
+}
+.item3_sm4767230 {
+  background-color: #AAC2FF;
+  width: 5.39%;
+}
+.item0_sm25523500 {
+  background-color: #FFFC7F;
+  width: 67.19%;
+}
+.item1_sm25523500 {
+  background-color: #FFB2C5;
+  width: 13.72%;
+}
+.item2_sm25523500 {
+  background-color: #B9DD64;
+  width: 12.69%;
+}
+.item3_sm25523500 {
+  background-color: #AAC2FF;
+  width: 6.40%;
+}
+.item0_sm23171530 {
+  background-color: #FFFC7F;
+  width: 29.36%;
+}
+.item1_sm23171530 {
+  background-color: #FFB2C5;
+  width: 35.50%;
+}
+.item2_sm23171530 {
+  background-color: #B9DD64;
+  width: 29.19%;
+}
+.item3_sm23171530 {
+  background-color: #AAC2FF;
+  width: 5.95%;
+}
+.item0_sm20065790 {
+  background-color: #FFFC7F;
+  width: 48.75%;
+}
+.item1_sm20065790 {
+  background-color: #FFB2C5;
+  width: 19.91%;
+}
+.item2_sm20065790 {
+  background-color: #B9DD64;
+  width: 23.76%;
+}
+.item3_sm20065790 {
+  background-color: #AAC2FF;
+  width: 7.58%;
+}
+.item0_sm21440020 {
+  background-color: #FFFC7F;
+  width: 41.65%;
+}
+.item1_sm21440020 {
+  background-color: #FFB2C5;
+  width: 13.15%;
+}
+.item2_sm21440020 {
+  background-color: #B9DD64;
+  width: 32.83%;
+}
+.item3_sm21440020 {
+  background-color: #AAC2FF;
+  width: 12.37%;
+}
+.item0_sm13171730 {
+  background-color: #FFFC7F;
+  width: 86.53%;
+}
+.item1_sm13171730 {
+  background-color: #FFB2C5;
+  width: 4.83%;
+}
+.item2_sm13171730 {
+  background-color: #B9DD64;
+  width: 6.08%;
+}
+.item3_sm13171730 {
+  background-color: #AAC2FF;
+  width: 2.56%;
+}
+.item0_sm13914810 {
+  background-color: #FFFC7F;
+  width: 50.85%;
+}
+.item1_sm13914810 {
+  background-color: #FFB2C5;
+  width: 14.92%;
+}
+.item2_sm13914810 {
+  background-color: #B9DD64;
+  width: 22.43%;
+}
+.item3_sm13914810 {
+  background-color: #AAC2FF;
+  width: 11.80%;
+}
+.item0_sm30693030 {
+  background-color: #FFFC7F;
+  width: 58.53%;
+}
+.item1_sm30693030 {
+  background-color: #FFB2C5;
+  width: 19.51%;
+}
+.item2_sm30693030 {
+  background-color: #B9DD64;
+  width: 14.07%;
+}
+.item3_sm30693030 {
+  background-color: #AAC2FF;
+  width: 7.89%;
+}
+.item0_sm15108950 {
+  background-color: #FFFC7F;
+  width: 25.11%;
+}
+.item1_sm15108950 {
+  background-color: #FFB2C5;
+  width: 53.70%;
+}
+.item2_sm15108950 {
+  background-color: #B9DD64;
+  width: 17.97%;
+}
+.item3_sm15108950 {
+  background-color: #AAC2FF;
+  width: 3.22%;
+}
+.item0_sm30273006 {
+  background-color: #FFFC7F;
+  width: 38.37%;
+}
+.item1_sm30273006 {
+  background-color: #FFB2C5;
+  width: 15.05%;
+}
+.item2_sm30273006 {
+  background-color: #B9DD64;
+  width: 30.47%;
+}
+.item3_sm30273006 {
+  background-color: #AAC2FF;
+  width: 16.11%;
+}
+.item0_sm22356220 {
+  background-color: #FFFC7F;
+  width: 68.73%;
+}
+.item1_sm22356220 {
+  background-color: #FFB2C5;
+  width: 7.00%;
+}
+.item2_sm22356220 {
+  background-color: #B9DD64;
+  width: 17.05%;
+}
+.item3_sm22356220 {
+  background-color: #AAC2FF;
+  width: 7.22%;
+}
+.item0_sm6945510 {
+  background-color: #FFFC7F;
+  width: 86.44%;
+}
+.item1_sm6945510 {
+  background-color: #FFB2C5;
+  width: 2.78%;
+}
+.item2_sm6945510 {
+  background-color: #B9DD64;
+  width: 7.06%;
+}
+.item3_sm6945510 {
+  background-color: #AAC2FF;
+  width: 3.73%;
+}
+.item0_sm14171930 {
+  background-color: #FFFC7F;
+  width: 49.39%;
+}
+.item1_sm14171930 {
+  background-color: #FFB2C5;
+  width: 8.91%;
+}
+.item2_sm14171930 {
+  background-color: #B9DD64;
+  width: 37.12%;
+}
+.item3_sm14171930 {
+  background-color: #AAC2FF;
+  width: 4.58%;
+}
+.item0_sm31680050 {
+  background-color: #FFFC7F;
+  width: 31.44%;
+}
+.item1_sm31680050 {
+  background-color: #FFB2C5;
+  width: 28.57%;
+}
+.item2_sm31680050 {
+  background-color: #B9DD64;
+  width: 24.56%;
+}
+.item3_sm31680050 {
+  background-color: #AAC2FF;
+  width: 15.42%;
+}
+.item0_sm26038650 {
+  background-color: #FFFC7F;
+  width: 56.74%;
+}
+.item1_sm26038650 {
+  background-color: #FFB2C5;
+  width: 13.34%;
+}
+.item2_sm26038650 {
+  background-color: #B9DD64;
+  width: 20.61%;
+}
+.item3_sm26038650 {
+  background-color: #AAC2FF;
+  width: 9.31%;
+}
+.item0_sm1412176 {
+  background-color: #FFFC7F;
+  width: 52.79%;
+}
+.item1_sm1412176 {
+  background-color: #FFB2C5;
+  width: 18.51%;
+}
+.item2_sm1412176 {
+  background-color: #B9DD64;
+  width: 18.09%;
+}
+.item3_sm1412176 {
+  background-color: #AAC2FF;
+  width: 10.61%;
+}
+.item0_sm14937150 {
+  background-color: #FFFC7F;
+  width: 67.60%;
+}
+.item1_sm14937150 {
+  background-color: #FFB2C5;
+  width: 7.96%;
+}
+.item2_sm14937150 {
+  background-color: #B9DD64;
+  width: 10.90%;
+}
+.item3_sm14937150 {
+  background-color: #AAC2FF;
+  width: 13.54%;
+}
+.item0_sm14834740 {
+  background-color: #FFFC7F;
+  width: 80.76%;
+}
+.item1_sm14834740 {
+  background-color: #FFB2C5;
+  width: 4.04%;
+}
+.item2_sm14834740 {
+  background-color: #B9DD64;
+  width: 8.10%;
+}
+.item3_sm14834740 {
+  background-color: #AAC2FF;
+  width: 7.10%;
+}
+.item0_sm6792327 {
+  background-color: #FFFC7F;
+  width: 49.58%;
+}
+.item1_sm6792327 {
+  background-color: #FFB2C5;
+  width: 20.94%;
+}
+.item2_sm6792327 {
+  background-color: #B9DD64;
+  width: 22.69%;
+}
+.item3_sm6792327 {
+  background-color: #AAC2FF;
+  width: 6.80%;
+}
+.item0_sm15016420 {
+  background-color: #FFFC7F;
+  width: 24.73%;
+}
+.item1_sm15016420 {
+  background-color: #FFB2C5;
+  width: 53.15%;
+}
+.item2_sm15016420 {
+  background-color: #B9DD64;
+  width: 16.04%;
+}
+.item3_sm15016420 {
+  background-color: #AAC2FF;
+  width: 6.08%;
+}
+.item0_sm19939450 {
+  background-color: #FFFC7F;
+  width: 38.56%;
+}
+.item1_sm19939450 {
+  background-color: #FFB2C5;
+  width: 26.34%;
+}
+.item2_sm19939450 {
+  background-color: #B9DD64;
+  width: 23.61%;
+}
+.item3_sm19939450 {
+  background-color: #AAC2FF;
+  width: 11.48%;
+}
+.item0_sm972890 {
+  background-color: #FFFC7F;
+  width: 39.87%;
+}
+.item1_sm972890 {
+  background-color: #FFB2C5;
+  width: 21.22%;
+}
+.item2_sm972890 {
+  background-color: #B9DD64;
+  width: 22.82%;
+}
+.item3_sm972890 {
+  background-color: #AAC2FF;
+  width: 16.09%;
+}
+.item0_sm26831760 {
+  background-color: #FFFC7F;
+  width: 56.58%;
+}
+.item1_sm26831760 {
+  background-color: #FFB2C5;
+  width: 7.47%;
+}
+.item2_sm26831760 {
+  background-color: #B9DD64;
+  width: 21.46%;
+}
+.item3_sm26831760 {
+  background-color: #AAC2FF;
+  width: 14.49%;
+}
+.item0_sm19577010 {
+  background-color: #FFFC7F;
+  width: 30.32%;
+}
+.item1_sm19577010 {
+  background-color: #FFB2C5;
+  width: 33.14%;
+}
+.item2_sm19577010 {
+  background-color: #B9DD64;
+  width: 30.94%;
+}
+.item3_sm19577010 {
+  background-color: #AAC2FF;
+  width: 5.60%;
+}
+.item0_sm25862600 {
+  background-color: #FFFC7F;
+  width: 52.76%;
+}
+.item1_sm25862600 {
+  background-color: #FFB2C5;
+  width: 22.46%;
+}
+.item2_sm25862600 {
+  background-color: #B9DD64;
+  width: 15.65%;
+}
+.item3_sm25862600 {
+  background-color: #AAC2FF;
+  width: 9.13%;
+}
+.item0_sm29327840 {
+  background-color: #FFFC7F;
+  width: 57.76%;
+}
+.item1_sm29327840 {
+  background-color: #FFB2C5;
+  width: 18.82%;
+}
+.item2_sm29327840 {
+  background-color: #B9DD64;
+  width: 16.70%;
+}
+.item3_sm29327840 {
+  background-color: #AAC2FF;
+  width: 6.72%;
+}
+.item0_sm20895800 {
+  background-color: #FFFC7F;
+  width: 66.93%;
+}
+.item1_sm20895800 {
+  background-color: #FFB2C5;
+  width: 8.83%;
+}
+.item2_sm20895800 {
+  background-color: #B9DD64;
+  width: 17.21%;
+}
+.item3_sm20895800 {
+  background-color: #AAC2FF;
+  width: 7.03%;
+}
+.item0_sm20671920 {
+  background-color: #FFFC7F;
+  width: 29.17%;
+}
+.item1_sm20671920 {
+  background-color: #FFB2C5;
+  width: 39.88%;
+}
+.item2_sm20671920 {
+  background-color: #B9DD64;
+  width: 18.57%;
+}
+.item3_sm20671920 {
+  background-color: #AAC2FF;
+  width: 12.39%;
+}
+.item0_sm15971140 {
+  background-color: #FFFC7F;
+  width: 31.87%;
+}
+.item1_sm15971140 {
+  background-color: #FFB2C5;
+  width: 33.40%;
+}
+.item2_sm15971140 {
+  background-color: #B9DD64;
+  width: 30.27%;
+}
+.item3_sm15971140 {
+  background-color: #AAC2FF;
+  width: 4.46%;
+}
+.item0_sm11264170 {
+  background-color: #FFFC7F;
+  width: 31.92%;
+}
+.item1_sm11264170 {
+  background-color: #FFB2C5;
+  width: 34.33%;
+}
+.item2_sm11264170 {
+  background-color: #B9DD64;
+  width: 28.81%;
+}
+.item3_sm11264170 {
+  background-color: #AAC2FF;
+  width: 4.95%;
+}
+.item0_sm9874560 {
+  background-color: #FFFC7F;
+  width: 31.34%;
+}
+.item1_sm9874560 {
+  background-color: #FFB2C5;
+  width: 39.55%;
+}
+.item2_sm9874560 {
+  background-color: #B9DD64;
+  width: 21.38%;
+}
+.item3_sm9874560 {
+  background-color: #AAC2FF;
+  width: 7.73%;
+}
+.item0_sm15887500 {
+  background-color: #FFFC7F;
+  width: 57.25%;
+}
+.item1_sm15887500 {
+  background-color: #FFB2C5;
+  width: 13.97%;
+}
+.item2_sm15887500 {
+  background-color: #B9DD64;
+  width: 18.67%;
+}
+.item3_sm15887500 {
+  background-color: #AAC2FF;
+  width: 10.10%;
+}
+.item0_sm14870600 {
+  background-color: #FFFC7F;
+  width: 75.43%;
+}
+.item1_sm14870600 {
+  background-color: #FFB2C5;
+  width: 12.74%;
+}
+.item2_sm14870600 {
+  background-color: #B9DD64;
+  width: 9.09%;
+}
+.item3_sm14870600 {
+  background-color: #AAC2FF;
+  width: 2.74%;
+}
+.item0_sm27762357 {
+  background-color: #FFFC7F;
+  width: 43.87%;
+}
+.item1_sm27762357 {
+  background-color: #FFB2C5;
+  width: 29.36%;
+}
+.item2_sm27762357 {
+  background-color: #B9DD64;
+  width: 17.37%;
+}
+.item3_sm27762357 {
+  background-color: #AAC2FF;
+  width: 9.41%;
+}
+.item0_sm33260180 {
+  background-color: #FFFC7F;
+  width: 29.57%;
+}
+.item1_sm33260180 {
+  background-color: #FFB2C5;
+  width: 33.66%;
+}
+.item2_sm33260180 {
+  background-color: #B9DD64;
+  width: 23.06%;
+}
+.item3_sm33260180 {
+  background-color: #AAC2FF;
+  width: 13.70%;
+}
+.item0_sm7766320 {
+  background-color: #FFFC7F;
+  width: 70.05%;
+}
+.item1_sm7766320 {
+  background-color: #FFB2C5;
+  width: 5.37%;
+}
+.item2_sm7766320 {
+  background-color: #B9DD64;
+  width: 16.95%;
+}
+.item3_sm7766320 {
+  background-color: #AAC2FF;
+  width: 7.63%;
+}
+.item0_sm26144120 {
+  background-color: #FFFC7F;
+  width: 58.13%;
+}
+.item1_sm26144120 {
+  background-color: #FFB2C5;
+  width: 12.98%;
+}
+.item2_sm26144120 {
+  background-color: #B9DD64;
+  width: 22.92%;
+}
+.item3_sm26144120 {
+  background-color: #AAC2FF;
+  width: 5.97%;
+}
+.item0_sm21155770 {
+  background-color: #FFFC7F;
+  width: 70.25%;
+}
+.item1_sm21155770 {
+  background-color: #FFB2C5;
+  width: 6.46%;
+}
+.item2_sm21155770 {
+  background-color: #B9DD64;
+  width: 17.41%;
+}
+.item3_sm21155770 {
+  background-color: #AAC2FF;
+  width: 5.88%;
+}
+.item0_sm23983010 {
+  background-color: #FFFC7F;
+  width: 75.07%;
+}
+.item1_sm23983010 {
+  background-color: #FFB2C5;
+  width: 10.28%;
+}
+.item2_sm23983010 {
+  background-color: #B9DD64;
+  width: 11.13%;
+}
+.item3_sm23983010 {
+  background-color: #AAC2FF;
+  width: 3.52%;
+}
+.item0_sm11356560 {
+  background-color: #FFFC7F;
+  width: 82.99%;
+}
+.item1_sm11356560 {
+  background-color: #FFB2C5;
+  width: 6.37%;
+}
+.item2_sm11356560 {
+  background-color: #B9DD64;
+  width: 8.38%;
+}
+.item3_sm11356560 {
+  background-color: #AAC2FF;
+  width: 2.26%;
+}
+.item0_sm24508041 {
+  background-color: #FFFC7F;
+  width: 44.27%;
+}
+.item1_sm24508041 {
+  background-color: #FFB2C5;
+  width: 39.23%;
+}
+.item2_sm24508041 {
+  background-color: #B9DD64;
+  width: 13.99%;
+}
+.item3_sm24508041 {
+  background-color: #AAC2FF;
+  width: 2.52%;
+}
+.item0_sm4762038 {
+  background-color: #FFFC7F;
+  width: 39.36%;
+}
+.item1_sm4762038 {
+  background-color: #FFB2C5;
+  width: 37.10%;
+}
+.item2_sm4762038 {
+  background-color: #B9DD64;
+  width: 16.20%;
+}
+.item3_sm4762038 {
+  background-color: #AAC2FF;
+  width: 7.34%;
+}
+.item0_sm12600360 {
+  background-color: #FFFC7F;
+  width: 71.20%;
+}
+.item1_sm12600360 {
+  background-color: #FFB2C5;
+  width: 9.01%;
+}
+.item2_sm12600360 {
+  background-color: #B9DD64;
+  width: 14.08%;
+}
+.item3_sm12600360 {
+  background-color: #AAC2FF;
+  width: 5.71%;
+}
+.item0_sm2086160 {
+  background-color: #FFFC7F;
+  width: 76.85%;
+}
+.item1_sm2086160 {
+  background-color: #FFB2C5;
+  width: 7.95%;
+}
+.item2_sm2086160 {
+  background-color: #B9DD64;
+  width: 9.03%;
+}
+.item3_sm2086160 {
+  background-color: #AAC2FF;
+  width: 6.16%;
+}
+.item0_sm6348750 {
+  background-color: #FFFC7F;
+  width: 74.04%;
+}
+.item1_sm6348750 {
+  background-color: #FFB2C5;
+  width: 10.02%;
+}
+.item2_sm6348750 {
+  background-color: #B9DD64;
+  width: 11.92%;
+}
+.item3_sm6348750 {
+  background-color: #AAC2FF;
+  width: 4.02%;
+}
+.item0_sm24373950 {
+  background-color: #FFFC7F;
+  width: 71.97%;
+}
+.item1_sm24373950 {
+  background-color: #FFB2C5;
+  width: 11.19%;
+}
+.item2_sm24373950 {
+  background-color: #B9DD64;
+  width: 12.77%;
+}
+.item3_sm24373950 {
+  background-color: #AAC2FF;
+  width: 4.07%;
+}
+.item0_sm9553189 {
+  background-color: #FFFC7F;
+  width: 49.97%;
+}
+.item1_sm9553189 {
+  background-color: #FFB2C5;
+  width: 8.96%;
+}
+.item2_sm9553189 {
+  background-color: #B9DD64;
+  width: 28.48%;
+}
+.item3_sm9553189 {
+  background-color: #AAC2FF;
+  width: 12.59%;
+}
+.item0_sm16881350 {
+  background-color: #FFFC7F;
+  width: 38.03%;
+}
+.item1_sm16881350 {
+  background-color: #FFB2C5;
+  width: 13.99%;
+}
+.item2_sm16881350 {
+  background-color: #B9DD64;
+  width: 37.87%;
+}
+.item3_sm16881350 {
+  background-color: #AAC2FF;
+  width: 10.10%;
+}
+.item0_sm20803930 {
+  background-color: #FFFC7F;
+  width: 42.91%;
+}
+.item1_sm20803930 {
+  background-color: #FFB2C5;
+  width: 13.15%;
+}
+.item2_sm20803930 {
+  background-color: #B9DD64;
+  width: 27.82%;
+}
+.item3_sm20803930 {
+  background-color: #AAC2FF;
+  width: 16.12%;
+}
+.item0_sm20889720 {
+  background-color: #FFFC7F;
+  width: 62.53%;
+}
+.item1_sm20889720 {
+  background-color: #FFB2C5;
+  width: 8.88%;
+}
+.item2_sm20889720 {
+  background-color: #B9DD64;
+  width: 22.58%;
+}
+.item3_sm20889720 {
+  background-color: #AAC2FF;
+  width: 6.01%;
+}
+.item0_sm21348590 {
+  background-color: #FFFC7F;
+  width: 37.98%;
+}
+.item1_sm21348590 {
+  background-color: #FFB2C5;
+  width: 21.16%;
+}
+.item2_sm21348590 {
+  background-color: #B9DD64;
+  width: 30.50%;
+}
+.item3_sm21348590 {
+  background-color: #AAC2FF;
+  width: 10.37%;
+}
+.item0_sm29178450 {
+  background-color: #FFFC7F;
+  width: 41.02%;
+}
+.item1_sm29178450 {
+  background-color: #FFB2C5;
+  width: 21.99%;
+}
+.item2_sm29178450 {
+  background-color: #B9DD64;
+  width: 23.82%;
+}
+.item3_sm29178450 {
+  background-color: #AAC2FF;
+  width: 13.17%;
+}
+.item0_sm13985710 {
+  background-color: #FFFC7F;
+  width: 76.02%;
+}
+.item1_sm13985710 {
+  background-color: #FFB2C5;
+  width: 8.33%;
+}
+.item2_sm13985710 {
+  background-color: #B9DD64;
+  width: 9.83%;
+}
+.item3_sm13985710 {
+  background-color: #AAC2FF;
+  width: 5.81%;
+}
+.item0_sm23756820 {
+  background-color: #FFFC7F;
+  width: 63.76%;
+}
+.item1_sm23756820 {
+  background-color: #FFB2C5;
+  width: 11.02%;
+}
+.item2_sm23756820 {
+  background-color: #B9DD64;
+  width: 19.37%;
+}
+.item3_sm23756820 {
+  background-color: #AAC2FF;
+  width: 5.86%;
+}
+.item0_sm36533084 {
+  background-color: #FFFC7F;
+  width: 48.71%;
+}
+.item1_sm36533084 {
+  background-color: #FFB2C5;
+  width: 26.78%;
+}
+.item2_sm36533084 {
+  background-color: #B9DD64;
+  width: 14.76%;
+}
+.item3_sm36533084 {
+  background-color: #AAC2FF;
+  width: 9.75%;
+}
+.item0_sm15356310 {
+  background-color: #FFFC7F;
+  width: 83.57%;
+}
+.item1_sm15356310 {
+  background-color: #FFB2C5;
+  width: 4.76%;
+}
+.item2_sm15356310 {
+  background-color: #B9DD64;
+  width: 8.25%;
+}
+.item3_sm15356310 {
+  background-color: #AAC2FF;
+  width: 3.43%;
+}
+.item0_sm27721038 {
+  background-color: #FFFC7F;
+  width: 63.07%;
+}
+.item1_sm27721038 {
+  background-color: #FFB2C5;
+  width: 7.46%;
+}
+.item2_sm27721038 {
+  background-color: #B9DD64;
+  width: 20.25%;
+}
+.item3_sm27721038 {
+  background-color: #AAC2FF;
+  width: 9.21%;
+}
+.item0_sm1040090 {
+  background-color: #FFFC7F;
+  width: 33.99%;
+}
+.item1_sm1040090 {
+  background-color: #FFB2C5;
+  width: 30.18%;
+}
+.item2_sm1040090 {
+  background-color: #B9DD64;
+  width: 24.62%;
+}
+.item3_sm1040090 {
+  background-color: #AAC2FF;
+  width: 11.22%;
+}
+.item0_sm24797620 {
+  background-color: #FFFC7F;
+  width: 71.84%;
+}
+.item1_sm24797620 {
+  background-color: #FFB2C5;
+  width: 8.85%;
+}
+.item2_sm24797620 {
+  background-color: #B9DD64;
+  width: 13.68%;
+}
+.item3_sm24797620 {
+  background-color: #AAC2FF;
+  width: 5.63%;
+}
+.item0_sm27957580 {
+  background-color: #FFFC7F;
+  width: 51.85%;
+}
+.item1_sm27957580 {
+  background-color: #FFB2C5;
+  width: 10.84%;
+}
+.item2_sm27957580 {
+  background-color: #B9DD64;
+  width: 27.00%;
+}
+.item3_sm27957580 {
+  background-color: #AAC2FF;
+  width: 10.31%;
+}
+.item0_sm18257340 {
+  background-color: #FFFC7F;
+  width: 39.56%;
+}
+.item1_sm18257340 {
+  background-color: #FFB2C5;
+  width: 30.79%;
+}
+.item2_sm18257340 {
+  background-color: #B9DD64;
+  width: 23.92%;
+}
+.item3_sm18257340 {
+  background-color: #AAC2FF;
+  width: 5.73%;
+}
+.item0_sm39379690 {
+  background-color: #FFFC7F;
+  width: 41.49%;
+}
+.item1_sm39379690 {
+  background-color: #FFB2C5;
+  width: 11.04%;
+}
+.item2_sm39379690 {
+  background-color: #B9DD64;
+  width: 36.05%;
+}
+.item3_sm39379690 {
+  background-color: #AAC2FF;
+  width: 11.43%;
+}
+.item0_sm16814250 {
+  background-color: #FFFC7F;
+  width: 38.86%;
+}
+.item1_sm16814250 {
+  background-color: #FFB2C5;
+  width: 38.19%;
+}
+.item2_sm16814250 {
+  background-color: #B9DD64;
+  width: 18.69%;
+}
+.item3_sm16814250 {
+  background-color: #AAC2FF;
+  width: 4.25%;
+}
+.item0_sm11794550 {
+  background-color: #FFFC7F;
+  width: 61.59%;
+}
+.item1_sm11794550 {
+  background-color: #FFB2C5;
+  width: 10.31%;
+}
+.item2_sm11794550 {
+  background-color: #B9DD64;
+  width: 23.59%;
+}
+.item3_sm11794550 {
+  background-color: #AAC2FF;
+  width: 4.51%;
+}
+.item0_sm28306630 {
+  background-color: #FFFC7F;
+  width: 66.44%;
+}
+.item1_sm28306630 {
+  background-color: #FFB2C5;
+  width: 8.89%;
+}
+.item2_sm28306630 {
+  background-color: #B9DD64;
+  width: 18.30%;
+}
+.item3_sm28306630 {
+  background-color: #AAC2FF;
+  width: 6.37%;
+}
+.item0_sm13170620 {
+  background-color: #FFFC7F;
+  width: 78.94%;
+}
+.item1_sm13170620 {
+  background-color: #FFB2C5;
+  width: 8.32%;
+}
+.item2_sm13170620 {
+  background-color: #B9DD64;
+  width: 7.66%;
+}
+.item3_sm13170620 {
+  background-color: #AAC2FF;
+  width: 5.09%;
+}
+.item0_sm27338360 {
+  background-color: #FFFC7F;
+  width: 47.90%;
+}
+.item1_sm27338360 {
+  background-color: #FFB2C5;
+  width: 18.80%;
+}
+.item2_sm27338360 {
+  background-color: #B9DD64;
+  width: 22.87%;
+}
+.item3_sm27338360 {
+  background-color: #AAC2FF;
+  width: 10.43%;
+}
+.item0_sm18396080 {
+  background-color: #FFFC7F;
+  width: 75.87%;
+}
+.item1_sm18396080 {
+  background-color: #FFB2C5;
+  width: 8.61%;
+}
+.item2_sm18396080 {
+  background-color: #B9DD64;
+  width: 11.87%;
+}
+.item3_sm18396080 {
+  background-color: #AAC2FF;
+  width: 3.65%;
+}
+.item0_sm26231640 {
+  background-color: #FFFC7F;
+  width: 60.03%;
+}
+.item1_sm26231640 {
+  background-color: #FFB2C5;
+  width: 15.66%;
+}
+.item2_sm26231640 {
+  background-color: #B9DD64;
+  width: 16.59%;
+}
+.item3_sm26231640 {
+  background-color: #AAC2FF;
+  width: 7.73%;
+}
+.item0_nm7103480 {
+  background-color: #FFFC7F;
+  width: 57.84%;
+}
+.item1_nm7103480 {
+  background-color: #FFB2C5;
+  width: 12.24%;
+}
+.item2_nm7103480 {
+  background-color: #B9DD64;
+  width: 15.39%;
+}
+.item3_nm7103480 {
+  background-color: #AAC2FF;
+  width: 14.53%;
+}
+.item0_sm14666310 {
+  background-color: #FFFC7F;
+  width: 80.43%;
+}
+.item1_sm14666310 {
+  background-color: #FFB2C5;
+  width: 4.42%;
+}
+.item2_sm14666310 {
+  background-color: #B9DD64;
+  width: 11.29%;
+}
+.item3_sm14666310 {
+  background-color: #AAC2FF;
+  width: 3.86%;
+}
+.item0_sm17461850 {
+  background-color: #FFFC7F;
+  width: 71.90%;
+}
+.item1_sm17461850 {
+  background-color: #FFB2C5;
+  width: 7.20%;
+}
+.item2_sm17461850 {
+  background-color: #B9DD64;
+  width: 14.24%;
+}
+.item3_sm17461850 {
+  background-color: #AAC2FF;
+  width: 6.66%;
+}
+.item0_sm10842800 {
+  background-color: #FFFC7F;
+  width: 49.14%;
+}
+.item1_sm10842800 {
+  background-color: #FFB2C5;
+  width: 26.52%;
+}
+.item2_sm10842800 {
+  background-color: #B9DD64;
+  width: 20.29%;
+}
+.item3_sm10842800 {
+  background-color: #AAC2FF;
+  width: 4.04%;
+}
+.item0_sm27213490 {
+  background-color: #FFFC7F;
+  width: 72.39%;
+}
+.item1_sm27213490 {
+  background-color: #FFB2C5;
+  width: 9.13%;
+}
+.item2_sm27213490 {
+  background-color: #B9DD64;
+  width: 12.84%;
+}
+.item3_sm27213490 {
+  background-color: #AAC2FF;
+  width: 5.63%;
+}
+.item0_sm5285040 {
+  background-color: #FFFC7F;
+  width: 46.49%;
+}
+.item1_sm5285040 {
+  background-color: #FFB2C5;
+  width: 25.86%;
+}
+.item2_sm5285040 {
+  background-color: #B9DD64;
+  width: 18.61%;
+}
+.item3_sm5285040 {
+  background-color: #AAC2FF;
+  width: 9.04%;
+}
+.item0_sm30023930 {
+  background-color: #FFFC7F;
+  width: 60.88%;
+}
+.item1_sm30023930 {
+  background-color: #FFB2C5;
+  width: 9.51%;
+}
+.item2_sm30023930 {
+  background-color: #B9DD64;
+  width: 23.00%;
+}
+.item3_sm30023930 {
+  background-color: #AAC2FF;
+  width: 6.62%;
+}
+.item0_sm14264720 {
+  background-color: #FFFC7F;
+  width: 37.67%;
+}
+.item1_sm14264720 {
+  background-color: #FFB2C5;
+  width: 27.28%;
+}
+.item2_sm14264720 {
+  background-color: #B9DD64;
+  width: 23.39%;
+}
+.item3_sm14264720 {
+  background-color: #AAC2FF;
+  width: 11.66%;
+}
+.item0_sm27793790 {
+  background-color: #FFFC7F;
+  width: 51.13%;
+}
+.item1_sm27793790 {
+  background-color: #FFB2C5;
+  width: 18.91%;
+}
+.item2_sm27793790 {
+  background-color: #B9DD64;
+  width: 19.30%;
+}
+.item3_sm27793790 {
+  background-color: #AAC2FF;
+  width: 10.66%;
+}
+.item0_sm2193920 {
+  background-color: #FFFC7F;
+  width: 78.62%;
+}
+.item1_sm2193920 {
+  background-color: #FFB2C5;
+  width: 5.04%;
+}
+.item2_sm2193920 {
+  background-color: #B9DD64;
+  width: 12.31%;
+}
+.item3_sm2193920 {
+  background-color: #AAC2FF;
+  width: 4.02%;
+}
+.item0_sm14703600 {
+  background-color: #FFFC7F;
+  width: 35.43%;
+}
+.item1_sm14703600 {
+  background-color: #FFB2C5;
+  width: 38.71%;
+}
+.item2_sm14703600 {
+  background-color: #B9DD64;
+  width: 15.66%;
+}
+.item3_sm14703600 {
+  background-color: #AAC2FF;
+  width: 10.20%;
+}
+.item0_sm27485100 {
+  background-color: #FFFC7F;
+  width: 21.37%;
+}
+.item1_sm27485100 {
+  background-color: #FFB2C5;
+  width: 41.71%;
+}
+.item2_sm27485100 {
+  background-color: #B9DD64;
+  width: 26.50%;
+}
+.item3_sm27485100 {
+  background-color: #AAC2FF;
+  width: 10.43%;
+}
+.item0_sm24644910 {
+  background-color: #FFFC7F;
+  width: 41.31%;
+}
+.item1_sm24644910 {
+  background-color: #FFB2C5;
+  width: 18.57%;
+}
+.item2_sm24644910 {
+  background-color: #B9DD64;
+  width: 27.30%;
+}
+.item3_sm24644910 {
+  background-color: #AAC2FF;
+  width: 12.82%;
+}
+.item0_sm2427600 {
+  background-color: #FFFC7F;
+  width: 47.56%;
+}
+.item1_sm2427600 {
+  background-color: #FFB2C5;
+  width: 22.97%;
+}
+.item2_sm2427600 {
+  background-color: #B9DD64;
+  width: 23.12%;
+}
+.item3_sm2427600 {
+  background-color: #AAC2FF;
+  width: 6.35%;
+}
+.item0_sm19335770 {
+  background-color: #FFFC7F;
+  width: 36.03%;
+}
+.item1_sm19335770 {
+  background-color: #FFB2C5;
+  width: 32.51%;
+}
+.item2_sm19335770 {
+  background-color: #B9DD64;
+  width: 27.35%;
+}
+.item3_sm19335770 {
+  background-color: #AAC2FF;
+  width: 4.11%;
+}
+.item0_sm27084410 {
+  background-color: #FFFC7F;
+  width: 36.74%;
+}
+.item1_sm27084410 {
+  background-color: #FFB2C5;
+  width: 25.07%;
+}
+.item2_sm27084410 {
+  background-color: #B9DD64;
+  width: 25.51%;
+}
+.item3_sm27084410 {
+  background-color: #AAC2FF;
+  width: 12.67%;
+}
+.item0_sm2027200 {
+  background-color: #FFFC7F;
+  width: 75.31%;
+}
+.item1_sm2027200 {
+  background-color: #FFB2C5;
+  width: 12.72%;
+}
+.item2_sm2027200 {
+  background-color: #B9DD64;
+  width: 8.00%;
+}
+.item3_sm2027200 {
+  background-color: #AAC2FF;
+  width: 3.98%;
+}
+.item0_sm12294250 {
+  background-color: #FFFC7F;
+  width: 49.10%;
+}
+.item1_sm12294250 {
+  background-color: #FFB2C5;
+  width: 8.97%;
+}
+.item2_sm12294250 {
+  background-color: #B9DD64;
+  width: 25.31%;
+}
+.item3_sm12294250 {
+  background-color: #AAC2FF;
+  width: 16.62%;
+}
+.item0_sm28185620 {
+  background-color: #FFFC7F;
+  width: 48.77%;
+}
+.item1_sm28185620 {
+  background-color: #FFB2C5;
+  width: 27.40%;
+}
+.item2_sm28185620 {
+  background-color: #B9DD64;
+  width: 16.97%;
+}
+.item3_sm28185620 {
+  background-color: #AAC2FF;
+  width: 6.86%;
+}
+.item0_sm30722500 {
+  background-color: #FFFC7F;
+  width: 34.04%;
+}
+.item1_sm30722500 {
+  background-color: #FFB2C5;
+  width: 38.83%;
+}
+.item2_sm30722500 {
+  background-color: #B9DD64;
+  width: 22.26%;
+}
+.item3_sm30722500 {
+  background-color: #AAC2FF;
+  width: 4.86%;
+}
+.item0_sm28916290 {
+  background-color: #FFFC7F;
+  width: 63.77%;
+}
+.item1_sm28916290 {
+  background-color: #FFB2C5;
+  width: 8.63%;
+}
+.item2_sm28916290 {
+  background-color: #B9DD64;
+  width: 19.72%;
+}
+.item3_sm28916290 {
+  background-color: #AAC2FF;
+  width: 7.88%;
+}
+.item0_sm22230060 {
+  background-color: #FFFC7F;
+  width: 55.76%;
+}
+.item1_sm22230060 {
+  background-color: #FFB2C5;
+  width: 26.55%;
+}
+.item2_sm22230060 {
+  background-color: #B9DD64;
+  width: 14.16%;
+}
+.item3_sm22230060 {
+  background-color: #AAC2FF;
+  width: 3.53%;
+}
+.item0_sm22122720 {
+  background-color: #FFFC7F;
+  width: 30.79%;
+}
+.item1_sm22122720 {
+  background-color: #FFB2C5;
+  width: 45.75%;
+}
+.item2_sm22122720 {
+  background-color: #B9DD64;
+  width: 16.64%;
+}
+.item3_sm22122720 {
+  background-color: #AAC2FF;
+  width: 6.83%;
+}
+.item0_sm19980280 {
+  background-color: #FFFC7F;
+  width: 38.29%;
+}
+.item1_sm19980280 {
+  background-color: #FFB2C5;
+  width: 15.40%;
+}
+.item2_sm19980280 {
+  background-color: #B9DD64;
+  width: 22.87%;
+}
+.item3_sm19980280 {
+  background-color: #AAC2FF;
+  width: 23.43%;
+}
+.item0_sm6167850 {
+  background-color: #FFFC7F;
+  width: 81.42%;
+}
+.item1_sm6167850 {
+  background-color: #FFB2C5;
+  width: 5.12%;
+}
+.item2_sm6167850 {
+  background-color: #B9DD64;
+  width: 7.01%;
+}
+.item3_sm6167850 {
+  background-color: #AAC2FF;
+  width: 6.45%;
+}
+.item0_sm30273018 {
+  background-color: #FFFC7F;
+  width: 47.75%;
+}
+.item1_sm30273018 {
+  background-color: #FFB2C5;
+  width: 12.79%;
+}
+.item2_sm30273018 {
+  background-color: #B9DD64;
+  width: 29.59%;
+}
+.item3_sm30273018 {
+  background-color: #AAC2FF;
+  width: 9.86%;
+}
+.item0_sm12332377 {
+  background-color: #FFFC7F;
+  width: 54.03%;
+}
+.item1_sm12332377 {
+  background-color: #FFB2C5;
+  width: 14.08%;
+}
+.item2_sm12332377 {
+  background-color: #B9DD64;
+  width: 22.81%;
+}
+.item3_sm12332377 {
+  background-color: #AAC2FF;
+  width: 9.09%;
+}
+.item0_sm13476300 {
+  background-color: #FFFC7F;
+  width: 42.95%;
+}
+.item1_sm13476300 {
+  background-color: #FFB2C5;
+  width: 26.67%;
+}
+.item2_sm13476300 {
+  background-color: #B9DD64;
+  width: 18.99%;
+}
+.item3_sm13476300 {
+  background-color: #AAC2FF;
+  width: 11.39%;
+}
+.item0_sm11509720 {
+  background-color: #FFFC7F;
+  width: 48.47%;
+}
+.item1_sm11509720 {
+  background-color: #FFB2C5;
+  width: 26.89%;
+}
+.item2_sm11509720 {
+  background-color: #B9DD64;
+  width: 17.23%;
+}
+.item3_sm11509720 {
+  background-color: #AAC2FF;
+  width: 7.41%;
+}
+.item0_sm19918800 {
+  background-color: #FFFC7F;
+  width: 58.38%;
+}
+.item1_sm19918800 {
+  background-color: #FFB2C5;
+  width: 26.12%;
+}
+.item2_sm19918800 {
+  background-color: #B9DD64;
+  width: 13.00%;
+}
+.item3_sm19918800 {
+  background-color: #AAC2FF;
+  width: 2.49%;
+}
+.item0_sm28074461 {
+  background-color: #FFFC7F;
+  width: 48.71%;
+}
+.item1_sm28074461 {
+  background-color: #FFB2C5;
+  width: 15.21%;
+}
+.item2_sm28074461 {
+  background-color: #B9DD64;
+  width: 24.25%;
+}
+.item3_sm28074461 {
+  background-color: #AAC2FF;
+  width: 11.83%;
+}
+.item0_sm5505350 {
+  background-color: #FFFC7F;
+  width: 84.27%;
+}
+.item1_sm5505350 {
+  background-color: #FFB2C5;
+  width: 3.77%;
+}
+.item2_sm5505350 {
+  background-color: #B9DD64;
+  width: 7.80%;
+}
+.item3_sm5505350 {
+  background-color: #AAC2FF;
+  width: 4.16%;
+}
+.item0_sm13691461 {
+  background-color: #FFFC7F;
+  width: 43.31%;
+}
+.item1_sm13691461 {
+  background-color: #FFB2C5;
+  width: 24.68%;
+}
+.item2_sm13691461 {
+  background-color: #B9DD64;
+  width: 27.68%;
+}
+.item3_sm13691461 {
+  background-color: #AAC2FF;
+  width: 4.33%;
+}
+.item0_sm12359740 {
+  background-color: #FFFC7F;
+  width: 34.69%;
+}
+.item1_sm12359740 {
+  background-color: #FFB2C5;
+  width: 34.52%;
+}
+.item2_sm12359740 {
+  background-color: #B9DD64;
+  width: 19.84%;
+}
+.item3_sm12359740 {
+  background-color: #AAC2FF;
+  width: 10.95%;
+}
+.item0_sm16203010 {
+  background-color: #FFFC7F;
+  width: 26.29%;
+}
+.item1_sm16203010 {
+  background-color: #FFB2C5;
+  width: 34.93%;
+}
+.item2_sm16203010 {
+  background-color: #B9DD64;
+  width: 25.91%;
+}
+.item3_sm16203010 {
+  background-color: #AAC2FF;
+  width: 12.88%;
+}
+.item0_sm21224047 {
+  background-color: #FFFC7F;
+  width: 34.98%;
+}
+.item1_sm21224047 {
+  background-color: #FFB2C5;
+  width: 20.11%;
+}
+.item2_sm21224047 {
+  background-color: #B9DD64;
+  width: 32.17%;
+}
+.item3_sm21224047 {
+  background-color: #AAC2FF;
+  width: 12.74%;
+}
+.item0_sm15874112 {
+  background-color: #FFFC7F;
+  width: 83.34%;
+}
+.item1_sm15874112 {
+  background-color: #FFB2C5;
+  width: 3.50%;
+}
+.item2_sm15874112 {
+  background-color: #B9DD64;
+  width: 8.72%;
+}
+.item3_sm15874112 {
+  background-color: #AAC2FF;
+  width: 4.43%;
+}
+.item0_sm10879860 {
+  background-color: #FFFC7F;
+  width: 58.63%;
+}
+.item1_sm10879860 {
+  background-color: #FFB2C5;
+  width: 6.89%;
+}
+.item2_sm10879860 {
+  background-color: #B9DD64;
+  width: 25.37%;
+}
+.item3_sm10879860 {
+  background-color: #AAC2FF;
+  width: 9.12%;
+}
+.item0_sm30766050 {
+  background-color: #FFFC7F;
+  width: 56.20%;
+}
+.item1_sm30766050 {
+  background-color: #FFB2C5;
+  width: 15.78%;
+}
+.item2_sm30766050 {
+  background-color: #B9DD64;
+  width: 20.92%;
+}
+.item3_sm30766050 {
+  background-color: #AAC2FF;
+  width: 7.10%;
+}
+.item0_sm31159377 {
+  background-color: #FFFC7F;
+  width: 35.47%;
+}
+.item1_sm31159377 {
+  background-color: #FFB2C5;
+  width: 36.74%;
+}
+.item2_sm31159377 {
+  background-color: #B9DD64;
+  width: 22.76%;
+}
+.item3_sm31159377 {
+  background-color: #AAC2FF;
+  width: 5.02%;
+}
+.item0_sm17615260 {
+  background-color: #FFFC7F;
+  width: 69.15%;
+}
+.item1_sm17615260 {
+  background-color: #FFB2C5;
+  width: 9.08%;
+}
+.item2_sm17615260 {
+  background-color: #B9DD64;
+  width: 15.21%;
+}
+.item3_sm17615260 {
+  background-color: #AAC2FF;
+  width: 6.57%;
+}
+.item0_sm22477690 {
+  background-color: #FFFC7F;
+  width: 66.97%;
+}
+.item1_sm22477690 {
+  background-color: #FFB2C5;
+  width: 12.61%;
+}
+.item2_sm22477690 {
+  background-color: #B9DD64;
+  width: 15.42%;
+}
+.item3_sm22477690 {
+  background-color: #AAC2FF;
+  width: 5.00%;
+}
+.item0_sm11467790 {
+  background-color: #FFFC7F;
+  width: 59.08%;
+}
+.item1_sm11467790 {
+  background-color: #FFB2C5;
+  width: 8.11%;
+}
+.item2_sm11467790 {
+  background-color: #B9DD64;
+  width: 22.99%;
+}
+.item3_sm11467790 {
+  background-color: #AAC2FF;
+  width: 9.82%;
+}
+.item0_nm9262049 {
+  background-color: #FFFC7F;
+  width: 71.83%;
+}
+.item1_nm9262049 {
+  background-color: #FFB2C5;
+  width: 9.00%;
+}
+.item2_nm9262049 {
+  background-color: #B9DD64;
+  width: 13.65%;
+}
+.item3_nm9262049 {
+  background-color: #AAC2FF;
+  width: 5.51%;
+}
+.item0_sm30692720 {
+  background-color: #FFFC7F;
+  width: 44.22%;
+}
+.item1_sm30692720 {
+  background-color: #FFB2C5;
+  width: 30.65%;
+}
+.item2_sm30692720 {
+  background-color: #B9DD64;
+  width: 17.76%;
+}
+.item3_sm30692720 {
+  background-color: #AAC2FF;
+  width: 7.37%;
+}
+.item0_sm29662049 {
+  background-color: #FFFC7F;
+  width: 47.41%;
+}
+.item1_sm29662049 {
+  background-color: #FFB2C5;
+  width: 15.83%;
+}
+.item2_sm29662049 {
+  background-color: #B9DD64;
+  width: 28.05%;
+}
+.item3_sm29662049 {
+  background-color: #AAC2FF;
+  width: 8.71%;
+}
+.item0_sm29792510 {
+  background-color: #FFFC7F;
+  width: 62.96%;
+}
+.item1_sm29792510 {
+  background-color: #FFB2C5;
+  width: 9.61%;
+}
+.item2_sm29792510 {
+  background-color: #B9DD64;
+  width: 20.71%;
+}
+.item3_sm29792510 {
+  background-color: #AAC2FF;
+  width: 6.71%;
+}
+.item0_sm1660710 {
+  background-color: #FFFC7F;
+  width: 77.45%;
+}
+.item1_sm1660710 {
+  background-color: #FFB2C5;
+  width: 10.04%;
+}
+.item2_sm1660710 {
+  background-color: #B9DD64;
+  width: 10.31%;
+}
+.item3_sm1660710 {
+  background-color: #AAC2FF;
+  width: 2.20%;
+}
+.item0_sm12908050 {
+  background-color: #FFFC7F;
+  width: 78.85%;
+}
+.item1_sm12908050 {
+  background-color: #FFB2C5;
+  width: 8.61%;
+}
+.item2_sm12908050 {
+  background-color: #B9DD64;
+  width: 9.07%;
+}
+.item3_sm12908050 {
+  background-color: #AAC2FF;
+  width: 3.47%;
+}
+.item0_sm29435180 {
+  background-color: #FFFC7F;
+  width: 61.14%;
+}
+.item1_sm29435180 {
+  background-color: #FFB2C5;
+  width: 15.80%;
+}
+.item2_sm29435180 {
+  background-color: #B9DD64;
+  width: 14.95%;
+}
+.item3_sm29435180 {
+  background-color: #AAC2FF;
+  width: 8.11%;
+}
+.item0_sm8938000 {
+  background-color: #FFFC7F;
+  width: 76.55%;
+}
+.item1_sm8938000 {
+  background-color: #FFB2C5;
+  width: 9.48%;
+}
+.item2_sm8938000 {
+  background-color: #B9DD64;
+  width: 8.58%;
+}
+.item3_sm8938000 {
+  background-color: #AAC2FF;
+  width: 5.39%;
+}
+.item0_sm27043710 {
+  background-color: #FFFC7F;
+  width: 64.12%;
+}
+.item1_sm27043710 {
+  background-color: #FFB2C5;
+  width: 11.72%;
+}
+.item2_sm27043710 {
+  background-color: #B9DD64;
+  width: 15.97%;
+}
+.item3_sm27043710 {
+  background-color: #AAC2FF;
+  width: 8.18%;
+}
+.item0_sm14930333 {
+  background-color: #FFFC7F;
+  width: 74.80%;
+}
+.item1_sm14930333 {
+  background-color: #FFB2C5;
+  width: 5.97%;
+}
+.item2_sm14930333 {
+  background-color: #B9DD64;
+  width: 12.64%;
+}
+.item3_sm14930333 {
+  background-color: #AAC2FF;
+  width: 6.60%;
+}
+.item0_sm19028880 {
+  background-color: #FFFC7F;
+  width: 28.61%;
+}
+.item1_sm19028880 {
+  background-color: #FFB2C5;
+  width: 27.53%;
+}
+.item2_sm19028880 {
+  background-color: #B9DD64;
+  width: 23.62%;
+}
+.item3_sm19028880 {
+  background-color: #AAC2FF;
+  width: 20.24%;
+}
+.item0_sm14961420 {
+  background-color: #FFFC7F;
+  width: 43.34%;
+}
+.item1_sm14961420 {
+  background-color: #FFB2C5;
+  width: 20.95%;
+}
+.item2_sm14961420 {
+  background-color: #B9DD64;
+  width: 27.83%;
+}
+.item3_sm14961420 {
+  background-color: #AAC2FF;
+  width: 7.88%;
+}
+.item0_sm26325360 {
+  background-color: #FFFC7F;
+  width: 32.34%;
+}
+.item1_sm26325360 {
+  background-color: #FFB2C5;
+  width: 25.42%;
+}
+.item2_sm26325360 {
+  background-color: #B9DD64;
+  width: 31.42%;
+}
+.item3_sm26325360 {
+  background-color: #AAC2FF;
+  width: 10.83%;
+}
+.item0_sm28589350 {
+  background-color: #FFFC7F;
+  width: 45.62%;
+}
+.item1_sm28589350 {
+  background-color: #FFB2C5;
+  width: 27.97%;
+}
+.item2_sm28589350 {
+  background-color: #B9DD64;
+  width: 17.12%;
+}
+.item3_sm28589350 {
+  background-color: #AAC2FF;
+  width: 9.29%;
+}
+.item0_sm5804510 {
+  background-color: #FFFC7F;
+  width: 76.15%;
+}
+.item1_sm5804510 {
+  background-color: #FFB2C5;
+  width: 7.54%;
+}
+.item2_sm5804510 {
+  background-color: #B9DD64;
+  width: 11.82%;
+}
+.item3_sm5804510 {
+  background-color: #AAC2FF;
+  width: 4.49%;
+}
+.item0_sm4214377 {
+  background-color: #FFFC7F;
+  width: 55.13%;
+}
+.item1_sm4214377 {
+  background-color: #FFB2C5;
+  width: 21.35%;
+}
+.item2_sm4214377 {
+  background-color: #B9DD64;
+  width: 14.90%;
+}
+.item3_sm4214377 {
+  background-color: #AAC2FF;
+  width: 8.62%;
+}
+.item0_sm24842310 {
+  background-color: #FFFC7F;
+  width: 68.16%;
+}
+.item1_sm24842310 {
+  background-color: #FFB2C5;
+  width: 11.82%;
+}
+.item2_sm24842310 {
+  background-color: #B9DD64;
+  width: 15.67%;
+}
+.item3_sm24842310 {
+  background-color: #AAC2FF;
+  width: 4.34%;
+}
+.item0_sm21585451 {
+  background-color: #FFFC7F;
+  width: 80.30%;
+}
+.item1_sm21585451 {
+  background-color: #FFB2C5;
+  width: 8.28%;
+}
+.item2_sm21585451 {
+  background-color: #B9DD64;
+  width: 8.33%;
+}
+.item3_sm21585451 {
+  background-color: #AAC2FF;
+  width: 3.09%;
+}
+.item0_sm1579140 {
+  background-color: #FFFC7F;
+  width: 40.72%;
+}
+.item1_sm1579140 {
+  background-color: #FFB2C5;
+  width: 29.73%;
+}
+.item2_sm1579140 {
+  background-color: #B9DD64;
+  width: 21.69%;
+}
+.item3_sm1579140 {
+  background-color: #AAC2FF;
+  width: 7.86%;
+}
+.item0_sm31642420 {
+  background-color: #FFFC7F;
+  width: 28.83%;
+}
+.item1_sm31642420 {
+  background-color: #FFB2C5;
+  width: 40.85%;
+}
+.item2_sm31642420 {
+  background-color: #B9DD64;
+  width: 19.53%;
+}
+.item3_sm31642420 {
+  background-color: #AAC2FF;
+  width: 10.78%;
+}
+.item0_sm31808640 {
+  background-color: #FFFC7F;
+  width: 38.72%;
+}
+.item1_sm31808640 {
+  background-color: #FFB2C5;
+  width: 25.68%;
+}
+.item2_sm31808640 {
+  background-color: #B9DD64;
+  width: 22.97%;
+}
+.item3_sm31808640 {
+  background-color: #AAC2FF;
+  width: 12.64%;
+}
+.item0_sm27466660 {
+  background-color: #FFFC7F;
+  width: 25.73%;
+}
+.item1_sm27466660 {
+  background-color: #FFB2C5;
+  width: 44.97%;
+}
+.item2_sm27466660 {
+  background-color: #B9DD64;
+  width: 23.01%;
+}
+.item3_sm27466660 {
+  background-color: #AAC2FF;
+  width: 6.30%;
+}
+.item0_sm31700140 {
+  background-color: #FFFC7F;
+  width: 28.06%;
+}
+.item1_sm31700140 {
+  background-color: #FFB2C5;
+  width: 23.66%;
+}
+.item2_sm31700140 {
+  background-color: #B9DD64;
+  width: 20.93%;
+}
+.item3_sm31700140 {
+  background-color: #AAC2FF;
+  width: 27.35%;
+}
+.item0_sm28104000 {
+  background-color: #FFFC7F;
+  width: 43.22%;
+}
+.item1_sm28104000 {
+  background-color: #FFB2C5;
+  width: 34.15%;
+}
+.item2_sm28104000 {
+  background-color: #B9DD64;
+  width: 16.11%;
+}
+.item3_sm28104000 {
+  background-color: #AAC2FF;
+  width: 6.51%;
+}
+.item0_sm8228650 {
+  background-color: #FFFC7F;
+  width: 29.94%;
+}
+.item1_sm8228650 {
+  background-color: #FFB2C5;
+  width: 34.60%;
+}
+.item2_sm8228650 {
+  background-color: #B9DD64;
+  width: 24.95%;
+}
+.item3_sm8228650 {
+  background-color: #AAC2FF;
+  width: 10.52%;
+}
+.item0_sm18942090 {
+  background-color: #FFFC7F;
+  width: 28.60%;
+}
+.item1_sm18942090 {
+  background-color: #FFB2C5;
+  width: 24.79%;
+}
+.item2_sm18942090 {
+  background-color: #B9DD64;
+  width: 28.75%;
+}
+.item3_sm18942090 {
+  background-color: #AAC2FF;
+  width: 17.86%;
+}
+.item0_sm3200040 {
+  background-color: #FFFC7F;
+  width: 44.62%;
+}
+.item1_sm3200040 {
+  background-color: #FFB2C5;
+  width: 17.45%;
+}
+.item2_sm3200040 {
+  background-color: #B9DD64;
+  width: 24.01%;
+}
+.item3_sm3200040 {
+  background-color: #AAC2FF;
+  width: 13.93%;
+}
+.item0_sm17923118 {
+  background-color: #FFFC7F;
+  width: 64.27%;
+}
+.item1_sm17923118 {
+  background-color: #FFB2C5;
+  width: 10.70%;
+}
+.item2_sm17923118 {
+  background-color: #B9DD64;
+  width: 18.34%;
+}
+.item3_sm17923118 {
+  background-color: #AAC2FF;
+  width: 6.70%;
+}
+.item0_sm8025400 {
+  background-color: #FFFC7F;
+  width: 77.81%;
+}
+.item1_sm8025400 {
+  background-color: #FFB2C5;
+  width: 6.89%;
+}
+.item2_sm8025400 {
+  background-color: #B9DD64;
+  width: 10.37%;
+}
+.item3_sm8025400 {
+  background-color: #AAC2FF;
+  width: 4.93%;
+}
+.item0_sm21513190 {
+  background-color: #FFFC7F;
+  width: 38.26%;
+}
+.item1_sm21513190 {
+  background-color: #FFB2C5;
+  width: 39.04%;
+}
+.item2_sm21513190 {
+  background-color: #B9DD64;
+  width: 13.08%;
+}
+.item3_sm21513190 {
+  background-color: #AAC2FF;
+  width: 9.62%;
+}
+.item0_sm3884025 {
+  background-color: #FFFC7F;
+  width: 60.80%;
+}
+.item1_sm3884025 {
+  background-color: #FFB2C5;
+  width: 10.67%;
+}
+.item2_sm3884025 {
+  background-color: #B9DD64;
+  width: 20.47%;
+}
+.item3_sm3884025 {
+  background-color: #AAC2FF;
+  width: 8.06%;
+}
+.item0_sm29876900 {
+  background-color: #FFFC7F;
+  width: 37.29%;
+}
+.item1_sm29876900 {
+  background-color: #FFB2C5;
+  width: 33.77%;
+}
+.item2_sm29876900 {
+  background-color: #B9DD64;
+  width: 18.64%;
+}
+.item3_sm29876900 {
+  background-color: #AAC2FF;
+  width: 10.30%;
+}
+.item0_sm2310110 {
+  background-color: #FFFC7F;
+  width: 55.93%;
+}
+.item1_sm2310110 {
+  background-color: #FFB2C5;
+  width: 9.94%;
+}
+.item2_sm2310110 {
+  background-color: #B9DD64;
+  width: 21.86%;
+}
+.item3_sm2310110 {
+  background-color: #AAC2FF;
+  width: 12.27%;
+}
+.item0_sm10533990 {
+  background-color: #FFFC7F;
+  width: 75.26%;
+}
+.item1_sm10533990 {
+  background-color: #FFB2C5;
+  width: 5.84%;
+}
+.item2_sm10533990 {
+  background-color: #B9DD64;
+  width: 12.76%;
+}
+.item3_sm10533990 {
+  background-color: #AAC2FF;
+  width: 6.13%;
+}
+.item0_sm27140340 {
+  background-color: #FFFC7F;
+  width: 54.23%;
+}
+.item1_sm27140340 {
+  background-color: #FFB2C5;
+  width: 6.06%;
+}
+.item2_sm27140340 {
+  background-color: #B9DD64;
+  width: 22.45%;
+}
+.item3_sm27140340 {
+  background-color: #AAC2FF;
+  width: 17.26%;
+}
+.item0_sm6696570 {
+  background-color: #FFFC7F;
+  width: 74.41%;
+}
+.item1_sm6696570 {
+  background-color: #FFB2C5;
+  width: 8.87%;
+}
+.item2_sm6696570 {
+  background-color: #B9DD64;
+  width: 12.27%;
+}
+.item3_sm6696570 {
+  background-color: #AAC2FF;
+  width: 4.45%;
+}
+.item0_sm23985500 {
+  background-color: #FFFC7F;
+  width: 24.46%;
+}
+.item1_sm23985500 {
+  background-color: #FFB2C5;
+  width: 51.59%;
+}
+.item2_sm23985500 {
+  background-color: #B9DD64;
+  width: 18.57%;
+}
+.item3_sm23985500 {
+  background-color: #AAC2FF;
+  width: 5.38%;
+}
+.item0_sm25306420 {
+  background-color: #FFFC7F;
+  width: 53.76%;
+}
+.item1_sm25306420 {
+  background-color: #FFB2C5;
+  width: 15.40%;
+}
+.item2_sm25306420 {
+  background-color: #B9DD64;
+  width: 23.65%;
+}
+.item3_sm25306420 {
+  background-color: #AAC2FF;
+  width: 7.19%;
+}
+.item0_so27083910 {
+  background-color: #FFFC7F;
+  width: 41.67%;
+}
+.item1_so27083910 {
+  background-color: #FFB2C5;
+  width: 20.99%;
+}
+.item2_so27083910 {
+  background-color: #B9DD64;
+  width: 26.83%;
+}
+.item3_so27083910 {
+  background-color: #AAC2FF;
+  width: 10.51%;
+}
+.item0_sm26159430 {
+  background-color: #FFFC7F;
+  width: 63.05%;
+}
+.item1_sm26159430 {
+  background-color: #FFB2C5;
+  width: 13.02%;
+}
+.item2_sm26159430 {
+  background-color: #B9DD64;
+  width: 17.28%;
+}
+.item3_sm26159430 {
+  background-color: #AAC2FF;
+  width: 6.65%;
+}
+.item0_sm18631620 {
+  background-color: #FFFC7F;
+  width: 36.83%;
+}
+.item1_sm18631620 {
+  background-color: #FFB2C5;
+  width: 24.34%;
+}
+.item2_sm18631620 {
+  background-color: #B9DD64;
+  width: 34.50%;
+}
+.item3_sm18631620 {
+  background-color: #AAC2FF;
+  width: 4.33%;
+}
+.item0_sm12374084 {
+  background-color: #FFFC7F;
+  width: 62.63%;
+}
+.item1_sm12374084 {
+  background-color: #FFB2C5;
+  width: 12.07%;
+}
+.item2_sm12374084 {
+  background-color: #B9DD64;
+  width: 18.25%;
+}
+.item3_sm12374084 {
+  background-color: #AAC2FF;
+  width: 7.06%;
+}
+.item0_sm10889370 {
+  background-color: #FFFC7F;
+  width: 43.25%;
+}
+.item1_sm10889370 {
+  background-color: #FFB2C5;
+  width: 10.32%;
+}
+.item2_sm10889370 {
+  background-color: #B9DD64;
+  width: 23.60%;
+}
+.item3_sm10889370 {
+  background-color: #AAC2FF;
+  width: 22.83%;
+}
+.item0_sm24523100 {
+  background-color: #FFFC7F;
+  width: 54.20%;
+}
+.item1_sm24523100 {
+  background-color: #FFB2C5;
+  width: 19.99%;
+}
+.item2_sm24523100 {
+  background-color: #B9DD64;
+  width: 19.26%;
+}
+.item3_sm24523100 {
+  background-color: #AAC2FF;
+  width: 6.55%;
+}
+.item0_sm34214810 {
+  background-color: #FFFC7F;
+  width: 23.52%;
+}
+.item1_sm34214810 {
+  background-color: #FFB2C5;
+  width: 45.04%;
+}
+.item2_sm34214810 {
+  background-color: #B9DD64;
+  width: 23.26%;
+}
+.item3_sm34214810 {
+  background-color: #AAC2FF;
+  width: 8.18%;
+}
+.item0_sm28018250 {
+  background-color: #FFFC7F;
+  width: 50.05%;
+}
+.item1_sm28018250 {
+  background-color: #FFB2C5;
+  width: 13.37%;
+}
+.item2_sm28018250 {
+  background-color: #B9DD64;
+  width: 27.74%;
+}
+.item3_sm28018250 {
+  background-color: #AAC2FF;
+  width: 8.85%;
+}
+.item0_sm4656118 {
+  background-color: #FFFC7F;
+  width: 38.14%;
+}
+.item1_sm4656118 {
+  background-color: #FFB2C5;
+  width: 18.75%;
+}
+.item2_sm4656118 {
+  background-color: #B9DD64;
+  width: 20.70%;
+}
+.item3_sm4656118 {
+  background-color: #AAC2FF;
+  width: 22.41%;
+}
+.item0_sm11230780 {
+  background-color: #FFFC7F;
+  width: 78.47%;
+}
+.item1_sm11230780 {
+  background-color: #FFB2C5;
+  width: 4.57%;
+}
+.item2_sm11230780 {
+  background-color: #B9DD64;
+  width: 10.01%;
+}
+.item3_sm11230780 {
+  background-color: #AAC2FF;
+  width: 6.95%;
+}
+.item0_sm29837060 {
+  background-color: #FFFC7F;
+  width: 38.84%;
+}
+.item1_sm29837060 {
+  background-color: #FFB2C5;
+  width: 24.63%;
+}
+.item2_sm29837060 {
+  background-color: #B9DD64;
+  width: 26.61%;
+}
+.item3_sm29837060 {
+  background-color: #AAC2FF;
+  width: 9.92%;
+}
+.item0_sm11982230 {
+  background-color: #FFFC7F;
+  width: 69.64%;
+}
+.item1_sm11982230 {
+  background-color: #FFB2C5;
+  width: 11.11%;
+}
+.item2_sm11982230 {
+  background-color: #B9DD64;
+  width: 12.55%;
+}
+.item3_sm11982230 {
+  background-color: #AAC2FF;
+  width: 6.70%;
+}
+.item0_sm24022090 {
+  background-color: #FFFC7F;
+  width: 73.63%;
+}
+.item1_sm24022090 {
+  background-color: #FFB2C5;
+  width: 9.93%;
+}
+.item2_sm24022090 {
+  background-color: #B9DD64;
+  width: 12.89%;
+}
+.item3_sm24022090 {
+  background-color: #AAC2FF;
+  width: 3.54%;
+}
+.item0_sm12798100 {
+  background-color: #FFFC7F;
+  width: 83.22%;
+}
+.item1_sm12798100 {
+  background-color: #FFB2C5;
+  width: 3.20%;
+}
+.item2_sm12798100 {
+  background-color: #B9DD64;
+  width: 7.97%;
+}
+.item3_sm12798100 {
+  background-color: #AAC2FF;
+  width: 5.61%;
+}
+.item0_sm22735360 {
+  background-color: #FFFC7F;
+  width: 75.32%;
+}
+.item1_sm22735360 {
+  background-color: #FFB2C5;
+  width: 7.22%;
+}
+.item2_sm22735360 {
+  background-color: #B9DD64;
+  width: 13.76%;
+}
+.item3_sm22735360 {
+  background-color: #AAC2FF;
+  width: 3.71%;
+}
+.item0_sm6395940 {
+  background-color: #FFFC7F;
+  width: 79.38%;
+}
+.item1_sm6395940 {
+  background-color: #FFB2C5;
+  width: 5.43%;
+}
+.item2_sm6395940 {
+  background-color: #B9DD64;
+  width: 9.97%;
+}
+.item3_sm6395940 {
+  background-color: #AAC2FF;
+  width: 5.23%;
+}
+.item0_sm4236176 {
+  background-color: #FFFC7F;
+  width: 51.94%;
+}
+.item1_sm4236176 {
+  background-color: #FFB2C5;
+  width: 29.81%;
+}
+.item2_sm4236176 {
+  background-color: #B9DD64;
+  width: 11.00%;
+}
+.item3_sm4236176 {
+  background-color: #AAC2FF;
+  width: 7.24%;
+}
+.item0_sm13673650 {
+  background-color: #FFFC7F;
+  width: 79.36%;
+}
+.item1_sm13673650 {
+  background-color: #FFB2C5;
+  width: 5.39%;
+}
+.item2_sm13673650 {
+  background-color: #B9DD64;
+  width: 10.25%;
+}
+.item3_sm13673650 {
+  background-color: #AAC2FF;
+  width: 5.00%;
+}
+.item0_sm26865130 {
+  background-color: #FFFC7F;
+  width: 52.73%;
+}
+.item1_sm26865130 {
+  background-color: #FFB2C5;
+  width: 17.83%;
+}
+.item2_sm26865130 {
+  background-color: #B9DD64;
+  width: 20.69%;
+}
+.item3_sm26865130 {
+  background-color: #AAC2FF;
+  width: 8.75%;
+}
+.item0_sm26396960 {
+  background-color: #FFFC7F;
+  width: 65.41%;
+}
+.item1_sm26396960 {
+  background-color: #FFB2C5;
+  width: 11.83%;
+}
+.item2_sm26396960 {
+  background-color: #B9DD64;
+  width: 13.97%;
+}
+.item3_sm26396960 {
+  background-color: #AAC2FF;
+  width: 8.79%;
+}
+.item0_sm9809880 {
+  background-color: #FFFC7F;
+  width: 33.44%;
+}
+.item1_sm9809880 {
+  background-color: #FFB2C5;
+  width: 21.24%;
+}
+.item2_sm9809880 {
+  background-color: #B9DD64;
+  width: 14.39%;
+}
+.item3_sm9809880 {
+  background-color: #AAC2FF;
+  width: 30.93%;
+}
+.item0_sm17629610 {
+  background-color: #FFFC7F;
+  width: 74.47%;
+}
+.item1_sm17629610 {
+  background-color: #FFB2C5;
+  width: 3.80%;
+}
+.item2_sm17629610 {
+  background-color: #B9DD64;
+  width: 12.54%;
+}
+.item3_sm17629610 {
+  background-color: #AAC2FF;
+  width: 9.19%;
+}
+.item0_sm11970630 {
+  background-color: #FFFC7F;
+  width: 32.55%;
+}
+.item1_sm11970630 {
+  background-color: #FFB2C5;
+  width: 35.92%;
+}
+.item2_sm11970630 {
+  background-color: #B9DD64;
+  width: 26.94%;
+}
+.item3_sm11970630 {
+  background-color: #AAC2FF;
+  width: 4.59%;
+}
+.item0_sm16098496 {
+  background-color: #FFFC7F;
+  width: 65.16%;
+}
+.item1_sm16098496 {
+  background-color: #FFB2C5;
+  width: 7.03%;
+}
+.item2_sm16098496 {
+  background-color: #B9DD64;
+  width: 9.40%;
+}
+.item3_sm16098496 {
+  background-color: #AAC2FF;
+  width: 18.40%;
+}
+.item0_sm17426140 {
+  background-color: #FFFC7F;
+  width: 78.28%;
+}
+.item1_sm17426140 {
+  background-color: #FFB2C5;
+  width: 8.98%;
+}
+.item2_sm17426140 {
+  background-color: #B9DD64;
+  width: 7.96%;
+}
+.item3_sm17426140 {
+  background-color: #AAC2FF;
+  width: 4.78%;
+}
+.item0_sm19870840 {
+  background-color: #FFFC7F;
+  width: 22.81%;
+}
+.item1_sm19870840 {
+  background-color: #FFB2C5;
+  width: 23.33%;
+}
+.item2_sm19870840 {
+  background-color: #B9DD64;
+  width: 15.12%;
+}
+.item3_sm19870840 {
+  background-color: #AAC2FF;
+  width: 38.74%;
+}
+.item0_sm26882240 {
+  background-color: #FFFC7F;
+  width: 64.02%;
+}
+.item1_sm26882240 {
+  background-color: #FFB2C5;
+  width: 7.69%;
+}
+.item2_sm26882240 {
+  background-color: #B9DD64;
+  width: 16.59%;
+}
+.item3_sm26882240 {
+  background-color: #AAC2FF;
+  width: 11.70%;
+}
+.item0_sm20825700 {
+  background-color: #FFFC7F;
+  width: 66.18%;
+}
+.item1_sm20825700 {
+  background-color: #FFB2C5;
+  width: 9.40%;
+}
+.item2_sm20825700 {
+  background-color: #B9DD64;
+  width: 16.95%;
+}
+.item3_sm20825700 {
+  background-color: #AAC2FF;
+  width: 7.47%;
+}
+.item0_sm27561590 {
+  background-color: #FFFC7F;
+  width: 40.91%;
+}
+.item1_sm27561590 {
+  background-color: #FFB2C5;
+  width: 32.22%;
+}
+.item2_sm27561590 {
+  background-color: #B9DD64;
+  width: 15.95%;
+}
+.item3_sm27561590 {
+  background-color: #AAC2FF;
+  width: 10.92%;
+}
+.item0_sm21564830 {
+  background-color: #FFFC7F;
+  width: 68.04%;
+}
+.item1_sm21564830 {
+  background-color: #FFB2C5;
+  width: 7.82%;
+}
+.item2_sm21564830 {
+  background-color: #B9DD64;
+  width: 18.00%;
+}
+.item3_sm21564830 {
+  background-color: #AAC2FF;
+  width: 6.14%;
+}
+.item0_sm15878480 {
+  background-color: #FFFC7F;
+  width: 61.90%;
+}
+.item1_sm15878480 {
+  background-color: #FFB2C5;
+  width: 7.88%;
+}
+.item2_sm15878480 {
+  background-color: #B9DD64;
+  width: 21.03%;
+}
+.item3_sm15878480 {
+  background-color: #AAC2FF;
+  width: 9.20%;
+}
+.item0_sm20503130 {
+  background-color: #FFFC7F;
+  width: 27.65%;
+}
+.item1_sm20503130 {
+  background-color: #FFB2C5;
+  width: 41.08%;
+}
+.item2_sm20503130 {
+  background-color: #B9DD64;
+  width: 21.65%;
+}
+.item3_sm20503130 {
+  background-color: #AAC2FF;
+  width: 9.62%;
+}
+.item0_sm29133780 {
+  background-color: #FFFC7F;
+  width: 42.24%;
+}
+.item1_sm29133780 {
+  background-color: #FFB2C5;
+  width: 9.52%;
+}
+.item2_sm29133780 {
+  background-color: #B9DD64;
+  width: 26.39%;
+}
+.item3_sm29133780 {
+  background-color: #AAC2FF;
+  width: 21.85%;
+}
+.item0_sm19553310 {
+  background-color: #FFFC7F;
+  width: 48.96%;
+}
+.item1_sm19553310 {
+  background-color: #FFB2C5;
+  width: 13.51%;
+}
+.item2_sm19553310 {
+  background-color: #B9DD64;
+  width: 28.30%;
+}
+.item3_sm19553310 {
+  background-color: #AAC2FF;
+  width: 9.24%;
+}
+.item0_sm29365377 {
+  background-color: #FFFC7F;
+  width: 31.38%;
+}
+.item1_sm29365377 {
+  background-color: #FFB2C5;
+  width: 38.20%;
+}
+.item2_sm29365377 {
+  background-color: #B9DD64;
+  width: 20.95%;
+}
+.item3_sm29365377 {
+  background-color: #AAC2FF;
+  width: 9.47%;
+}
+.item0_sm27587710 {
+  background-color: #FFFC7F;
+  width: 64.08%;
+}
+.item1_sm27587710 {
+  background-color: #FFB2C5;
+  width: 15.04%;
+}
+.item2_sm27587710 {
+  background-color: #B9DD64;
+  width: 15.07%;
+}
+.item3_sm27587710 {
+  background-color: #AAC2FF;
+  width: 5.81%;
+}
+.item0_sm17619510 {
+  background-color: #FFFC7F;
+  width: 43.07%;
+}
+.item1_sm17619510 {
+  background-color: #FFB2C5;
+  width: 33.67%;
+}
+.item2_sm17619510 {
+  background-color: #B9DD64;
+  width: 15.22%;
+}
+.item3_sm17619510 {
+  background-color: #AAC2FF;
+  width: 8.04%;
+}
+.item0_sm20810930 {
+  background-color: #FFFC7F;
+  width: 42.96%;
+}
+.item1_sm20810930 {
+  background-color: #FFB2C5;
+  width: 34.28%;
+}
+.item2_sm20810930 {
+  background-color: #B9DD64;
+  width: 15.12%;
+}
+.item3_sm20810930 {
+  background-color: #AAC2FF;
+  width: 7.63%;
+}
+.item0_sm16785026 {
+  background-color: #FFFC7F;
+  width: 43.19%;
+}
+.item1_sm16785026 {
+  background-color: #FFB2C5;
+  width: 28.29%;
+}
+.item2_sm16785026 {
+  background-color: #B9DD64;
+  width: 22.33%;
+}
+.item3_sm16785026 {
+  background-color: #AAC2FF;
+  width: 6.18%;
+}
+.item0_sm29662026 {
+  background-color: #FFFC7F;
+  width: 46.72%;
+}
+.item1_sm29662026 {
+  background-color: #FFB2C5;
+  width: 20.85%;
+}
+.item2_sm29662026 {
+  background-color: #B9DD64;
+  width: 25.49%;
+}
+.item3_sm29662026 {
+  background-color: #AAC2FF;
+  width: 6.95%;
+}
+.item0_sm25187377 {
+  background-color: #FFFC7F;
+  width: 39.88%;
+}
+.item1_sm25187377 {
+  background-color: #FFB2C5;
+  width: 14.97%;
+}
+.item2_sm25187377 {
+  background-color: #B9DD64;
+  width: 34.43%;
+}
+.item3_sm25187377 {
+  background-color: #AAC2FF;
+  width: 10.72%;
+}
+.item0_sm24230880 {
+  background-color: #FFFC7F;
+  width: 73.03%;
+}
+.item1_sm24230880 {
+  background-color: #FFB2C5;
+  width: 8.10%;
+}
+.item2_sm24230880 {
+  background-color: #B9DD64;
+  width: 14.27%;
+}
+.item3_sm24230880 {
+  background-color: #AAC2FF;
+  width: 4.60%;
+}
+.item0_sm21399840 {
+  background-color: #FFFC7F;
+  width: 34.13%;
+}
+.item1_sm21399840 {
+  background-color: #FFB2C5;
+  width: 23.69%;
+}
+.item2_sm21399840 {
+  background-color: #B9DD64;
+  width: 32.61%;
+}
+.item3_sm21399840 {
+  background-color: #AAC2FF;
+  width: 9.57%;
+}
+.item0_sm5733940 {
+  background-color: #FFFC7F;
+  width: 51.22%;
+}
+.item1_sm5733940 {
+  background-color: #FFB2C5;
+  width: 18.91%;
+}
+.item2_sm5733940 {
+  background-color: #B9DD64;
+  width: 21.70%;
+}
+.item3_sm5733940 {
+  background-color: #AAC2FF;
+  width: 8.16%;
+}
+.item0_sm3758450 {
+  background-color: #FFFC7F;
+  width: 57.28%;
+}
+.item1_sm3758450 {
+  background-color: #FFB2C5;
+  width: 31.12%;
+}
+.item2_sm3758450 {
+  background-color: #B9DD64;
+  width: 7.83%;
+}
+.item3_sm3758450 {
+  background-color: #AAC2FF;
+  width: 3.76%;
+}
+.item0_sm23510280 {
+  background-color: #FFFC7F;
+  width: 60.71%;
+}
+.item1_sm23510280 {
+  background-color: #FFB2C5;
+  width: 8.33%;
+}
+.item2_sm23510280 {
+  background-color: #B9DD64;
+  width: 21.60%;
+}
+.item3_sm23510280 {
+  background-color: #AAC2FF;
+  width: 9.36%;
+}
+.item0_sm27185070 {
+  background-color: #FFFC7F;
+  width: 68.13%;
+}
+.item1_sm27185070 {
+  background-color: #FFB2C5;
+  width: 8.33%;
+}
+.item2_sm27185070 {
+  background-color: #B9DD64;
+  width: 16.37%;
+}
+.item3_sm27185070 {
+  background-color: #AAC2FF;
+  width: 7.16%;
+}
+.item0_sm5483070 {
+  background-color: #FFFC7F;
+  width: 35.69%;
+}
+.item1_sm5483070 {
+  background-color: #FFB2C5;
+  width: 22.04%;
+}
+.item2_sm5483070 {
+  background-color: #B9DD64;
+  width: 32.90%;
+}
+.item3_sm5483070 {
+  background-color: #AAC2FF;
+  width: 9.37%;
+}
+.item0_sm12433660 {
+  background-color: #FFFC7F;
+  width: 87.57%;
+}
+.item1_sm12433660 {
+  background-color: #FFB2C5;
+  width: 3.69%;
+}
+.item2_sm12433660 {
+  background-color: #B9DD64;
+  width: 7.17%;
+}
+.item3_sm12433660 {
+  background-color: #AAC2FF;
+  width: 1.56%;
+}
+.item0_sm26336520 {
+  background-color: #FFFC7F;
+  width: 71.93%;
+}
+.item1_sm26336520 {
+  background-color: #FFB2C5;
+  width: 9.90%;
+}
+.item2_sm26336520 {
+  background-color: #B9DD64;
+  width: 13.89%;
+}
+.item3_sm26336520 {
+  background-color: #AAC2FF;
+  width: 4.29%;
+}
+.item0_sm25139160 {
+  background-color: #FFFC7F;
+  width: 66.36%;
+}
+.item1_sm25139160 {
+  background-color: #FFB2C5;
+  width: 8.09%;
+}
+.item2_sm25139160 {
+  background-color: #B9DD64;
+  width: 17.78%;
+}
+.item3_sm25139160 {
+  background-color: #AAC2FF;
+  width: 7.77%;
+}
+.item0_sm1697040 {
+  background-color: #FFFC7F;
+  width: 82.74%;
+}
+.item1_sm1697040 {
+  background-color: #FFB2C5;
+  width: 5.74%;
+}
+.item2_sm1697040 {
+  background-color: #B9DD64;
+  width: 6.26%;
+}
+.item3_sm1697040 {
+  background-color: #AAC2FF;
+  width: 5.26%;
+}
+.item0_sm11613020 {
+  background-color: #FFFC7F;
+  width: 58.66%;
+}
+.item1_sm11613020 {
+  background-color: #FFB2C5;
+  width: 6.50%;
+}
+.item2_sm11613020 {
+  background-color: #B9DD64;
+  width: 14.33%;
+}
+.item3_sm11613020 {
+  background-color: #AAC2FF;
+  width: 20.51%;
+}
+.item0_sm19881130 {
+  background-color: #FFFC7F;
+  width: 77.44%;
+}
+.item1_sm19881130 {
+  background-color: #FFB2C5;
+  width: 5.13%;
+}
+.item2_sm19881130 {
+  background-color: #B9DD64;
+  width: 12.16%;
+}
+.item3_sm19881130 {
+  background-color: #AAC2FF;
+  width: 5.27%;
+}
+.item0_sm38368400 {
+  background-color: #FFFC7F;
+  width: 37.23%;
+}
+.item1_sm38368400 {
+  background-color: #FFB2C5;
+  width: 15.62%;
+}
+.item2_sm38368400 {
+  background-color: #B9DD64;
+  width: 27.81%;
+}
+.item3_sm38368400 {
+  background-color: #AAC2FF;
+  width: 19.34%;
+}
+.item0_sm3430740 {
+  background-color: #FFFC7F;
+  width: 60.53%;
+}
+.item1_sm3430740 {
+  background-color: #FFB2C5;
+  width: 19.55%;
+}
+.item2_sm3430740 {
+  background-color: #B9DD64;
+  width: 14.28%;
+}
+.item3_sm3430740 {
+  background-color: #AAC2FF;
+  width: 5.65%;
+}
+.item0_sm18991041 {
+  background-color: #FFFC7F;
+  width: 57.58%;
+}
+.item1_sm18991041 {
+  background-color: #FFB2C5;
+  width: 21.41%;
+}
+.item2_sm18991041 {
+  background-color: #B9DD64;
+  width: 16.75%;
+}
+.item3_sm18991041 {
+  background-color: #AAC2FF;
+  width: 4.26%;
+}
+.item0_sm28698420 {
+  background-color: #FFFC7F;
+  width: 38.80%;
+}
+.item1_sm28698420 {
+  background-color: #FFB2C5;
+  width: 43.80%;
+}
+.item2_sm28698420 {
+  background-color: #B9DD64;
+  width: 11.04%;
+}
+.item3_sm28698420 {
+  background-color: #AAC2FF;
+  width: 6.36%;
+}
+.item0_sm20571480 {
+  background-color: #FFFC7F;
+  width: 58.44%;
+}
+.item1_sm20571480 {
+  background-color: #FFB2C5;
+  width: 14.09%;
+}
+.item2_sm20571480 {
+  background-color: #B9DD64;
+  width: 20.13%;
+}
+.item3_sm20571480 {
+  background-color: #AAC2FF;
+  width: 7.34%;
+}
+.item0_sm24548980 {
+  background-color: #FFFC7F;
+  width: 71.90%;
+}
+.item1_sm24548980 {
+  background-color: #FFB2C5;
+  width: 10.35%;
+}
+.item2_sm24548980 {
+  background-color: #B9DD64;
+  width: 13.26%;
+}
+.item3_sm24548980 {
+  background-color: #AAC2FF;
+  width: 4.49%;
+}
+.item0_sm25872280 {
+  background-color: #FFFC7F;
+  width: 30.84%;
+}
+.item1_sm25872280 {
+  background-color: #FFB2C5;
+  width: 42.71%;
+}
+.item2_sm25872280 {
+  background-color: #B9DD64;
+  width: 16.17%;
+}
+.item3_sm25872280 {
+  background-color: #AAC2FF;
+  width: 10.27%;
+}
+.item0_sm4310110 {
+  background-color: #FFFC7F;
+  width: 50.78%;
+}
+.item1_sm4310110 {
+  background-color: #FFB2C5;
+  width: 14.72%;
+}
+.item2_sm4310110 {
+  background-color: #B9DD64;
+  width: 27.98%;
+}
+.item3_sm4310110 {
+  background-color: #AAC2FF;
+  width: 6.52%;
+}
+.item0_sm34351020 {
+  background-color: #FFFC7F;
+  width: 20.97%;
+}
+.item1_sm34351020 {
+  background-color: #FFB2C5;
+  width: 55.36%;
+}
+.item2_sm34351020 {
+  background-color: #B9DD64;
+  width: 20.23%;
+}
+.item3_sm34351020 {
+  background-color: #AAC2FF;
+  width: 3.44%;
+}
+.item0_sm4030410 {
+  background-color: #FFFC7F;
+  width: 80.49%;
+}
+.item1_sm4030410 {
+  background-color: #FFB2C5;
+  width: 6.25%;
+}
+.item2_sm4030410 {
+  background-color: #B9DD64;
+  width: 9.44%;
+}
+.item3_sm4030410 {
+  background-color: #AAC2FF;
+  width: 3.83%;
+}
+.item0_sm22644540 {
+  background-color: #FFFC7F;
+  width: 62.70%;
+}
+.item1_sm22644540 {
+  background-color: #FFB2C5;
+  width: 11.55%;
+}
+.item2_sm22644540 {
+  background-color: #B9DD64;
+  width: 21.06%;
+}
+.item3_sm22644540 {
+  background-color: #AAC2FF;
+  width: 4.69%;
+}
+.item0_so19177690 {
+  background-color: #FFFC7F;
+  width: 53.46%;
+}
+.item1_so19177690 {
+  background-color: #FFB2C5;
+  width: 15.03%;
+}
+.item2_so19177690 {
+  background-color: #B9DD64;
+  width: 21.38%;
+}
+.item3_so19177690 {
+  background-color: #AAC2FF;
+  width: 10.14%;
+}
+.item0_sm18473280 {
+  background-color: #FFFC7F;
+  width: 45.60%;
+}
+.item1_sm18473280 {
+  background-color: #FFB2C5;
+  width: 19.90%;
+}
+.item2_sm18473280 {
+  background-color: #B9DD64;
+  width: 25.45%;
+}
+.item3_sm18473280 {
+  background-color: #AAC2FF;
+  width: 9.05%;
+}
+.item0_sm27782950 {
+  background-color: #FFFC7F;
+  width: 68.67%;
+}
+.item1_sm27782950 {
+  background-color: #FFB2C5;
+  width: 5.50%;
+}
+.item2_sm27782950 {
+  background-color: #B9DD64;
+  width: 13.26%;
+}
+.item3_sm27782950 {
+  background-color: #AAC2FF;
+  width: 12.58%;
+}
+.item0_sm35829317 {
+  background-color: #FFFC7F;
+  width: 24.60%;
+}
+.item1_sm35829317 {
+  background-color: #FFB2C5;
+  width: 54.10%;
+}
+.item2_sm35829317 {
+  background-color: #B9DD64;
+  width: 14.48%;
+}
+.item3_sm35829317 {
+  background-color: #AAC2FF;
+  width: 6.83%;
+}
+.item0_sm2193140 {
+  background-color: #FFFC7F;
+  width: 84.65%;
+}
+.item1_sm2193140 {
+  background-color: #FFB2C5;
+  width: 2.83%;
+}
+.item2_sm2193140 {
+  background-color: #B9DD64;
+  width: 9.31%;
+}
+.item3_sm2193140 {
+  background-color: #AAC2FF;
+  width: 3.21%;
+}
+.item0_sm5848560 {
+  background-color: #FFFC7F;
+  width: 38.62%;
+}
+.item1_sm5848560 {
+  background-color: #FFB2C5;
+  width: 29.33%;
+}
+.item2_sm5848560 {
+  background-color: #B9DD64;
+  width: 23.36%;
+}
+.item3_sm5848560 {
+  background-color: #AAC2FF;
+  width: 8.70%;
+}
+.item0_sm6290451 {
+  background-color: #FFFC7F;
+  width: 55.34%;
+}
+.item1_sm6290451 {
+  background-color: #FFB2C5;
+  width: 18.05%;
+}
+.item2_sm6290451 {
+  background-color: #B9DD64;
+  width: 21.12%;
+}
+.item3_sm6290451 {
+  background-color: #AAC2FF;
+  width: 5.49%;
+}
+.item0_sm8839280 {
+  background-color: #FFFC7F;
+  width: 76.58%;
+}
+.item1_sm8839280 {
+  background-color: #FFB2C5;
+  width: 6.39%;
+}
+.item2_sm8839280 {
+  background-color: #B9DD64;
+  width: 11.78%;
+}
+.item3_sm8839280 {
+  background-color: #AAC2FF;
+  width: 5.26%;
+}
+.item0_sm30786580 {
+  background-color: #FFFC7F;
+  width: 49.30%;
+}
+.item1_sm30786580 {
+  background-color: #FFB2C5;
+  width: 29.82%;
+}
+.item2_sm30786580 {
+  background-color: #B9DD64;
+  width: 14.51%;
+}
+.item3_sm30786580 {
+  background-color: #AAC2FF;
+  width: 6.36%;
+}
+.item0_sm3338980 {
+  background-color: #FFFC7F;
+  width: 68.80%;
+}
+.item1_sm3338980 {
+  background-color: #FFB2C5;
+  width: 7.13%;
+}
+.item2_sm3338980 {
+  background-color: #B9DD64;
+  width: 19.03%;
+}
+.item3_sm3338980 {
+  background-color: #AAC2FF;
+  width: 5.05%;
+}
+.item0_sm11045496 {
+  background-color: #FFFC7F;
+  width: 47.12%;
+}
+.item1_sm11045496 {
+  background-color: #FFB2C5;
+  width: 24.20%;
+}
+.item2_sm11045496 {
+  background-color: #B9DD64;
+  width: 23.26%;
+}
+.item3_sm11045496 {
+  background-color: #AAC2FF;
+  width: 5.42%;
+}
+.item0_sm24102047 {
+  background-color: #FFFC7F;
+  width: 53.10%;
+}
+.item1_sm24102047 {
+  background-color: #FFB2C5;
+  width: 8.20%;
+}
+.item2_sm24102047 {
+  background-color: #B9DD64;
+  width: 28.72%;
+}
+.item3_sm24102047 {
+  background-color: #AAC2FF;
+  width: 9.98%;
+}
+.item0_sm29324276 {
+  background-color: #FFFC7F;
+  width: 61.15%;
+}
+.item1_sm29324276 {
+  background-color: #FFB2C5;
+  width: 15.69%;
+}
+.item2_sm29324276 {
+  background-color: #B9DD64;
+  width: 16.08%;
+}
+.item3_sm29324276 {
+  background-color: #AAC2FF;
+  width: 7.08%;
+}
+.item0_sm7415020 {
+  background-color: #FFFC7F;
+  width: 42.92%;
+}
+.item1_sm7415020 {
+  background-color: #FFB2C5;
+  width: 15.83%;
+}
+.item2_sm7415020 {
+  background-color: #B9DD64;
+  width: 24.96%;
+}
+.item3_sm7415020 {
+  background-color: #AAC2FF;
+  width: 16.29%;
+}
+.item0_sm17378290 {
+  background-color: #FFFC7F;
+  width: 70.79%;
+}
+.item1_sm17378290 {
+  background-color: #FFB2C5;
+  width: 7.46%;
+}
+.item2_sm17378290 {
+  background-color: #B9DD64;
+  width: 15.14%;
+}
+.item3_sm17378290 {
+  background-color: #AAC2FF;
+  width: 6.60%;
+}
+.item0_sm27620680 {
+  background-color: #FFFC7F;
+  width: 52.13%;
+}
+.item1_sm27620680 {
+  background-color: #FFB2C5;
+  width: 16.11%;
+}
+.item2_sm27620680 {
+  background-color: #B9DD64;
+  width: 20.60%;
+}
+.item3_sm27620680 {
+  background-color: #AAC2FF;
+  width: 11.16%;
+}
+.item0_sm22099720 {
+  background-color: #FFFC7F;
+  width: 44.85%;
+}
+.item1_sm22099720 {
+  background-color: #FFB2C5;
+  width: 16.82%;
+}
+.item2_sm22099720 {
+  background-color: #B9DD64;
+  width: 30.53%;
+}
+.item3_sm22099720 {
+  background-color: #AAC2FF;
+  width: 7.81%;
+}
+.item0_sm25468118 {
+  background-color: #FFFC7F;
+  width: 39.82%;
+}
+.item1_sm25468118 {
+  background-color: #FFB2C5;
+  width: 12.73%;
+}
+.item2_sm25468118 {
+  background-color: #B9DD64;
+  width: 29.49%;
+}
+.item3_sm25468118 {
+  background-color: #AAC2FF;
+  width: 17.96%;
+}
+.item0_sm21213049 {
+  background-color: #FFFC7F;
+  width: 39.47%;
+}
+.item1_sm21213049 {
+  background-color: #FFB2C5;
+  width: 13.55%;
+}
+.item2_sm21213049 {
+  background-color: #B9DD64;
+  width: 29.94%;
+}
+.item3_sm21213049 {
+  background-color: #AAC2FF;
+  width: 17.04%;
+}
+.item0_sm2286030 {
+  background-color: #FFFC7F;
+  width: 41.65%;
+}
+.item1_sm2286030 {
+  background-color: #FFB2C5;
+  width: 23.16%;
+}
+.item2_sm2286030 {
+  background-color: #B9DD64;
+  width: 27.30%;
+}
+.item3_sm2286030 {
+  background-color: #AAC2FF;
+  width: 7.89%;
+}
+.item0_sm736760 {
+  background-color: #FFFC7F;
+  width: 78.76%;
+}
+.item1_sm736760 {
+  background-color: #FFB2C5;
+  width: 4.21%;
+}
+.item2_sm736760 {
+  background-color: #B9DD64;
+  width: 8.35%;
+}
+.item3_sm736760 {
+  background-color: #AAC2FF;
+  width: 8.68%;
+}
+.item0_sm27815010 {
+  background-color: #FFFC7F;
+  width: 67.74%;
+}
+.item1_sm27815010 {
+  background-color: #FFB2C5;
+  width: 10.53%;
+}
+.item2_sm27815010 {
+  background-color: #B9DD64;
+  width: 15.06%;
+}
+.item3_sm27815010 {
+  background-color: #AAC2FF;
+  width: 6.67%;
+}
+.item0_sm24460038 {
+  background-color: #FFFC7F;
+  width: 77.15%;
+}
+.item1_sm24460038 {
+  background-color: #FFB2C5;
+  width: 6.72%;
+}
+.item2_sm24460038 {
+  background-color: #B9DD64;
+  width: 11.69%;
+}
+.item3_sm24460038 {
+  background-color: #AAC2FF;
+  width: 4.44%;
+}
+.item0_sm11998050 {
+  background-color: #FFFC7F;
+  width: 39.52%;
+}
+.item1_sm11998050 {
+  background-color: #FFB2C5;
+  width: 18.87%;
+}
+.item2_sm11998050 {
+  background-color: #B9DD64;
+  width: 33.06%;
+}
+.item3_sm11998050 {
+  background-color: #AAC2FF;
+  width: 8.55%;
+}
+.item0_sm11487190 {
+  background-color: #FFFC7F;
+  width: 55.29%;
+}
+.item1_sm11487190 {
+  background-color: #FFB2C5;
+  width: 10.75%;
+}
+.item2_sm11487190 {
+  background-color: #B9DD64;
+  width: 23.78%;
+}
+.item3_sm11487190 {
+  background-color: #AAC2FF;
+  width: 10.18%;
+}
+.item0_sm20593300 {
+  background-color: #FFFC7F;
+  width: 40.86%;
+}
+.item1_sm20593300 {
+  background-color: #FFB2C5;
+  width: 12.33%;
+}
+.item2_sm20593300 {
+  background-color: #B9DD64;
+  width: 37.35%;
+}
+.item3_sm20593300 {
+  background-color: #AAC2FF;
+  width: 9.46%;
+}
+.item0_sm16400790 {
+  background-color: #FFFC7F;
+  width: 65.67%;
+}
+.item1_sm16400790 {
+  background-color: #FFB2C5;
+  width: 10.14%;
+}
+.item2_sm16400790 {
+  background-color: #B9DD64;
+  width: 17.48%;
+}
+.item3_sm16400790 {
+  background-color: #AAC2FF;
+  width: 6.71%;
+}
+.item0_sm5408420 {
+  background-color: #FFFC7F;
+  width: 77.78%;
+}
+.item1_sm5408420 {
+  background-color: #FFB2C5;
+  width: 4.74%;
+}
+.item2_sm5408420 {
+  background-color: #B9DD64;
+  width: 7.48%;
+}
+.item3_sm5408420 {
+  background-color: #AAC2FF;
+  width: 10.00%;
+}
+.item0_sm10116060 {
+  background-color: #FFFC7F;
+  width: 47.24%;
+}
+.item1_sm10116060 {
+  background-color: #FFB2C5;
+  width: 20.08%;
+}
+.item2_sm10116060 {
+  background-color: #B9DD64;
+  width: 25.21%;
+}
+.item3_sm10116060 {
+  background-color: #AAC2FF;
+  width: 7.47%;
+}
+.item0_sm20715461 {
+  background-color: #FFFC7F;
+  width: 51.96%;
+}
+.item1_sm20715461 {
+  background-color: #FFB2C5;
+  width: 9.60%;
+}
+.item2_sm20715461 {
+  background-color: #B9DD64;
+  width: 27.86%;
+}
+.item3_sm20715461 {
+  background-color: #AAC2FF;
+  width: 10.58%;
+}
+.item0_sm3120540 {
+  background-color: #FFFC7F;
+  width: 27.86%;
+}
+.item1_sm3120540 {
+  background-color: #FFB2C5;
+  width: 38.08%;
+}
+.item2_sm3120540 {
+  background-color: #B9DD64;
+  width: 25.37%;
+}
+.item3_sm3120540 {
+  background-color: #AAC2FF;
+  width: 8.69%;
+}
+.item0_sm8491290 {
+  background-color: #FFFC7F;
+  width: 34.43%;
+}
+.item1_sm8491290 {
+  background-color: #FFB2C5;
+  width: 34.12%;
+}
+.item2_sm8491290 {
+  background-color: #B9DD64;
+  width: 21.46%;
+}
+.item3_sm8491290 {
+  background-color: #AAC2FF;
+  width: 9.99%;
+}
