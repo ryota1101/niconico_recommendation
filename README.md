@@ -6,7 +6,7 @@
   - byt5(文字ベースの自然言語処理モデル)で感情分類、カウントベースで動画の感性ベクトル作成、ユークリッド距離計算
   - HTML、CSS、JavaScriptのみで動画サイトの作成(アンケート機能付き)
 
-<img width="816" alt="teian" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/373dcf39-ba76-4903-8673-6e8df09ec514">
+<img width="600" alt="teian" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/6ec68aa7-7de6-460f-9fb4-c905475c6e66">
 
 <!--   - 特徴語
     - mecab-ipadic-neologdで名詞のみを抽出、BoW+TF-IDFで特徴語抽出
@@ -19,7 +19,7 @@
   - index2.htmlは動画のサムネ付
 - movie
   - 各動画のページ([id].html)
-  <img width="891" alt="ques_ui3" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/3f610999-2a42-4c6f-aaea-93e8df3b9a7f">
+  <img width="891" alt="ques_ui3" src="https://github.com/ryota1101/niconico_recommendation/assets/125880067/6401ec52-9161-43f6-83df-0e99559980c1">
 ## csv_file
 公開可能なデータファイルを一部
 - emotion_df.csv
